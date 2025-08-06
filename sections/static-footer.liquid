@@ -1,0 +1,439 @@
+{% liquid
+  assign additional_menu = false
+  if section.settings.subfooter_menu != blank
+    assign additional_menu = section.settings.subfooter_menu
+  endif
+
+  assign follow_on_shop = false
+  if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop
+    assign follow_on_shop = true
+  endif
+
+  assign country_selector = section.settings.show_currency_selector
+  assign locale_selector = section.settings.show_locale_selector
+  assign cross_border = false
+  if country_selector or locale_selector
+    assign cross_border = true
+  endif
+
+  assign payment_types = false
+  if shop.enabled_payment_types.size > 0 and section.settings.payment_icons
+    assign payment_types = true
+  endif
+%}
+
+<script
+  type="application/json"
+  data-section-type="static-footer"
+  data-section-id="{{ section.id }}"
+>
+</script>
+
+<footer class="footer" role="contentinfo">
+  <div
+    class="
+      footer__wrapper
+      {% if additional_menu %}footer--submenu-enabled{% endif %}
+      {% if follow_on_shop %}footer--fos-enabled{% endif %}
+      {% if cross_border %}footer--crossborder-enabled{% endif %}
+      {% if payment_types %}footer--payment-types-enabled{% endif %}
+    "
+  >
+    <div class="footer-blocks">
+      {% for block in section.blocks %}
+        <div class="footer-block" {{ block.shopify_attributes }}>
+          {% if block.settings.title != blank %}
+            <h2 class="footer-block__title">
+              {{ block.settings.title }}
+            </h2>
+          {% endif %}
+
+          {% case block.type %}
+            {% when 'menu' %}
+              {% comment %}Inject footer-menu begin{% endcomment %}
+              <ul class="footer-menu">
+                {% for link in linklists[block.settings.footer_menu].links %}
+                  <li class="footer-menu__item">
+                    <a class="footer-menu__link" href="{{ link.url }}">
+                      {{ link.title }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+              {% comment %}Inject footer-menu end{% endcomment %}
+
+            {% when 'text' %}
+              {% comment %}Inject footer-text begin{% endcomment %}
+              <div class="footer-text">{{ block.settings.caption }}</div>
+              {% comment %}Inject footer-text end{% endcomment %}
+
+            {% when 'social' %}
+              {% comment %}Inject footer-social-media begin{% endcomment %}
+              <div class="footer-social-media">
+                {% render 'social-links' %}
+              </div>
+              {% comment %}Inject footer-social-media end{% endcomment %}
+
+            {% when 'newsletter' %}
+              {% comment %}Inject footer-newsletter begin{% endcomment %}
+              {% form 'customer', id: 'footer-newsletter', class: 'footer-newsletter' %}
+                {% if form.posted_successfully? %}
+                  <script>
+                    window.location = "#footer-newsletter";
+                  </script>
+                  <p class="footer-newsletter__message footer-newsletter__message--success">{{ 'layout.footer.newsletter_thanks' | t }}</p>
+                {% else %}
+                  {% if block.settings.caption != blank %}<div class="footer-newsletter__caption">{{ block.settings.caption }}</div>{% endif %}
+                    {%- if form.errors -%}
+                      <p class="footer-newsletter__message footer-newsletter__message--error">
+                        {{- form.errors.translated_fields.email | capitalize }}
+                        {{ form.errors.messages.email -}}
+                      </p>
+                    {%- endif -%}
+              
+                  <div class="footer-newsletter__wrapper">
+                    <input
+                      id="contact_tags"
+                      type="hidden"
+                      name="contact[tags]"
+                      value="prospect,newsletter"
+                    />
+                    <input
+                      class="footer-newsletter__email"
+                      type="email"
+                      name="contact[email]"
+                      placeholder="{{ 'general.email_placeholder' | t }}"
+                      aria-label="{{ 'layout.footer.newsletter_title' | t }}"
+                    />
+                    <button
+                      class="footer-newsletter__submit"
+                      type="submit"
+                      aria-label="{{ 'general.accessibility.sign_up' | t }}"
+                    >
+                      {% render 'icon-library', id: 'icon-arrow-right' %}
+                    </button>
+                  </div>
+                {% endif %}
+              {% endform %}
+              {% comment %}Inject footer-newsletter end{% endcomment %}
+
+          {% endcase %}
+        </div>
+      {% endfor %}
+    </div>
+
+    {%- if follow_on_shop -%}
+      <div class="footer__follow-on-shop">
+        {{ shop | login_button: action: 'follow' }}
+      </div>
+    {%- endif -%}
+    <div class="footer-navigation-attribution">
+
+      {% if additional_menu %}
+        <ul class="footer-navigation">
+          {% for link in linklists[additional_menu].links %}
+            <li class="footer-navigation__item">
+              <a class="footer-navigation__link" href="{{ link.url }}">{{ link.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      <p class="footer-attribution">
+        {% capture year %}
+          {{ "now" | date: "%Y" }}
+        {% endcapture %}
+        {% capture shopName %}
+          {{ shop.name | link_to: routes.root_url }}.
+        {% endcapture %}
+        {% capture attribution %}{{ 'layout.footer.copyright_html' | t: year: year, shop_name: shopName }} {{ powered_by_link }}{% endcapture %}
+
+        {{ attribution }}
+      </p>
+    </div>
+
+    <div class="footer-crossborder-payment">
+
+      {% if cross_border %}
+        <div class="footer-cross-border">
+          {% comment %}Inject @pixelunion/shopify-cross-border/cross-border begin{% endcomment %}
+          <div class="shopify-cross-border">
+            {% if locale_selector and localization.available_languages.size > 1 %}
+              {% comment %}Inject @pixelunion/shopify-cross-border/multi-language begin{% endcomment %}
+              {% comment %} Generate a "random" number so ids are unique {% endcomment %}
+              {% assign unique_id = "now" | date: "%N" | modulo: 1000 %}
+              <noscript>
+                {%- form 'localization' -%}
+                  <details class="disclosure">
+                    <summary>
+                      <span class="disclosure__toggle">
+                        {{ form.current_locale.endonym_name | capitalize }}
+                      </span>
+                    </summary>
+                    <div class="disclosure-list disclosure-list--visible">
+                      {% for locale in form.available_locales %}
+                        <div class="disclosure-list__item-wrapper disclosure-list__item">
+                          <input
+                            type="radio"
+                            id="{{ locale.iso_code }}"
+                            name="locale_code"
+                            value="{{ locale.iso_code }}"
+                            {% if locale.iso_code == form.current_locale.iso_code %}checked{% endif %}
+                          >
+                          <label class="disclosure-list__item--label" for="{{ locale.iso_code }}">{{ locale.endonym_name | capitalize }}</label>
+                        </div>
+                      {% endfor %}
+                      <button class="disclosure__submit" type="submit">{{ 'general.language.submit_button_label' | t }}</button>
+                    </div>
+                  </details>
+                {%- endform -%}
+              </noscript>
+              
+              {%- form 'localization' -%}
+                <div class="selectors-form__item selectors-form--no-js-hidden">
+                  <div class="disclosure" data-disclosure-locale>
+                    <h2 class="visually-hidden" id="lang-heading-{{ unique_id }}">
+                      {{ 'general.language.dropdown_label' | t }}
+                    </h2>
+              
+                    <button
+                      type="button"
+                      class="disclosure__toggle"
+                      aria-expanded="false"
+                      aria-controls="lang-list-{{ unique_id }}"
+                      aria-describedby="lang-heading-{{ unique_id }}"
+                      data-disclosure-toggle
+                    >
+                      {{ form.current_locale.endonym_name | capitalize }}
+                    </button>
+                    <ul id="lang-list-{{ unique_id }}" class="disclosure-list" data-disclosure-list>
+                      {% for locale in form.available_locales %}
+                        <li>
+                          <a class="disclosure-list__item {% if locale.iso_code == form.current_locale.iso_code %}disclosure-list__item--current{% endif %}" href="#" lang="{{ locale.iso_code }}" {% if locale.iso_code == form.current_locale.iso_code %}aria-current="true"{% endif %} data-value="{{ locale.iso_code }}" data-disclosure-option>
+                            <span class="disclosure-list__option">{{ locale.endonym_name | capitalize }}</span>
+                          </a>
+                        </li>
+                      {%- endfor -%}
+                    </ul>
+                    <input type="hidden" name="locale_code" id="LocaleSelector-{{ unique_id }}" value="{{ form.current_locale.iso_code }}" data-disclosure-input/>
+                  </div>
+                </div>
+              {%- endform -%}
+              {% comment %}Inject @pixelunion/shopify-cross-border/multi-language end{% endcomment %}
+          
+            {% endif %}
+          
+            {% if country_selector and localization.available_countries.size > 1 %}
+              {% comment %}Inject @pixelunion/shopify-cross-border/multi-country begin{% endcomment %}
+              {% comment %} Generate a "random" number so ids are unique {% endcomment %}
+              {% assign unique_id = "now" | date: "%N" | modulo: 1000 %}
+              <noscript>
+                {%- form 'localization' -%}
+                  <details class="disclosure">
+                    <summary>
+                      <span class="disclosure__toggle">
+                        {{ localization.country.name }} ({{ localization.country.currency.iso_code }}{% if localization.country.currency.symbol %}{{ localization.country.currency.symbol }}{% endif %})
+                      </span>
+                    </summary>
+                    <div class="disclosure-list disclosure-list--visible">
+                      {% for country in localization.available_countries %}
+                        <div class="disclosure-list__item-wrapper disclosure-list__item">
+                          <input
+                            type="radio"
+                            id="{{ country.iso_code }}"
+                            name="country_code"
+                            value="{{ country.iso_code }}"
+                            {% if country.iso_code == localization.country.iso_code %}checked{% endif %}
+                          >
+                          <label class="disclosure-list__item--label" for="{{ country.iso_code }}">{{ country.name }} ({{ country.currency.iso_code }}{%- if country.currency.symbol -%} {{ country.currency.symbol }}{%- endif -%})</label>
+                        </div>
+                      {% endfor %}
+                      <button class="disclosure__submit" type="submit">{{ 'general.country.submit_button_label' | t }}</button>
+                    </div>
+                  </details>
+                {%- endform -%}
+              </noscript>
+              
+              {%- form 'localization' -%}
+                <div class="selectors-form__item selectors-form--no-js-hidden">
+                  <div class="disclosure" data-disclosure-country>
+                    <h2 class="visually-hidden" id="country-heading-{{ unique_id }}">
+                      {{ 'general.country.dropdown_label' | t }}
+                    </h2>
+              
+                    <button
+                      type="button"
+                      class="disclosure__toggle"
+                      aria-expanded="false"
+                      aria-controls="country-list-{{ unique_id }}"
+                      aria-describedby="country-heading-{{ unique_id }}"
+                      data-disclosure-toggle
+                    >
+                      {{ localization.country.name }}
+                      <span class="disclosure-list__option-code"> 
+                        ({{ localization.country.currency.iso_code }}
+                        {% if localization.country.currency.symbol %} {{ localization.country.currency.symbol }}{% endif %})
+                      </span>
+                    </button>
+                    <ul id="country-list-{{ unique_id }}" class="disclosure-list" data-disclosure-list>
+                      {% for country in localization.available_countries %}
+                        <li>
+                          <a class="disclosure-list__item {% if country.iso_code == localization.country.iso_code %}disclosure-list__item--current{% endif %}" href="#" {% if country.iso_code == localization.country.iso_code %}aria-current="true"{% endif %} data-value="{{ country.iso_code }}" data-disclosure-option>
+                            <span class="disclosure-list__option">{{ country.name }}</span>
+                            <span class="disclosure-list__option-code">
+                              ({{ country.currency.iso_code }}
+                              {% if country.currency.symbol %} {{ country.currency.symbol }}{%- endif -%})
+                            </span>
+                          </a>
+                        </li>
+                      {%- endfor -%}
+                    </ul>
+                    <input type="hidden" name="country_code" id="CountrySelector-{{ unique_id }}" value="{{ localization.country.iso_code }}" data-disclosure-input/>
+                  </div>
+                </div>
+              {%- endform -%}
+              {% comment %}Inject @pixelunion/shopify-cross-border/multi-country end{% endcomment %}
+          
+            {% endif %}
+          </div>
+          {% comment %}Inject @pixelunion/shopify-cross-border/cross-border end{% endcomment %}
+
+        </div>
+      {% endif %}
+
+      {% if payment_types %}
+        <div class="footer-payment-types">
+          {% for type in shop.enabled_payment_types %}
+            {{ type | payment_type_svg_tag: class: 'footer-payment-types__icon' }}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</footer>
+
+{% schema %}
+{
+  "name": "t:sections.footer.name",
+  "max_blocks": 4,
+  "settings": [
+    {
+      "type": "link_list",
+      "id": "subfooter_menu",
+      "label": "t:sections.footer.subfooter_menu.label",
+      "default": "footer",
+      "info": "t:sections.footer.subfooter_menu.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "payment_icons",
+      "label": "t:sections.footer.payment_icons.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.footer.header_0.content",
+      "info": "t:sections.footer.header_0.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_follow_on_shop",
+      "label": "t:sections.footer.enable_follow_on_shop.label",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "t:sections.footer.header_1.content",
+      "info": "t:sections.footer.header_1.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_locale_selector",
+      "label": "t:sections.footer.show_locale_selector.label",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "t:sections.footer.header_2.content",
+      "info": "t:sections.footer.header_2.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_currency_selector",
+      "label": "t:sections.footer.show_currency_selector.label",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "menu",
+      "name": "t:sections.footer.blocks.menu.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.footer.blocks.menu.title.label",
+          "default": "Menu"
+        },
+        {
+          "type": "link_list",
+          "id": "footer_menu",
+          "label": "t:sections.footer.blocks.menu.footer_menu.label",
+          "default": "footer",
+          "info": "t:sections.footer.blocks.menu.footer_menu.info"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.footer.blocks.text.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.footer.blocks.text.title.label",
+          "default": "Text"
+        },
+        {
+          "type": "richtext",
+          "id": "caption",
+          "label": "t:sections.footer.blocks.text.caption.label",
+          "default": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.</p>"
+        }
+      ]
+    },
+    {
+      "type": "social",
+      "name": "t:sections.footer.blocks.social.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.footer.blocks.social.title.label",
+          "default": "Social media",
+          "info": "t:sections.footer.blocks.social.title.info"
+        }
+      ],
+      "limit": 1
+    },
+    {
+      "type": "newsletter",
+      "name": "t:sections.footer.blocks.newsletter.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.footer.blocks.newsletter.title.label",
+          "default": "Newsletter"
+        },
+        {
+          "type": "richtext",
+          "id": "caption",
+          "label": "t:sections.footer.blocks.newsletter.caption.label"
+        }
+      ],
+      "limit": 1
+    }
+  ]
+}
+
+{% endschema %}

@@ -1,0 +1,26 @@
+
+<div
+  class="
+    {{ context }}-page__sort-filter
+    {% if collection.current_vendor %}
+      vendor-collection
+    {% endif %}"
+  data-sorting
+>
+  <label for="sort-by">
+    {{- 'collections.collection_sorting.sort_by' | t -}}:
+  </label>
+
+  <select id="sort-by" data-sort-input>
+    {% for option in collection.sort_options %}
+      <option
+        value="{{ option.value }}"
+        {% if option.value == collection.sort_by %}
+          selected
+        {% endif %}
+      >
+        {{- option.name -}}
+      </option>
+    {% endfor %}
+  </select>
+</div>

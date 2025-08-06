@@ -1,0 +1,272 @@
+{% comment %}
+@param product {Product}
+
+@param variant {Variant}
+
+@param form {ProductForm}
+
+@param section {Section}
+
+@param layout {String}
+  One of `one-column` or `two-column`
+
+@param show_payment_button {Boolean}
+  Renders the DPBs
+
+@param is_quickshop {Boolean}
+  Link title to product page
+{% endcomment %}
+
+{% comment %}Dynamic checkout is not shown if selling plans are available{% endcomment %}
+{% if product.selling_plan_groups.size > 0 %}
+  {% assign show_payment_button = false %}
+{% endif %}
+
+{% liquid
+  assign rendered_quantity_selector = false
+  assign rendered_variant_selection = false
+
+  assign has_price_and_quantity_block = false
+  assign price_and_quantity_block_count = section.blocks | where: 'type', 'price_and_quantity' | size
+
+  if price_and_quantity_block_count > 0
+    assign has_price_and_quantity_block = true
+  endif
+
+  assign selected_variant = product.selected_variant
+
+  if product.variants.size == 1
+    assign selected_variant = product.selected_or_first_available_variant
+  endif
+%}
+
+<div class="product-contents">
+  {% for block in section.blocks %}
+    {% case block.type %}
+      {% when '@app' %}
+        <div class="product-details__app" {{ block.shopify_attributes }}>
+          {% render block %}
+        </div>
+
+      {% when 'custom_liquid' %}
+        {% if block.settings.custom_liquid != blank %}
+          <div class="custom-liquid">
+            {{- block.settings.custom_liquid -}}
+          </div>
+        {% endif %}
+
+      {% when 'title' %}
+        {% capture product_title %}
+          {% liquid
+            if onboarding
+              echo 'product.onboarding.title' | t
+            else
+              echo product.title
+            endif
+          %}
+        {% endcapture %}
+        {% if template.name == 'product' %}
+          <h1 class="product__heading" {{ block.shopify_attributes }}>
+            {{ product_title }}
+          </h1>
+        {% else %}
+          <h2 class="product__heading" {{ block.shopify_attributes }}>
+            <a href="{{ product.url }}">
+              {{ product_title }}
+            </a>
+          </h2>
+        {% endif %}
+
+      {% when 'vendor' %}
+        <p class="product__vendor" {{ block.shopify_attributes }}>
+          {% if onboarding %}
+            {{ 'product.onboarding.vendor' | t }}
+          {% else %}
+            {{ product.vendor | link_to_vendor }}
+          {% endif %}
+        </p>
+
+      {% when 'variant_selection' %}
+        {% if onboarding %}
+          {% continue %}
+        {% endif %}
+        {%
+          render 'product-options-dropdown',
+          product: product,
+          block: block,
+        %}
+        {% assign rendered_variant_selection = true %}
+
+      {% when 'inventory_status' %}
+        {% for variant in product.variants %}
+          {% capture inventory_status_attributes %}
+            data-inventory-status
+            data-inventory-status-variant-id="{{ variant.id }}"
+            data-inventory-status-variant-selected="{% if variant == selected_variant %}true{% else %}false{% endif %}"
+          {% endcapture %}
+
+          {%
+            render 'product-inventory-status',
+            product: product,
+            variant: variant,
+            inventory_status: block.settings.inventory_status,
+            inventory_status_attributes: inventory_status_attributes,
+            inventory_status_bar: block.settings.inventory_status_bar,
+            inventory_status_low_stock_threshold: block.settings.low_stock_threshold,
+            inventory_status_inventory_quantity: variant.inventory_quantity,
+            inventory_status_transfer_notice: block.settings.inventory_transfer_notice,
+            inventory_status_initial_stock_level: block.settings.initial_stock_level,
+            inventory_status_quantity_status: block.settings.quantity_status,
+          %}
+        {% endfor %}
+
+      {% when 'price' %}
+        {% if has_price_and_quantity_block %}
+          {% continue %}
+        {% endif %}
+        {%
+          render 'product-form-price',
+          product: product,
+          variant: variant,
+          form: form,
+          onboarding: onboarding,
+        %}
+
+      {% when 'quantity' %}
+        {% if has_price_and_quantity_block %}
+          {% continue %}
+        {% endif %}
+        {%
+          render 'product-form-quantity',
+          section_id: section.id,
+        %}
+        {% assign rendered_quantity_selector = true %}
+
+      {% when 'price_and_quantity' %}
+        <div
+          class="
+            product-details__qty-price-container
+            {% if product.options.size > 1 or show_payment_button %}
+              product-details__qty-price-container--align-columns
+            {% endif %}
+          "
+          {{ block.shopify_attributes }}
+        >
+          {%
+            render 'product-form-price',
+            product: product,
+            variant: variant,
+            form: form,
+          %}
+          {%
+            render 'product-form-quantity',
+            section_id: section.id,
+          %}
+          {% assign rendered_quantity_selector = true %}
+        </div>
+
+      {% when 'text' %}
+        <div class="product-details__text" data-rich-text-area>
+          {{ block.settings.text }}
+        </div>
+
+      {% when 'description' %}
+        {% if product.description != blank or onboarding %}
+          <div
+            class="product-details__description"
+            data-rich-text-area
+            {{ block.shopify_attributes }}
+          >
+            {% if onboarding %}
+              {{ 'product.onboarding.description' | t }}
+            {% else %}
+              {{ product.description }}
+            {% endif %}
+          </div>
+        {% endif %}
+
+      {% when 'form' %}
+        {%
+          render 'product-form',
+          show_recipient_form: block.settings.show_gift_card_recipient_form,
+          show_payment_button: show_payment_button,
+          product: product,
+          variant: variant,
+          form: form,
+          block: block,
+        %}
+
+      {% when 'share' %}
+        <div class="product__share" {{ block.shopify_attributes }}>
+          <p class="product__share-text">{{ 'general.social.share_this' | t }}</p>
+          {%
+            render 'share-buttons',
+            context: product,
+          %}
+        </div>
+
+      {% when 'gallery' %}
+        {% if layout == 'two-column' %}
+          {% continue %}
+        {% endif %}
+        {% capture gallery_classes %}
+          {% if forloop.last %}product-gallery--last{% endif %}
+        {% endcapture %}
+        {%
+          render 'product-gallery',
+          product: product,
+          layout: layout,
+          enable_zoom: enable_zoom,
+          onboarding: onboarding,
+          class: gallery_classes,
+          block: block,
+        %}
+
+      {% when 'rating' %}
+        {%- if product.metafields.reviews.rating.value != blank -%}
+          <div class="product__rating rating" {{ block.shopify_attributes }}>
+            {%
+              render 'rating-stars',
+              value: product.metafields.reviews.rating.value.rating,
+              scale_max: product.metafields.reviews.rating.value.scale_max,
+            %}
+            <p class="rating__text">
+              <span aria-hidden="true">{{ product.metafields.reviews.rating.value }} / {{ product.metafields.reviews.rating.value.scale_max }}</span>
+            </p>
+            <p class="rating__count">
+              <span aria-hidden="true">({{ product.metafields.reviews.rating_count }})</span>
+              <span class="visually-hidden">{{ product.metafields.reviews.rating_count }} {{ "general.accessibility.total_reviews" | t }}</span>
+            </p>
+          </div>
+        {%- endif -%}
+
+      {% when 'badges' %}
+        {%
+          render 'product-badges',
+          product: product,
+          display_badge: block.settings.display_sale_soldout_badge,
+          display_custom_badge: block.settings.display_custom_badge,
+          onboarding: onboarding,
+        %}
+      {% when 'complementary_products' %}
+        {%
+          render 'complementary-products',
+          product: product,
+          block: block,
+        %}
+
+    {% endcase %}
+  {% endfor %}
+</div>
+
+{% unless rendered_quantity_selector %}
+  <input type="hidden" name="quantity" value="1">
+{% endunless %}
+
+{% unless rendered_variant_selection %}
+  <input
+  name="id"
+  value="{{ product.selected_or_first_available_variant.id }}"
+  type="hidden"
+  >
+{% endunless %}

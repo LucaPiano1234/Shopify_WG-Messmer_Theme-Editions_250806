@@ -1,0 +1,23 @@
+<div class="breadcrumbs">
+   <a href="{{ routes.root_url }}" class="breadcrumbs__link">{{ 'general.home' | t }}</a>
+   <span class="breadcrumbs__separator">/</span>
+   {% if template contains "product" %}
+      {% if collection %}
+      <a href="{{ routes.collections_url }}" class="breadcrumbs__link">{{ 'collections.title' | t }}</a>
+      <span class="breadcrumbs__separator">/</span>
+      <a href="{{ collection.url }}" class="breadcrumbs__link">{{ collection.title }}</a>
+      {% else %}
+      <a href="{{ routes.all_products_collection_url }}" class="breadcrumbs__link">{{ 'collections.all_products' | t }}</a>
+      {% endif %}
+      <span class="breadcrumbs__separator">/</span>
+      <span class="breadcrumbs__current">{{ product.title }}</span>
+   {% elsif template contains "collection" %}
+      <a href="{{ routes.collections_url }}" class="breadcrumbs__link">{{ 'collections.title' | t }}</a>
+      <span class="breadcrumbs__separator">/</span>
+      <span class="breadcrumbs__current">{{ collection.title }}</span>
+   {% elsif template contains "article" %}
+      <a href="{{ blog.url}}" class="breadcrumbs__link">{{ blog.title }}</a>
+      <span class="breadcrumbs__separator">/</span>
+      <span class="breadcrumbs__current">{{ article.title }}</span>
+   {% endif %}
+</div>

@@ -1,0 +1,188 @@
+<script
+  type="application/json"
+  data-section-type="dynamic-testimonials"
+  data-section-id="{{ section.id }}"
+>
+</script>
+
+<script type="application/pxs-animation-mapping+json">
+  {
+    "blocks": [
+      ".testimonial"
+    ],
+    "elements": [
+      ".testimonial__author-image"
+    ]
+  }
+</script>
+
+<section
+  class="
+    testimonials
+    {% if section.settings.show_border == false %}
+      no-section-border
+    {% endif %}
+  "
+  data-section-id="{{ section.id }}"
+>
+  {% if section.settings.title != blank %}
+    <div class="testimonials__header">
+      <h2 class="testimonials__heading">
+        {{ section.settings.title | escape }}
+      </h2>
+    </div>
+  {% endif %}
+
+  <div
+    class="
+      testimonials__wrapper
+      testimonials__wrapper--align-{{ section.settings.alignment }}
+      {% if section.settings.title == blank %}
+        testimonials__no-heading
+      {% endif %}
+      {% if section.blocks.size <= 3 %}
+        testimonials__desktop--grid
+      {% else %}
+        testimonials__desktop--slider
+      {% endif %}
+    "
+    data-testimonials-slider
+  >
+    {% for block in section.blocks %}
+        {%
+          render 'testimonial',
+          block: block
+        %}
+    {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "t:sections.testimonials.name",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.testimonials.title.label",
+      "default": "Testimonials"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_border",
+      "label": "t:sections.testimonials.show_border.label",
+      "default": true
+    },
+    {
+      "type": "text_alignment",
+      "id": "alignment",
+      "label": "t:sections.testimonials.alignment.label",
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "image_crop",
+      "label": "t:sections.testimonials.image_crop.label",
+      "options": [
+        {
+          "label": "t:sections.testimonials.image_crop.option_1",
+          "value": "circle"
+        },
+        {
+          "label": "t:sections.testimonials.image_crop.option_2",
+          "value": "natural"
+        }
+      ],
+      "default": "circle"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "t:sections.testimonials.blocks.testimonial.name",
+      "settings": [
+        {
+          "type": "select",
+          "id": "rating",
+          "label": "t:sections.testimonials.blocks.testimonial.rating.label",
+          "options": [
+            {
+              "value": "none",
+              "label": "t:sections.testimonials.blocks.testimonial.rating.option_1"
+            },
+            {
+              "value": "4",
+              "label": "t:sections.testimonials.blocks.testimonial.rating.option_2"
+            },
+            {
+              "value": "4.5",
+              "label": "t:sections.testimonials.blocks.testimonial.rating.option_3"
+            },
+            {
+              "value": "5",
+              "label": "t:sections.testimonials.blocks.testimonial.rating.option_4"
+            }
+          ],
+          "default": "5"
+        },
+        {
+          "type": "richtext",
+          "id": "quote",
+          "label": "t:sections.testimonials.blocks.testimonial.quote.label",
+          "default": "<p>Include some of your favorite customer quotes and feedback here as social proof, to build credibility and trust for your services and products.</p>"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.testimonials.blocks.testimonial.image.label"
+        },
+        {
+          "type": "text",
+          "id": "author",
+          "label": "t:sections.testimonials.blocks.testimonial.author.label",
+          "default": "Author's name"
+        },
+        {
+          "type": "text",
+          "id": "author_details",
+          "label": "t:sections.testimonials.blocks.testimonial.author_details.label",
+          "default": "New York, NY"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "t:sections.testimonials.blocks.testimonial.text_color.label"
+        },
+        {
+          "type": "color",
+          "id": "background",
+          "label": "t:sections.testimonials.blocks.testimonial.background.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "t:sections.testimonials.presets.category",
+      "name": "t:sections.testimonials.presets.name",
+      "blocks": [
+        {
+          "type": "testimonial"
+        },
+        {
+          "type": "testimonial"
+        },
+        {
+          "type": "testimonial"
+        }
+      ]
+    }
+  ],
+  "disabled_on": {
+    "groups": [
+      "*"
+    ]
+  }
+}
+
+{% endschema %}

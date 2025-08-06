@@ -1,0 +1,60 @@
+<script
+  type="application/json"
+  data-section-type="static-page"
+  data-section-id="{{ section.id }}"
+>
+</script>
+
+
+<section class="standard-page__wrapper">
+  <div
+    class="
+      standard-page
+      standard-page--align-{{ section.settings.text_alignment }}
+      standard-page--width-{{ section.settings.page_width }}
+    "
+  >
+    <div class="standard-page__header">
+      <h1>{{ page.title }}</h1>
+    </div>
+
+    <div class="standard-page__content" data-rich-text-area>
+      {{ page.content }}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "t:sections.look_book_page.name",
+  "settings": [
+    {
+      "type": "select",
+      "id": "page_width",
+      "label": "t:sections.page.page_width.label",
+      "options": [
+        {
+          "label": "t:sections.page.page_width.option_1",
+          "value": "regular"
+        },
+        {
+          "label": "t:sections.page.page_width.option_2",
+          "value": "wide"
+        },
+        {
+          "label": "t:sections.page.page_width.option_3",
+          "value": "full"
+        }
+      ],
+      "default": "regular"
+    },
+    {
+      "type": "text_alignment",
+      "id": "text_alignment",
+      "label": "t:sections.page.text_alignment.label",
+      "default": "center"
+    }
+  ]
+}
+
+{% endschema %}

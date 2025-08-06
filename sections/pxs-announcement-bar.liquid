@@ -1,0 +1,101 @@
+<script
+  type="application/json"
+  data-section-type="pxs-announcement-bar"
+  data-section-id="{{ section.id }}"
+></script>
+
+{% assign enable_announcement = section.settings.show_announcement %}
+{% assign homepage_only = section.settings.announcement_home_only %}
+{% assign show_announcement = false %}
+
+{% if enable_announcement and homepage_only == false %}
+  {% assign show_announcement = true %}
+{% endif %}
+
+{% if enable_announcement and homepage_only and template.name == 'index' %}
+  {% assign show_announcement = true %}
+{% endif %}
+
+{% if section.settings.announcement_text == blank %}
+  {% assign show_announcement = false %}
+{% endif %}
+
+{% unless show_announcement %}
+  {% break %}
+{% endunless %}
+
+<a
+  class="pxs-announcement-bar"
+  style="
+    color: {{ section.settings.announcement_color }};
+    background-color: {{ section.settings.announcement_background }}
+  "
+  {% if section.settings.announcement_link != blank %}
+    href="{{ section.settings.announcement_link }}"
+  {% endif %}
+>
+  {% if section.settings.announcement_text_mobile != blank %}
+    <span class="pxs-announcement-bar-text-mobile">
+      {{ section.settings.announcement_text_mobile | escape }}
+    </span>
+  {% endif %}
+
+  {% if section.settings.announcement_text != blank %}
+    <span class="pxs-announcement-bar-text-desktop">
+      {{ section.settings.announcement_text | escape }}
+    </span>
+  {% endif %}
+</a>
+
+
+
+{% schema %}
+{
+  "name": "t:sections.announcement_bar.name",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_announcement",
+      "label": "t:sections.announcement_bar.show_announcement.label",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "announcement_home_only",
+      "label": "t:sections.announcement_bar.announcement_home_only.label",
+      "default": false
+    },
+    {
+      "id": "announcement_text",
+      "type": "textarea",
+      "label": "t:sections.announcement_bar.announcement_text.label",
+      "default": "Call attention to a special discount, feature, or promotion here."
+    },
+    {
+      "id": "announcement_text_mobile",
+      "type": "textarea",
+      "label": "t:sections.announcement_bar.announcement_text_mobile.label",
+      "default": "Use less text on mobile!",
+      "info": "t:sections.announcement_bar.announcement_text_mobile.info"
+    },
+    {
+      "id": "announcement_link",
+      "type": "url",
+      "label": "t:sections.announcement_bar.announcement_link.label"
+    },
+    {
+      "id": "announcement_color",
+      "type": "color",
+      "label": "t:sections.announcement_bar.announcement_color.label",
+      "default": "#ffffff"
+    },
+    {
+      "id": "announcement_background",
+      "type": "color",
+      "label": "t:sections.announcement_bar.announcement_background.label",
+      "default": "#000000"
+    }
+  ]
+}
+
+{% endschema %}

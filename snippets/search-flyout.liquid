@@ -1,0 +1,16 @@
+<div class="search-flyout" data-search-flyout>
+  <div class="search-flyout__wrapper">
+    {%
+      render 'search-form',
+      context: 'flyout',
+    %}
+
+    <button
+      class="search-flyout__close-button"
+      type="button"
+      data-search-flyout-close
+    >
+      {{- 'general.search.cancel' | t -}}
+    </button>
+  </div>
+</div>

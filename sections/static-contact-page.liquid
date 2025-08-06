@@ -1,0 +1,113 @@
+<script
+  type="application/json"
+  data-section-type="static-contact-page"
+  data-section-id="{{ section.id }}"
+>
+</script>
+
+
+<section class="contact-page__wrapper">
+  <div
+    class="
+      contact-page
+      contact-page--align-{{ section.settings.text_alignment }}
+      contact-page--width-{{ section.settings.page_width }}
+    "
+  >
+    <div class="contact-page__header">
+      <h1>{{ page.title }}</h1>
+    </div>
+
+    <div class="contact-page__wrapper">
+      {% if page.content.size > 0 %}
+        <div class="contact-page__content" data-rich-text-area>
+          {{ page.content }}
+        </div>
+      {% endif %}
+
+      {% form 'contact' %}
+        <div class="contact-form">
+          <h2 class="contact-form__heading">{{ 'contact_page.header' | t }}</h2>
+
+          {% if form.posted_successfully? %}
+            <div class="success">{{ 'contact_page.success' | t }}</div>
+          {% endif %}
+
+          {{ form.errors | default_errors }}
+
+          <div class="contact-form__wrapper">
+            <div class="contact-form__first-name">
+              <label for="contact-first-name">{{ 'general.first_name' | t }}</label>
+              <input id="contact-first-name" type="text" name="contact[first_name]" class="{% if form.errors contains "first_name" %}field-error{% endif %}">
+            </div>
+
+            <div class="contact-form__last-name">
+              <label for="contact-last-name">{{ 'general.last_name' | t }}</label>
+              <input id="contact-last-name" type="text" name="contact[last_name]" class="{% if form.errors contains "last_name" %}field-error{% endif %}">
+            </div>
+
+            <div class="contact-form__email">
+              <label for="contact-email">{{ 'general.email' | t }}</label>
+              <input id="contact-email" type="text" placeholder="{{ 'general.email_placeholder' | t }}" name="contact[email]" class="{% if form.errors contains "email" %}field-error{% endif %}">
+            </div>
+
+            <div class="contact-form__comment">
+              <label for="author-comment">{{ 'general.message' | t }}</label>
+              {% assign value = '' %}
+              {%- if form.body -%}
+                {% assign value = form.body %}
+              {%- endif -%}
+
+              <textarea
+                class="{% if form.errors contains "body" %}field-error{% endif %}"
+                id="author-comment"
+                name="contact[body]"
+                rows="7"
+                required
+              >
+                {{- value -}}
+              </textarea>
+            </div>
+          </div>
+
+          <input class="contact-form__submit" type="submit" value="{{ 'contact_page.submit' | t }}">
+        </div>
+      {% endform %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "t:sections.contact_page.name",
+  "settings": [
+    {
+      "type": "select",
+      "id": "page_width",
+      "label": "t:sections.contact_page.page_width.label",
+      "options": [
+        {
+          "label": "t:sections.contact_page.page_width.option_1",
+          "value": "regular"
+        },
+        {
+          "label": "t:sections.contact_page.page_width.option_2",
+          "value": "wide"
+        },
+        {
+          "label": "t:sections.contact_page.page_width.option_3",
+          "value": "full"
+        }
+      ],
+      "default": "regular"
+    },
+    {
+      "type": "text_alignment",
+      "id": "text_alignment",
+      "label": "t:sections.contact_page.text_alignment.label",
+      "default": "left"
+    }
+  ]
+}
+
+{% endschema %}

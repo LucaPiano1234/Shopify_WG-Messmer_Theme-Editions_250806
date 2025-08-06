@@ -1,0 +1,151 @@
+<script type="application/pxs-animation-mapping+json">
+  {
+    "blocks": [
+      ".collection-list__wrapper"
+    ],
+    "elements": [
+      ".collection-list-item"
+    ]
+  }
+</script>
+
+{% assign collection_count = section.blocks.size %}
+
+<section
+  class="
+    collection-list
+    {% if section.settings.show_border == false %}
+      no-section-border
+    {% endif %}
+  "
+  data-section-id="{{ section.id }}"
+>
+  {% if section.settings.title != blank %}
+    <div class="collection-list__header">
+      <h2 class="collection-list__heading">
+        {{ section.settings.title | escape }}
+      </h2>
+    </div>
+  {% endif %}
+
+  <div class="collection-list__wrapper collection-list--{{ collection_count }}-columns">
+    {% for block in section.blocks %}
+      {%
+        render 'collection-list-item',
+        collection: collections[block.settings.collection],
+        show_title: section.settings.show_collection_titles,
+        show_product_count: section.settings.show_product_count,
+        show_description: section.settings.show_description,
+        item_style: section.settings.item_style,
+        block: block
+      %}
+    {% else %}
+      {% for i in (1..3) %}
+        {%
+          render 'collection-list-item',
+          show_title: section.settings.show_collection_titles,
+          show_product_count: section.settings.show_product_count,
+          show_description: section.settings.show_description,
+          item_style: section.settings.item_style,
+          block: nil
+        %}
+      {% endfor %}
+    {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "t:sections.collection_list.name",
+  "max_blocks": 3,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.collection_list.title.label",
+      "default": "Collection list"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_border",
+      "label": "t:sections.collection_list.show_border.label",
+      "default": true
+    },
+    {
+      "id": "item_style",
+      "type": "select",
+      "label": "t:sections.collection_list.item_style.label",
+      "options": [
+        {
+          "value": "natural",
+          "label": "t:sections.collection_list.item_style.option_1"
+        },
+        {
+          "value": "small",
+          "label": "t:sections.collection_list.item_style.option_2"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.collection_list.item_style.option_3"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.collection_list.item_style.option_4"
+        }
+      ],
+      "default": "natural"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_collection_titles",
+      "label": "t:sections.collection_list.show_collection_titles.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_product_count",
+      "label": "t:sections.collection_list.show_product_count.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_description",
+      "label": "t:sections.collection_list.show_description.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "collection",
+      "name": "t:sections.collection_list.blocks.collection.name",
+      "settings": [
+        {
+          "id": "collection",
+          "type": "collection",
+          "label": "t:sections.collection_list.blocks.collection.collection.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "t:sections.collection_list.presets.category",
+      "name": "t:sections.collection_list.presets.name",
+      "blocks": [
+        {
+          "type": "collection"
+        },
+        {
+          "type": "collection"
+        },
+        {
+          "type": "collection"
+        }
+      ]
+    }
+  ],
+  "disabled_on": {
+    "groups": [
+      "*"
+    ]
+  }
+}
+
+{% endschema %}

@@ -1,0 +1,52 @@
+
+{% if paginate.previous or paginate.next %}
+  <div class="pagination">
+    {% if paginate.previous %}
+      <a
+        href="{{ paginate.previous.url }}"
+        class="pagination__previous-button"
+        aria-label="{{ 'general.pagination.previous' | t }}"
+      >
+        {% render 'icon-library', id: 'icon-long-arrow' %}
+      </a>
+    {% else %}
+      <span
+        class="pagination__previous-button disabled"
+        aria-label="{{ 'general.pagination.previous' | t }}"
+      >
+        {% render 'icon-library', id: 'icon-long-arrow' %}
+      </span>
+    {% endif %}
+
+    <ul class="pagination__page-list">
+      {% for part in paginate.parts %}
+        {% if part.is_link %}
+          <li class="pagination__page"><a href="{{ part.url }}">{{ part.title }}</a></li>
+        {% else %}
+          {% if part.title == '&hellip;' %}
+            <li class="pagination__page">{{ part.title }}</li>
+          {% else %}
+            <li class="pagination__page pagination__page--current">{{ part.title }}</li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+    {% if paginate.next %}
+      <a
+        href="{{ paginate.next.url }}"
+        class="pagination__next-button"
+        aria-label="{{ 'general.pagination.next' | t }}"
+      >
+        {% render 'icon-library', id: 'icon-long-arrow' %}
+      </a>
+    {% else %}
+      <span
+        class="pagination__next-button disabled"
+        aria-label="{{ 'general.pagination.next' | t }}"
+      >
+        {% render 'icon-library', id: 'icon-long-arrow' %}
+      </span>
+    {% endif %}
+  </div>
+{% endif %}

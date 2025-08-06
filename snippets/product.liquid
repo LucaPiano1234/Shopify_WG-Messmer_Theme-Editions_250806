@@ -1,0 +1,50 @@
+{% comment %}
+  @param product
+  @param variant
+  @param enable_zooom
+{% endcomment %}
+
+{% assign gallery_block = section.blocks | where: 'type', 'gallery' | first %}
+{% assign layout = gallery_block.settings.position | default: 'one-column' %}
+
+{% assign is_quickshop = is_quickshop | default: false %}
+{% if is_quickshop and gallery_block != blank %}
+  {% assign layout = 'two-column' %}
+{% endif %}
+
+<div class="product__wrapper product__wrapper--{{ layout }}">
+  {% if layout == 'two-column' %}
+    {%
+      render 'product-gallery',
+      product: product,
+      layout: layout,
+      enable_zoom: enable_zoom,
+      onboarding: onboarding
+      block: gallery_block,
+    %}
+  {% endif %}
+  {% if product != blank %}
+    {% form 'product', product, class: 'product-details', data-product-form: "" %}
+      {%
+        render 'product-contents',
+        product: product,
+        variant: variant,
+        form: form,
+        layout: layout,
+        section: section,
+        show_payment_button: show_payment_button,
+        is_quickshop: is_quickshop,
+      %}
+    {% endform %}
+  {% else %}
+    <div class="product-details" data-product-form>
+      {%
+        render 'product-contents',
+        section: section,
+        layout: layout,
+        onboarding: true,
+        show_payment_button: show_payment_button,
+      %}
+    </div>
+  {% endif %}
+</div>

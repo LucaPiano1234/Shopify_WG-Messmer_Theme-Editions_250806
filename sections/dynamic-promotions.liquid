@@ -1,0 +1,193 @@
+<script
+  type="application/json"
+  data-section-type="dynamic-promotions"
+  data-section-id="{{ section.id }}"
+>
+</script>
+
+<script type="application/pxs-animation-mapping+json">
+  {
+    "blocks": [
+      ".promotion-block"
+    ],
+    "elements": [
+      ".promotion-block__image",
+      ".promotion-block__content"
+    ]
+  }
+</script>
+
+<div data-section-id="{{ section.id }}">
+  <section
+    class="
+      promotion-blocks
+      {% if section.settings.show_border == false %}
+        no-section-border
+      {% endif %}
+    "
+  >
+    {% if section.settings.title != blank %}
+      <div class="promotion-blocks__header">
+        <h2 class="promotion-blocks__heading">
+          {{ section.settings.title | escape }}
+        </h2>
+      </div>
+    {% endif %}
+
+    <div class="promotion-blocks__wrapper promotion-blocks--{{ section.blocks.size }}-columns">
+      {% for block in section.blocks %}
+        {% assign heading = block.settings.title | escape %}
+        {% assign caption = block.settings.caption %}
+        {% assign url = block.settings.url %}
+        {% assign link = block.settings.cta_title | escape %}
+        {% assign text_color = block.settings.text_color %}
+        {% assign image = block.settings.image %}
+
+          <div
+            class="
+              promotion-block
+              promotion-block--text-color-{{ text_color }}
+              {%- if url != blank -%}has-link{%- endif -%}
+            "
+            data-promotion-block
+            {{ block.shopify_attributes }}
+          >
+            <div class="promotion-block__image" data-promotion-image>
+              {% if image %}
+                {%
+                  render 'rimg',
+                  img: image,
+                  size: '1400x',
+                  lazy: true,
+                  canvas: true,
+                  focal_point: image.presentation.focal_point,
+                %}
+              {% else %}
+                {{ 'collection-1' |  placeholder_svg_tag: 'placeholder-svg' }}
+              {% endif %}
+            </div>
+
+            {% if url != blank %}
+              <a
+                class="promotion-block__link"
+                href="{{ url }}"
+                aria-label="{{- 'onboarding.promotions.link' | t -}}"
+              >
+              </a>
+            {% endif %}
+
+            <div class="promotion-block__content" data-promotion-content>
+              {% if heading != blank %}
+                <h3 class="promotion-block__heading">
+                  {{ block.settings.title | escape }}
+                </h3>
+              {% endif %}
+
+              {% if caption != blank %}
+                <div class="promotion-block__caption">{{ caption }}</div>
+              {% endif %}
+
+              {% if link != blank and url != blank %}
+                <span class="promotion-block__cta">
+                  {{ link }}
+                </span>
+              {% endif %}
+            </div>
+          </div>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.promotions.name",
+  "max_blocks": 4,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.promotions.title.label",
+      "default": "Promotions"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_border",
+      "label": "t:sections.promotions.show_border.label",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "t:sections.promotions.blocks.feature.name",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.promotions.blocks.feature.image.label"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.promotions.blocks.feature.title.label",
+          "default": "Promotion"
+        },
+        {
+          "type": "richtext",
+          "id": "caption",
+          "label": "t:sections.promotions.blocks.feature.caption.label",
+          "default": "<p>Say a bit about your brand, a specific product, or promotion.</p>"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "t:sections.promotions.blocks.feature.url.label"
+        },
+        {
+          "type": "text",
+          "id": "cta_title",
+          "label": "t:sections.promotions.blocks.feature.cta_title.label",
+          "default": "Shop now"
+        },
+        {
+          "type": "select",
+          "id": "text_color",
+          "label": "t:sections.promotions.blocks.feature.text_color.label",
+          "options": [
+            {
+              "value": "light",
+              "label": "t:sections.promotions.blocks.feature.text_color.option_1"
+            },
+            {
+              "value": "dark",
+              "label": "t:sections.promotions.blocks.feature.text_color.option_2"
+            }
+          ],
+          "default": "light"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "t:sections.promotions.presets.category",
+      "name": "t:sections.promotions.presets.name",
+      "blocks": [
+        {
+          "type": "feature"
+        },
+        {
+          "type": "feature"
+        }
+      ]
+    }
+  ],
+  "disabled_on": {
+    "groups": [
+      "*"
+    ]
+  }
+}
+
+{% endschema %}

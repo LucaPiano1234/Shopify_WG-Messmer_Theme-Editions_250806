@@ -1,0 +1,31 @@
+{% comment %}
+  @param logo_url {String}
+    Logo url
+
+  @param logo_image {Image}
+    Logo image
+{% endcomment %}
+
+<div class="logo-list-logo" data-logo-list-logo>
+  {% if logo_url != blank %}
+    <a class="logo-list-logo__link" href="{{ logo_url }}">
+  {% endif %}
+
+  {% if logo_image %}
+    {%
+      render 'rimg',
+      img: logo_image,
+      class: 'logo-list-logo__image',
+      size: '500x500',
+      lazy: true,
+      canvas: true,
+      focal_point: logo_image.presentation.focal_point,
+    %}
+  {% else %}
+    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+  {% endif %}
+
+  {% if logo_url != blank %}
+    </a>
+  {% endif %}
+</div>

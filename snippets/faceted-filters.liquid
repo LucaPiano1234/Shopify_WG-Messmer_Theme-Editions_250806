@@ -1,0 +1,15 @@
+<div class="faceted-filters__wrapper">
+  <label class="faceted-filters__title">
+    {{ 'collections.collection_sorting.filter' | t }}:
+  </label>
+  <div class="faceted-filters" data-faceted-filters>
+    {%- for filter in filters -%}
+      {%
+        render 'faceted-filter-group',
+        filter: filter,
+        show_product_count: show_product_count,
+        forloop: forloop,
+      %}
+    {%- endfor -%}
+  </div>
+</div>

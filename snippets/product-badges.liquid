@@ -1,0 +1,80 @@
+{% comment %}
+@param product {Product}
+
+@param display_badge {Boolean}
+  default true
+
+@param display_custom_badge {Boolean}
+  default true
+{% endcomment %}
+
+{% liquid
+  assign display_badge = display_badge
+  if display_badge == nil
+    assign display_badge = true
+  endif
+
+  assign display_custom_badge = display_custom_badge
+  if display_custom_badge == nil
+    assign display_custom_badge = true
+  endif
+
+  assign custom_tag_label = blank
+  assign custom_tag_color = blank
+  assign custom_tag_background = blank
+  if display_custom_badge
+    for i in (1..4)
+      assign tag_id = 'product_badge_tag_' | append: i
+      assign tag_label = settings[tag_id]
+
+      for tag in product.tags
+        if tag_label == tag
+          assign tag_text_id = 'product_badge_text_color_' | append: i
+          assign custom_tag_color = settings[tag_text_id]
+          assign tag_background_id = 'product_badge_background_color_' | append: i
+          assign custom_tag_background = settings[tag_background_id]
+          assign custom_tag_label = tag
+        endif
+      endfor
+
+      if custom_tag_label != blank
+        break
+      endif
+    endfor
+  endif
+
+  assign render_badges_wrapper = false
+  if onboarding or custom_tag_label != blank or display_badge and product.available == false or product.compare_at_price_min > product.price_min
+    assign render_badges_wrapper = true
+  endif
+%}
+
+{% if render_badges_wrapper %}
+  <div class="badges-wrapper" aria-hidden="true">
+    {% if display_badge or onboarding %}
+      {% if product.available == false %}
+        <span class="badges-wrapper__badge badges-wrapper__badge--sold-out">
+          {{ 'collections.product_item.sold_out' | t }}
+        </span>
+      {% elsif product.compare_at_price_min > product.price_min or onboarding %}
+        <span class="badges-wrapper__badge badges-wrapper__badge--sale">
+          {{ 'collections.product_item.on_sale' | t }}
+        </span>
+      {% endif %}
+    {% endif %}
+    {% if custom_tag_label != blank and onboarding != true %}
+      <span
+        class="
+          badges-wrapper__badge
+          badges-wrapper__badge--custom
+        "
+        style="
+          --color-product-tag-text: {{ custom_tag_color }};
+          --color-product-tag-background: {{ custom_tag_background }};
+        "
+      >
+        {{ custom_tag_label }}
+      </span>
+    {% endif %}
+  </div>
+{% endif %}

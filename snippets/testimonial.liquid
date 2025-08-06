@@ -1,0 +1,107 @@
+{% assign text_color = block.settings.text_color %}
+{% assign color_alpha = block.settings.text_color | color_extract: 'alpha' %}
+
+{% if block.settings.text_color == blank or color_alpha == 0.0 %}
+  {% assign text_color = settings.text-color %}
+{% endif %}
+
+{% style %}
+  .testimonial__block-{{ block.id }} {
+    color: {{ text_color }};
+    background-color: {{ block.settings.background }};
+  }
+{% endstyle %}
+
+<div
+  class="
+    testimonial
+    testimonial__block-{{ block.id }}
+  "
+  {{ block.shopify_attributes }}
+  data-testimonial
+>
+  {%- if block.settings.rating != "none" -%}
+    <div class="testimonial__rating">
+      {% assign star_rating = block.settings.rating | times: 1.0 %}
+      {% assign star_rating_remainder = star_rating | modulo: 1 %}
+      {% assign star_rating_rounded = star_rating | floor %}
+
+      {%- for star in (1..star_rating_rounded) -%}
+        {%
+          render 'icon-library',
+          id: 'star-full',
+          icon_class: 'testimonial__star--full',
+        %}
+      {%- endfor -%}
+      {%- if star_rating_remainder > 0 -%}
+        {%
+          render 'icon-library',
+          id: 'star-half',
+          icon_class: 'testimonial__star--half',
+        %}
+      {%- endif -%}
+    </div>
+  {%- endif -%}
+
+  {%- if block.settings.quote != blank -%}
+    <div class="testimonial__quote">
+      {{ block.settings.quote }}
+    </div>
+  {%- endif -%}
+
+  {%-
+    if block.settings.image != blank
+    or block.settings.author != blank
+    or block.settings.author_details != blank
+  -%}
+    <div class="testimonial__author-wrapper">
+      <div class="testimonial__author">
+        {%- if block.settings.image != blank -%}
+          <span
+            class="
+              testimonial__author-image
+              testimonial__author-image--{{ section.settings.image_crop }}
+            "
+            {%- if section.settings.image_crop == 'circle' -%}
+              {%
+                render 'rimg',
+                img: block.settings.image,
+                size: '500x500',
+                lazy: true,
+                background: true,
+                focal_point: block.settings.image.presentation.focal_point,
+              %}
+            {%- endif -%}
+          >
+            {%- if section.settings.image_crop == 'natural' -%}
+              {%
+                render 'rimg',
+                img: block.settings.image,
+                size: '500x500',
+                lazy: true,
+                focal_point: block.settings.image.presentation.focal_point,
+              %}
+            {%- endif -%}
+          </span>
+        {%- endif -%}
+        {%-
+          if block.settings.author != blank
+          or block.settings.author_details != blank
+        -%}
+          <span class="testimonial__author-data">
+            {%- if block.settings.author != blank -%}
+              <div class="testimonial__author-name">
+                {{ block.settings.author | escape }}
+              </div>
+            {%- endif -%}
+            {%- if block.settings.author_details != blank -%}
+              <div class="testimonial__author-details">
+                {{ block.settings.author_details | escape }}
+              </div>
+            {%- endif -%}
+          </span>
+        {%- endif -%}
+      </div>
+    </div>
+  {%- endif -%}
+</div>

@@ -1,0 +1,26 @@
+<section class="custom-liquid" data-section-id="{{ section.id }}">
+  <div class="custom-liquid__wrapper">
+    {{- section.settings.custom_liquid -}}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "t:sections.custom_liquid.name",
+  "settings": [
+    {
+      "type": "liquid",
+      "id": "custom_liquid",
+      "label": "t:sections.custom_liquid.custom_liquid.label",
+      "info": "t:sections.custom_liquid.custom_liquid.info"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.custom_liquid.presets.name",
+      "category": "t:sections.custom_liquid.presets.category"
+    }
+  ]
+}
+
+{% endschema %}

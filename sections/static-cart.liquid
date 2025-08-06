@@ -1,0 +1,150 @@
+<script
+  type="application/json"
+  data-section-type="static-cart"
+  data-section-id="{{ section.id }}"
+>
+</script>
+
+{% assign cart_notes = section.settings.show_cart_notes %}
+{%- capture taxes_shipping_checkout -%}
+  {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
+    {{ 'cart.general.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}
+  {%- elsif cart.taxes_included -%}
+    {{ 'cart.general.taxes_included_but_shipping_at_checkout' | t }}
+  {%- elsif shop.shipping_policy.body != blank -%}
+    {{ 'cart.general.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }}
+  {%- else -%}
+    {{ 'cart.general.tax_and_shipping' | t }}
+  {%- endif -%}
+{%- endcapture -%}
+
+<section class="cart">
+  <div class="cart__header">
+    <h1>{{ 'cart.general.title' | t }}</h1>
+    {% unless cart.item_count > 0 %}
+      <h2>{{ 'cart.general.empty' | t }}</h2>
+    {% endunless %}
+  </div>
+
+  {% if cart.item_count > 0 %}
+    {% form 'cart', cart %}
+      {% render 'cart-table' %}
+
+      <div class="cart__footer">
+        {% if cart_notes %}
+          <div class="cart__notes">
+            <label for="cart-notes-area">{{ 'cart.general.special_instructions' | t }}</label>
+            <textarea class="styled-text-field" id="cart-notes-area" name="note">{{ cart.note }}</textarea>
+          </div>
+        {% endif %}
+
+        <div class="cart__totals">
+          {% render 'cart-discounts' %}
+
+          <h2 class="cart__subtotal">
+            <span class="subtotal">
+              {{ 'cart.general.subtotal' | t }}
+            </span>
+
+            <span
+              class="
+                money
+                total-price
+              "
+              data-total-price
+              data-cart-subtotal
+            >
+              {{- cart.total_price | money -}}
+            </span>
+          </h2>
+
+          {{ form | payment_terms }}
+
+          <p class="cart__tax-and-shipping">{{ taxes_shipping_checkout }}</p>
+          <div class="cart__buttons-wrapper">
+            <noscript>
+              <button
+                class="cart__update-button"
+                type="submit"
+                value="{{ 'cart.general.update' | t }}"
+              >
+                <span>{{ 'cart.general.update' | t }}</span>
+              </button>
+            </noscript>
+            <button
+              class="cart__checkout-button"
+              type="submit"
+              name="checkout"
+              value="{{ 'cart.general.checkout' | t }}"
+            >
+              {% if section.settings.enable_checkout_lock_icon %}
+                {% render 'icon-library', id: 'icon-lock' %}
+              {% endif %}
+
+              <span>{{ 'cart.general.checkout' | t }}</span>
+            </button>
+          </div>
+
+          {% if additional_checkout_buttons %}
+            <div class="additional-checkout-buttons">
+              {{ content_for_additional_checkout_buttons }}
+            </div>
+          {% endif %}
+
+          <p class="
+              hidden
+              errors
+              cart__error-msg
+            "
+            data-error-msg
+          >
+            {{ 'cart.general.cart_error' | t }}
+          </p>
+        </div>
+      </div>
+    {% endform %}
+  {% endif %}
+
+  {% if section.settings.use_continue_shopping %}
+    <div class="cart__continue-shopping-wrapper">
+      {% assign continue_shopping_link = section.settings.continue_shopping_link | default: routes.all_products_collection_url %}
+      <a href="{{ continue_shopping_link }}" class="cart__continue-shopping">{{ 'general.continue_shopping' | t }} &rarr;</a>
+    </div>
+  {% endif %}
+</section>
+
+{% schema %}
+{
+  "name": "t:sections.cart.name",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_checkout_lock_icon",
+      "label": "t:sections.cart.enable_checkout_lock_icon.label",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_cart_notes",
+      "label": "t:sections.cart.show_cart_notes.label",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "t:sections.cart.header_1.content"
+    },
+    {
+      "type": "checkbox",
+      "id": "use_continue_shopping",
+      "label": "t:sections.cart.use_continue_shopping.label",
+      "default": true
+    },
+    {
+    "type": "url",
+    "id": "continue_shopping_link",
+    "label": "t:sections.cart.continue_shopping_link.label"
+    }
+  ]
+}
+
+{% endschema %}

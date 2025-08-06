@@ -1,0 +1,128 @@
+{% assign enable_filters = section.settings.filter_option %}
+
+<script
+  type="application/json"
+  data-section-type="search"
+  data-section-id="{{ section.id }}"
+>
+</script>
+
+{% paginate search.results by 18 %}
+  <div class="search-page">
+    <div class="search-page__header">
+      <h1 class="search-page__title">
+        {% if search.performed %}
+          {{- 'search.results_title' | t -}}
+        {% else %}
+          {{- 'search.title' | t -}}
+        {% endif %}
+      </h1>
+
+      {%
+        render 'search-form',
+        context: 'page',
+      %}
+
+      <p class="search-page__results-text">
+        {% if search.performed %}
+          {% capture results %}
+            {{ 'search.results' | t: count: search.results_count }}
+          {% endcapture %}
+
+          {% if search.results.size > 0 %}
+            {{- 'search.results_text' | t: results: results, results_count: search.results_count, terms: search.terms -}}
+          {% else %}
+            {{- 'search.no_results_text' | t: results: results, results_count: search.results_count, terms: search.terms -}}
+          {% endif %}
+        {% endif %}
+      </p>
+
+     {% if search.performed and search.results.size > 0 and enable_filters %}
+        <div class="search-page__filter-wrapper" data-faceted-filter>
+          {% if enable_filters %}
+            {%
+              render "faceted-filters",
+              filters: search.filters,
+            %}
+          {% endif %}
+        </div>
+
+        {% for filter in search.filters %}
+          {% if filter.active_values.size > 0 or filter.min_value.value or filter.max_value.value %}
+            <div class="search-page__filters--active">
+              {%- capture clear_url -%}
+                {{ routes.search_url }}?q={{ search.terms | url_encode }}
+              {%- endcapture -%}
+
+              {%-
+                render 'faceted-filters-active',
+                context: 'search',
+                filters: search.filters,
+                clear_url: clear_url,
+              %}
+            </div>
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    </div>
+
+    <section id="page-content">
+
+      {% if search.performed %}
+        {% if search.results.size > 0 %}
+
+          <ul class="search-results">
+            {% for item in search.results %}
+            <li class="search-results__result {% if item.object_type == 'product' %}search-results__product-result{% else %}search-results__article-result{% endif %} {% if forloop.first %}first{% endif %} {% if forloop.last %}last{% endif %}">
+                {% if item.object_type == 'product' %}
+                  {% render 'small-product-item', product: item %}
+                {% else %}
+                  <article class="search-results__article">
+                    <a href="{{ item.url }}">
+                      <div class="search-results__article-image">
+                        {% if item.image %}
+                            {%
+                              render 'rimg',
+                              img: item.image,
+                              size: '1024x1024',
+                              lazy: true,
+                              canvas: true,
+                            %}
+                        {% endif %}
+                      </div>
+                      <h3 class="search-results__article-title">{{ item.title }}</h3>
+                      <div class="search-results__article-date">{{ item.published_at | date: format: 'long_month' }}</div>
+                    </a>
+                  </article>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      {% endif %}
+
+      {% if paginate.previous or paginate.next %}
+        {%
+          render 'pagination',
+          paginate: paginate,
+        %}
+      {% endif %}
+    </section>
+  </div>
+{% endpaginate %}
+
+{% schema %}
+{
+  "name": "t:sections.search_page.name",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "filter_option",
+      "label": "t:sections.search_page.filter_option.label",
+      "default": true
+    }
+  ]
+}
+
+{% endschema %}

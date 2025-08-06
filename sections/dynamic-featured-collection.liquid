@@ -1,0 +1,131 @@
+<script type="application/pxs-animation-mapping+json">
+  {
+    "blocks": [
+      ".featured-collection__wrapper"
+    ],
+    "elements": [
+      ".product-item"
+    ]
+  }
+</script>
+
+{% assign onboard = false %}
+
+{% assign per_row = section.settings.products-per-row %}
+{% assign product_rows = section.settings.product-rows %}
+{% assign collection = section.settings.collection %}
+{% assign product_limit = product_rows | times: per_row %}
+
+{% if collection == blank %}
+  {% assign onboard = true %}
+{% endif %}
+
+<script
+  type="application/json"
+  data-section-type="dynamic-featured-collection"
+  data-section-id="{{ section.id }}"
+>
+</script>
+
+<section
+  class="
+    featured-collection
+    {% if section.settings.show_border == false %}
+      no-section-border
+    {% endif %}
+  "
+>
+  {% if section.settings.title != blank %}
+    <div class="featured-collection__header">
+      <h2 class="featured-collection__heading">
+        {{ section.settings.title }}
+      </h2>
+    </div>
+  {% endif %}
+
+  <div class="featured-collection__wrapper">
+    <div class="featured-collection__grid featured-collection--{{ per_row }}-columns">
+      {% for product in collections[collection].products limit: product_limit %}
+        {% render 'small-product-item', product: product %}
+      {% else %}
+        {% for i in (1..product_limit) %}
+          {% render 'small-product-item-demo' %}
+        {% endfor %}
+      {% endfor %}
+    </div>
+  {%- if section.settings.view_all == true -%}
+    <a
+      class="featured_collection__view-all"
+      href="{{ collections[collection].url }}"
+    >
+      {{ 'collections.view_all' | t }}
+    </a>
+  {%- endif -%}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "t:sections.featured_collection.name",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.featured_collection.title.label",
+      "default": "Featured collection"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_border",
+      "label": "t:sections.featured_collection.show_border.label",
+      "default": true
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "t:sections.featured_collection.collection.label"
+    },
+    {
+      "type": "range",
+      "id": "products-per-row",
+      "label": "t:sections.featured_collection.products-per-row.label",
+      "min": 2,
+      "max": 4,
+      "step": 1,
+      "default": 3
+    },
+    {
+      "type": "range",
+      "id": "product-rows",
+      "label": "t:sections.featured_collection.product-rows.label",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "default": 1
+    },
+    {
+      "type": "checkbox",
+      "id": "view_all",
+      "label": "t:sections.featured_collection.view_all.label",
+      "default": false
+    }
+  ],
+  "presets": [
+    {
+      "category": "t:sections.featured_collection.presets.category",
+      "name": "t:sections.featured_collection.presets.name",
+      "settings": {
+        "collection": "",
+        "products-per-row": 3,
+        "product-rows": 1
+      }
+    }
+  ],
+  "disabled_on": {
+    "groups": [
+      "*"
+    ]
+  }
+}
+
+{% endschema %}

@@ -1,0 +1,18 @@
+<div class="product-quantity" {{ block.shopify_attributes }}>
+  <label
+    class="product-quantity-label"
+    for="quantity-selector-{{ section_id }}"
+  >
+    {{- 'general.quantity' | t -}}
+  </label>
+
+  <input
+    class="quantity-field"
+    id="quantity-selector-{{ section_id }}"
+    type="number"
+    min="0"
+    name="quantity"
+    pattern="\d*"
+    value="1"
+  />
+</div>
