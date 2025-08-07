@@ -541,7 +541,8 @@
       },
       "presets": {
         "countdown_timer": {
-          "name": "Countdown timer"
+          "name": "Countdown timer",
+          "category": "Promotional"
         }
       },
       "show_border": {
@@ -579,7 +580,8 @@
         "label": "Minimum age required to access page"
       },
       "presets": {
-        "name": "Page age gate"
+        "name": "Page age gate",
+        "category": "Layout"
       }
     },
     "cart": {

@@ -541,7 +541,8 @@
       },
       "presets": {
         "countdown_timer": {
-          "name": "Compte à rebours"
+          "name": "Compte à rebours",
+          "category": "Promotionnel"
         }
       },
       "show_border": {
@@ -579,7 +580,8 @@
         "label": "Âge minimum requis pour accéder à la page"
       },
       "presets": {
-        "name": "Portail d'âge de la page"
+        "name": "Portail d'âge de la page",
+        "category": "Mise en page"
       }
     },
     "cart": {

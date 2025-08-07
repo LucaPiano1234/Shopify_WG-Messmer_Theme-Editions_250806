@@ -541,7 +541,8 @@
       },
       "presets": {
         "countdown_timer": {
-          "name": "Temporizador de cuenta regresiva"
+          "name": "Temporizador de cuenta regresiva",
+          "category": "Promocional"
         }
       },
       "show_border": {
@@ -579,7 +580,8 @@
         "label": "Edad mínima requerida para acceder a la página"
       },
       "presets": {
-        "name": "Página de verificación de edad"
+        "name": "Página de verificación de edad",
+        "category": "Diseño de página"
       }
     },
     "cart": {

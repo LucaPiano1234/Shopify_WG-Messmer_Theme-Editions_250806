@@ -541,7 +541,8 @@
       },
       "presets": {
         "countdown_timer": {
-          "name": "Countdown-Timer"
+          "name": "Countdown-Timer",
+          "category": "Werblich"
         }
       },
       "show_border": {
@@ -579,7 +580,8 @@
         "label": "Erforderliches Mindestalter für den Zugriff auf die Seite"
       },
       "presets": {
-        "name": "Altersgrenze für Seite"
+        "name": "Altersgrenze für Seite",
+        "category": "Layout"
       }
     },
     "cart": {

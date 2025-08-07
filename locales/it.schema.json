@@ -541,7 +541,8 @@
       },
       "presets": {
         "countdown_timer": {
-          "name": "Conto alla rovescia"
+          "name": "Conto alla rovescia",
+          "category": "Promozionale"
         }
       },
       "show_border": {
@@ -579,7 +580,8 @@
         "label": "Età minima richiesta per accedere alla pagina"
       },
       "presets": {
-        "name": "Pagina di controllo dell'età"
+        "name": "Pagina di controllo dell'età",
+        "category": "Layout"
       }
     },
     "cart": {
