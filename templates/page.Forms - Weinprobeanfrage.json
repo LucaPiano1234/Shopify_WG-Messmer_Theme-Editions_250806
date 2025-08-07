@@ -1,1 +1,141 @@
-{"sections":{"dynamic_rich_text_apXfNb":{"type":"dynamic-rich-text","settings":{"title":"Weinprobeanfrage","introduction_tagline":"<p>Du möchtest unsere Weine probieren und mehr über unser Weingut, die Weinbereitung und unsere Philosophie erfahren? Dann buche hier deine individuelle Weinprobe – persönlich, authentisch und ganz auf dich abgestimmt!<\/p>","show_border":true}},"forms":{"type":"apps","blocks":{"c3b7d481-057a-4c35-a8ed-bfa0214973b5":{"type":"shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a","settings":{"form_id":"437127","text_color":"#202020","button_background_color":"#202020","button_label_color":"#ffffff","links_color":"#1878b9","errors_color":"#e02229","text_alignment":"center","form_alignment":"center","padding_top":29,"padding_bottom":33,"padding_right":0,"padding_left":0}}},"block_order":["c3b7d481-057a-4c35-a8ed-bfa0214973b5"],"settings":{}},"dynamic_slideshow_pdPkND":{"type":"dynamic-slideshow","blocks":{"feature_Y9cwjR":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/Wg-Messmer_Wein_Ausschank.webp","title":"WEINKAUF IM WEINGUT","subheading":"In unserer Weinprobierstube im Weingut kannst du in aller Ruhe probieren und die passenden Weine für dich entdecken. Gerne beraten wir dich dabei persönlich und mit viel Leidenschaft für unsere Weine. Öffnungszeiten: Mo–Fr: 8:30 – 17:00 Uhr, Sa: 10:00 – 13:00 Uhr.","button_label":"Dein Weg zu uns","link":"shopify:\/\/pages\/kontakt","color":"#ffffff","background_color":"#000000","background_color_opacity":4,"alignment":"center-center"}},"feature_mcFpTg":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/WG_Messmer_Banner_5.webp","title":"WEINGENUSS NACH IHREM GESCHMACK","subheading":"Ob für einen gemütlichen Abend, ein festliches Dinner oder als Geschenk – unser Weinfinder hilft Ihnen, den idealen Wein zu finden. Nutzen Sie unsere Expertise oder lassen Sie sich persönlich von uns beraten. Martin Meßmer und sein Team stehen Ihnen gerne zur Seite! 01708324381 |  m.messmer@weingut-messmer.de","button_label":"Speise & Wein","link":"shopify:\/\/pages\/speise-wein","color":"#ffffff","background_color":"#000000","background_color_opacity":50,"alignment":"center-center"}}},"block_order":["feature_Y9cwjR","feature_mcFpTg"],"settings":{"show_border":true,"should_autoplay":true,"slide_frequency":8,"aspect_ratio":"23-9"}},"dynamic_promotions_bHWEya":{"type":"dynamic-promotions","blocks":{"feature_xFkFnR":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/WG_Messmer_Footer_1.jpg","title":"WEINPRÄSENTE & PAKETE","caption":"<p>ALLE PAKETE UND PRÄSENTE SIND VOR ORT IM WEINGUT, IN DER VINOTHEK ODER ONLINE VERFÜGBAR!<\/p>","url":"shopify:\/\/collections\/weinpakete","cta_title":"JETZT ENTDECKEN","text_color":"light"}},"feature_twAk3f":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/WG_Messmer_Footer_2_cac1ca51-da44-4a69-a58d-1e2e15aea51f.jpg","title":"WEINPROBE","caption":"<p>DU MÖCHTEST UNSERE WEINE PROBIEREN UND MEHR ÜBER UNSER WEINGUT, DIE WEINBEREITUNG UND UNSERE PHILOSOPHIE ERFAHREN?<\/p><p>DANN BUCH DIR HIER DEINE INDIVIDUELLE WEINPROBE!<\/p>","url":"shopify:\/\/pages\/weinprobeanfrage","cta_title":"ANFRAGE SENDEN","text_color":"light"}}},"block_order":["feature_xFkFnR","feature_twAk3f"],"settings":{"title":"","show_border":true}},"main":{"type":"static-page","settings":{}}},"order":["main","dynamic_rich_text_apXfNb","forms","dynamic_slideshow_pdPkND","dynamic_promotions_bHWEya"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-page",
+      "disabled": true,
+      "settings": {
+        "page_width": "regular",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_rich_text_apXfNb": {
+      "type": "dynamic-rich-text",
+      "custom_css": [],
+      "settings": {
+        "title": "Weinprobeanfrage",
+        "introduction_tagline": "<p>Du möchtest unsere Weine probieren und mehr über unser Weingut, die Weinbereitung und unsere Philosophie erfahren? Dann buche hier deine individuelle Weinprobe – persönlich, authentisch und ganz auf dich abgestimmt!</p>",
+        "show_border": true
+      }
+    },
+    "forms": {
+      "type": "apps",
+      "blocks": {
+        "c3b7d481-057a-4c35-a8ed-bfa0214973b5": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "437127",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 29,
+            "padding_bottom": 33,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "c3b7d481-057a-4c35-a8ed-bfa0214973b5"
+      ],
+      "settings": {}
+    },
+    "dynamic_slideshow_pdPkND": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "feature_Y9cwjR": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/Wg-Messmer_Wein_Ausschank.webp",
+            "title": "WEINKAUF IM WEINGUT",
+            "subheading": "In unserer Weinprobierstube im Weingut kannst du in aller Ruhe probieren und die passenden Weine für dich entdecken. Gerne beraten wir dich dabei persönlich und mit viel Leidenschaft für unsere Weine. Öffnungszeiten: Mo–Fr: 8:30 – 17:00 Uhr, Sa: 10:00 – 13:00 Uhr.",
+            "button_label": "Dein Weg zu uns",
+            "link": "shopify://pages/kontakt",
+            "color": "#ffffff",
+            "background_color": "#000000",
+            "background_color_opacity": 4,
+            "alignment": "center-center"
+          }
+        },
+        "feature_mcFpTg": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_Banner_5.webp",
+            "title": "WEINGENUSS NACH IHREM GESCHMACK",
+            "subheading": "Ob für einen gemütlichen Abend, ein festliches Dinner oder als Geschenk – unser Weinfinder hilft Ihnen, den idealen Wein zu finden. Nutzen Sie unsere Expertise oder lassen Sie sich persönlich von uns beraten. Martin Meßmer und sein Team stehen Ihnen gerne zur Seite! 01708324381 |  m.messmer@weingut-messmer.de",
+            "button_label": "Speise & Wein",
+            "link": "shopify://pages/speise-wein",
+            "color": "#ffffff",
+            "background_color": "#000000",
+            "background_color_opacity": 50,
+            "alignment": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "feature_Y9cwjR",
+        "feature_mcFpTg"
+      ],
+      "settings": {
+        "show_border": true,
+        "should_autoplay": true,
+        "slide_frequency": 8,
+        "aspect_ratio": "23-9"
+      }
+    },
+    "dynamic_promotions_bHWEya": {
+      "type": "dynamic-promotions",
+      "blocks": {
+        "feature_xFkFnR": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_Footer_1.jpg",
+            "title": "WEINPRÄSENTE & PAKETE",
+            "caption": "<p>ALLE PAKETE UND PRÄSENTE SIND VOR ORT IM WEINGUT, IN DER VINOTHEK ODER ONLINE VERFÜGBAR!</p>",
+            "url": "shopify://collections/weinpakete",
+            "cta_title": "JETZT ENTDECKEN",
+            "text_color": "light"
+          }
+        },
+        "feature_twAk3f": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_Footer_2_cac1ca51-da44-4a69-a58d-1e2e15aea51f.jpg",
+            "title": "WEINPROBE",
+            "caption": "<p>DU MÖCHTEST UNSERE WEINE PROBIEREN UND MEHR ÜBER UNSER WEINGUT, DIE WEINBEREITUNG UND UNSERE PHILOSOPHIE ERFAHREN?</p><p>DANN BUCH DIR HIER DEINE INDIVIDUELLE WEINPROBE!</p>",
+            "url": "shopify://pages/weinprobeanfrage",
+            "cta_title": "ANFRAGE SENDEN",
+            "text_color": "light"
+          }
+        }
+      },
+      "block_order": [
+        "feature_xFkFnR",
+        "feature_twAk3f"
+      ],
+      "settings": {
+        "title": "",
+        "show_border": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_rich_text_apXfNb",
+    "forms",
+    "dynamic_slideshow_pdPkND",
+    "dynamic_promotions_bHWEya"
+  ]
+}
