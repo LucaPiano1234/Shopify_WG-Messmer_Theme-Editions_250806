@@ -17752,8 +17752,8 @@ var script_default = /*#__PURE__*/__webpack_require__.n(script);
 ;// CONCATENATED MODULE: ./node_modules/@pixelunion/age-gate/dist/index.es.js
 
 /*!
- * @pixelunion/age-gate v1.1.1
- * (c) 2024 Pixel Union
+ * @pixelunion/age-gate v1.1.2
+ * (c) 2025 Pixel Union
  */
 
 function _classCallCheck(instance, Constructor) {
@@ -31518,8 +31518,8 @@ class DynamicBlog {
 ;// CONCATENATED MODULE: ./node_modules/@pixelunion/pxs-countdown-timer/dist/index.es.js
 
 /*!
- * @pixelunion/pxs-countdown-timer v3.0.0
- * (c) 2023 Pixel Union
+ * @pixelunion/pxs-countdown-timer v3.0.1
+ * (c) 2025 Pixel Union
  */
 
 function pxs_countdown_timer_dist_index_es_classCallCheck(instance, Constructor) {
@@ -34291,4 +34291,4 @@ if (ageGatePage) {
 
 /******/ })()
 ;
-//# sourceMappingURL=editions.js.map?1744151959794
+//# sourceMappingURL=editions.js.map?1752095776739

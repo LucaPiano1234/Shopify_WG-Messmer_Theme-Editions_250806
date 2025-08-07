@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "newsletter": {
@@ -541,7 +550,8 @@
       },
       "presets": {
         "countdown_timer": {
-          "name": "Countdown timer"
+          "name": "Countdown timer",
+          "category": "Promotional"
         }
       },
       "show_border": {
@@ -579,7 +589,8 @@
         "label": "Minimum age required to access page"
       },
       "presets": {
-        "name": "Page age gate"
+        "name": "Page age gate",
+        "category": "Layout"
       }
     },
     "cart": {

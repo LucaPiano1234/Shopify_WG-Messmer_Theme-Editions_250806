@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "newsletter": {
@@ -541,7 +550,8 @@
       },
       "presets": {
         "countdown_timer": {
-          "name": "Compte à rebours"
+          "name": "Compte à rebours",
+          "category": "Promotionnel"
         }
       },
       "show_border": {
@@ -579,7 +589,8 @@
         "label": "Âge minimum requis pour accéder à la page"
       },
       "presets": {
-        "name": "Portail d'âge de la page"
+        "name": "Portail d'âge de la page",
+        "category": "Mise en page"
       }
     },
     "cart": {
