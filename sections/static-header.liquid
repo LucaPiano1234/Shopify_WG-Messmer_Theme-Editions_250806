@@ -82,8 +82,15 @@
       </h1>
 
       <nav class="site-navigation" aria-label="{{ 'general.accessibility.main_navigation' | t }}">
-        {% render 'navigation-desktop' %}
-      </nav>
+  <div class="custom-nav-wrapper" style="display: flex; align-items: center; gap: 20px;">
+    {% render 'navigation-desktop' %}
+
+    <!-- Hinzugefügtes Bild-Logo mit Link -->
+    <a href="https://www.vdp.de/de/" target="_blank" class="custom-logo-link">
+      <img src="https://cdn.shopify.com/s/files/1/0936/3731/2853/files/VDP_Pfalz_Logo_Braun_RGB_400a3861-697a-472f-a7b0-55ca5ca3bc55.png?v=1754054822" alt="VDP-Logo" style="height: 18px;" />
+    </a>
+  </div>
+</nav>
     </div>
   </header>
 
