@@ -1,1 +1,964 @@
-{"sections":{"dynamic_slideshow":{"type":"dynamic-slideshow","blocks":{"slide_4":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/WG_Messmer_Homepage_Hero.Ver_2.jpg","title":"WIR ERZEUGEN WEINE MIT HÖCHST MÖGLICHER HERKUNFTSPRÄGUNG","subheading":"","button_label":"Entdecke unser Terroirpaket!","link":"shopify:\/\/products\/riesling-terroirpaket-3x0-75l","color":"#ffffff","background_color":"#000000","background_color_opacity":10,"alignment":"center-bottom"}}},"block_order":["slide_4"],"custom_css":[".slideshow-slide__button {background-color: #f5f3f2; color: #404040; border: 0px;}",".slideshow-slide__button:hover {background-color: #404040; color: #f5f3f2;}","@media screen and (max-width: 575px) {.no-section-border .slideshow__wrapper:first-child {margin-top: 0; }}","@media screen and (min-width: 575px) {.no-section-border .slideshow__wrapper:first-child {margin-top: 0; }}",".slideshow-slide__content--text-left-bottom,.slideshow-slide__content--text-center-bottom,.slideshow-slide__content--text-right-bottom {bottom: 30px;}"],"settings":{"show_border":false,"should_autoplay":true,"slide_frequency":10,"aspect_ratio":"2-1"}},"dynamic_slideshow_4DW3pJ":{"type":"dynamic-slideshow","blocks":{"feature_MjtbrV":{"type":"feature","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/WG_Messmer_Homepage_Hero.Ver_2.jpg","title":"WEINE, DIE NATUR, HANDWERK UND MENSCHEN VERBINDEN","subheading":"","button_label":"Entdecke unser Terroirpaket!","link":"shopify:\/\/products\/riesling-terroirpaket-3x0-75l","color":"#ffffff","background_color":"#000000","background_color_opacity":10,"alignment":"center-bottom"}}},"block_order":["feature_MjtbrV"],"settings":{"show_border":false,"should_autoplay":true,"slide_frequency":10,"aspect_ratio":"2-1"}},"ss_feature_1_tiM9xh":{"type":"ss-feature-1","blocks":{"image_4Ezbwk":{"type":"image","settings":{"feature_title":"Weinbau mit Vision","feature_text":"<p>seit über 240 Jahren<\/p>","feature_image":"shopify:\/\/shop_images\/beeren.png","feature_url":"","hide_image":false}},"image_EqKdDQ":{"type":"image","settings":{"feature_title":"Terroir im Fokus","feature_text":"<p>Charaktervolle Weine von einzigartigen Lagen<\/p>","feature_image":"shopify:\/\/shop_images\/boden.png","feature_url":"","hide_image":false}},"image_7nGUVh":{"type":"image","settings":{"feature_title":"VDP Weingut in der Pfalz","feature_text":"<p>Qualität mit Herkunft<\/p>","feature_image":"shopify:\/\/shop_images\/VDP_Pfalz_Logo_Braun_RGB_400a3861-697a-472f-a7b0-55ca5ca3bc55.png","feature_url":"","hide_image":false}},"image_HFV8jD":{"type":"image","settings":{"feature_title":"Item title","feature_text":"<p>Item text<\/p>","feature_url":"","hide_image":false}},"image_kfhCBK":{"type":"image","settings":{"feature_title":"Item title","feature_text":"<p>Item text<\/p>","feature_url":"","hide_image":false}}},"block_order":["image_4Ezbwk","image_EqKdDQ","image_7nGUVh","image_HFV8jD","image_kfhCBK"],"disabled":true,"custom_css":["{border-top: 1px solid #fff4f400; border-bottom: 1px solid #dcdcdc;}",".feature-template--25014535291221__ss_feature_1_tiM9xh .box__title {font-family: \"Font-1744884724371\"; font-weight: 400; font-style: normal;}"],"settings":{"feature_row":5,"feature_row_mobile":1,"feature_gap":46,"feature_gap_mobile":20,"feature_padding_horizontal":20,"feature_padding_vertical":0,"feature_radius":18,"feature_border_thickness":0,"feature_shadow":false,"feature_heading_custom":true,"feature_heading_font":"playfair_display_n4","feature_heading_size":20,"feature_heading_size_mobile":12,"feature_heading_height":150,"feature_heading_mt":8,"feature_text_custom":false,"feature_text_font":"din_next_n4","feature_text_size":16,"feature_text_size_mobile":12,"feature_text_height":130,"feature_text_mt":4,"feature_icon_size":46,"feature_icon_size_mobile":42,"feature_bg":"#f5f3f2","feature_border_color":"#ffffff","feature_shadow_color":"rgba(0,0,0,0)","feature_heading_color":"#000000","feature_text_color":"#383442","feature_icon_color":"#383442","background_color":"#f5f3f2","background_gradient":"","border_color":"#f5f3f2","margin_top":0,"margin_bottom":0,"padding_top":0,"padding_bottom":40,"padding_horizontal":5,"padding_horizontal_mobile":1.5,"full_width":true,"content_width":400,"border_thickness":15,"lazy":true}},"ss_feature_1_egVqEN":{"type":"ss-feature-1","blocks":{"image_JwB4gX":{"type":"image","settings":{"feature_title":"Rare Devonschieferlagen","feature_text":"<p>Botschafter des Pfälzer Devonschiefers<\/p>","feature_image":"shopify:\/\/shop_images\/felsen.png","feature_url":"","hide_image":false}},"image_wJEQgN":{"type":"image","settings":{"feature_title":"Biologischer Anbau","feature_text":"<p>Aus Überzeugung, nicht aus Kalkül<\/p>","feature_image":"shopify:\/\/shop_images\/bio_Background_Removed.png","feature_url":"","hide_image":false}},"image_aeKz9z":{"type":"image","settings":{"feature_title":"VDP® Weingut","feature_text":"<p>Qualität mit Herkunft<\/p>","feature_image":"shopify:\/\/shop_images\/VDP_Pfalz_Logo_Braun_RGB_400a3861-697a-472f-a7b0-55ca5ca3bc55.png","feature_url":"","hide_image":false}},"image_LDweJB":{"type":"image","settings":{"feature_title":"FairChoice®","feature_text":"<p>Unsere Nachhaltigkeit ist gemessen und zertifiziert<\/p>","feature_image":"shopify:\/\/shop_images\/Fair_Choice.png","feature_url":"","hide_image":false}},"image_Yxpb7H":{"type":"image","settings":{"feature_title":"Vegan","feature_text":"<p>Unsere Weine entstehen ohne tierische Hilfsmittel<\/p>","feature_image":"shopify:\/\/shop_images\/vegan_1_Background_Removed.png","feature_url":"","hide_image":false}}},"block_order":["image_JwB4gX","image_wJEQgN","image_aeKz9z","image_LDweJB","image_Yxpb7H"],"disabled":true,"custom_css":["{border-top: 1px solid #fff4f400; border-bottom: 1px solid #dcdcdc;}",".feature-template--25014535291221__ss_feature_1_tiM9xh .box__title {font-family: \"Font-1744884724371\"; font-weight: 400; font-style: normal;}"],"settings":{"feature_row":5,"feature_row_mobile":1,"feature_gap":46,"feature_gap_mobile":52,"feature_padding_horizontal":20,"feature_padding_vertical":0,"feature_radius":18,"feature_border_thickness":0,"feature_shadow":false,"feature_heading_custom":true,"feature_heading_font":"playfair_display_n4","feature_heading_size":20,"feature_heading_size_mobile":12,"feature_heading_height":150,"feature_heading_mt":8,"feature_text_custom":false,"feature_text_font":"din_next_n4","feature_text_size":16,"feature_text_size_mobile":12,"feature_text_height":130,"feature_text_mt":4,"feature_icon_size":46,"feature_icon_size_mobile":42,"feature_bg":"#f5f3f2","feature_border_color":"#ffffff","feature_shadow_color":"rgba(0,0,0,0)","feature_heading_color":"#000000","feature_text_color":"#383442","feature_icon_color":"#383442","background_color":"#f5f3f2","background_gradient":"","border_color":"#f5f3f2","margin_top":0,"margin_bottom":0,"padding_top":0,"padding_bottom":40,"padding_horizontal":5,"padding_horizontal_mobile":1.5,"full_width":true,"content_width":400,"border_thickness":15,"lazy":true}},"ss_feature_1_PF3EzM":{"type":"ss-feature-1","blocks":{"image_NNqPmB":{"type":"image","settings":{"feature_title":"Pfälzer Grauschiefer","feature_text":"<p>Nur in Burrweiler<\/p>","feature_image":"shopify:\/\/shop_images\/felsen.png","feature_url":"","hide_image":false}},"image_n8HyRB":{"type":"image","settings":{"feature_title":"VDP. Weingut","feature_text":"<p>Qualität mit Herkunft<\/p>","feature_image":"shopify:\/\/shop_images\/VDP_Pfalz_Logo_Braun_RGB_400a3861-697a-472f-a7b0-55ca5ca3bc55.png","feature_url":"","hide_image":false}},"image_gAfiVJ":{"type":"image","settings":{"feature_title":"Naturverbunden","feature_text":"<p>BIO, FairChoice zertifiziert & vegan<\/p>","feature_image":"shopify:\/\/shop_images\/boden.png","feature_url":"","hide_image":false}}},"block_order":["image_NNqPmB","image_n8HyRB","image_gAfiVJ"],"custom_css":["{border-top: 1px solid #fff4f400; border-bottom: 1px solid #dcdcdc;}",".feature-template--25014535291221__ss_feature_1_tiM9xh .box__title {font-family: \"Font-1744884724371\"; font-weight: 400; font-style: normal;}"],"settings":{"feature_row":3,"feature_row_mobile":1,"feature_gap":46,"feature_gap_mobile":52,"feature_padding_horizontal":20,"feature_padding_vertical":0,"feature_radius":18,"feature_border_thickness":0,"feature_shadow":false,"feature_heading_custom":true,"feature_heading_font":"playfair_display_n4","feature_heading_size":20,"feature_heading_size_mobile":12,"feature_heading_height":150,"feature_heading_mt":8,"feature_text_custom":false,"feature_text_font":"din_next_n4","feature_text_size":16,"feature_text_size_mobile":12,"feature_text_height":130,"feature_text_mt":4,"feature_icon_size":46,"feature_icon_size_mobile":42,"feature_bg":"#f5f3f2","feature_border_color":"#ffffff","feature_shadow_color":"rgba(0,0,0,0)","feature_heading_color":"#000000","feature_text_color":"#383442","feature_icon_color":"#383442","background_color":"#f5f3f2","background_gradient":"","border_color":"#f5f3f2","margin_top":0,"margin_bottom":0,"padding_top":0,"padding_bottom":40,"padding_horizontal":5,"padding_horizontal_mobile":1.5,"full_width":true,"content_width":400,"border_thickness":15,"lazy":true}},"dynamic_rich_text_zbzUPr":{"type":"dynamic-rich-text","custom_css":[],"settings":{"title":"Lebendige und gesunde Böden, biologischer Anbau, Handlese, spontane Vergärung, und viel Zeit sind dafür unerlässlich","introduction_tagline":"","show_border":false}},"dynamic_image_with_text_GinXTH":{"type":"dynamic-image-with-text","settings":{"section_heading":"","show_border":false,"image":"shopify:\/\/shop_images\/Jonas_keller.jpg","desktop_height":"600px","mobile_height":"natural","desktop_image_alignment":"right","mobile_image_alignment":"top","heading":"HERKUNFT, HANDWERK UND HALTUNG","subheading":"<p><strong>Im Weingut Meßmer entsteht Wein aus Überzeugung<\/strong> – und das schmeckt man. Hier treffen herausragende Lagen wie der Burrweiler Schäwer auf konsequent biologischen Anbau, Schiefermineralität auf Handwerk, Tradition auf neue Wege.<\/p><p><strong>Heute steht Jonas Bosch für diesen Weg.<\/strong> Als Betriebsleiter prägt er mit Leidenschaft, Ehrgeiz und einem feinen Gespür für Qualität die Handschrift der Meßmer-Weine. <\/p><p><strong>Unter seiner Leitung hat sich das Weingut in den letzten Jahren spürbar weiterentwickelt<\/strong> – mit einer klaren Vision und dem Anspruch, das Beste aus jedem Jahrgang herauszuholen. Die nächsten Schritte plant Jonas gemeinsam mit dem Team – mutig, nachhaltig und voller Hingabe.<\/p><p>Als Bio-Weingut steht Meßmer für authentischen Weinbau mit Haltung – tief verwurzelt in Boden, Handwerk und Verantwortung. <strong>Das Ergebnis: terroirgeprägte Weine mit Tiefe, Charakter und Klarheit, die mit Respekt gegenüber der Natur entstehen.<\/strong><\/p>","text_alignment":"left","button_label":"Mehr zum Weingut","button_link":"shopify:\/\/pages\/das-weingut"}},"dynamic_image_with_text_iLMAxW":{"type":"dynamic-image-with-text","settings":{"section_heading":"","show_border":false,"image":"shopify:\/\/shop_images\/Schieferwand_3.webp","desktop_height":"600px","mobile_height":"natural","desktop_image_alignment":"left","mobile_image_alignment":"top","heading":"GRAUSCHIEFER - FUNDAMENT UNSERER IDENTITÄT","subheading":"<p>Alles beginnt mit dem Boden. Für uns: mit Grauschiefer <strong>(oder Devonschiefer)<\/strong>, der das Herzstück unseres Terroirs bildet und der ausschlaggebende Grund war, warum sich Herbert und Elisabeth Meßmer in Burrweiler niederließen und das Weingut gründeten.<\/p><p>Diese einzigartige geologische Formation prägt nicht nur unsere Weinberge, sondern vor allem den Charakter unserer Weine. Der <strong>Burrweiler Schäwer<\/strong>, unsere bedeutendste Lage, liegt auf genau diesem uralten Schiefer. Er speichert Wärme, fördert tief wurzelnde Reben und bringt eine unverwechselbare Mineralität in unsere Rieslinge – <strong>klar, salzig, kühl und strukturiert.<\/strong><\/p><p><strong>Devonschiefer ist für uns kein Marketingbegriff, sondern gelebte Überzeugung. <\/strong>Er steht für Herkunft, für Balance im Wein und für unsere Idee von nachhaltigem Weinbau – tief verwurzelt, authentisch, lebendig.<\/p>","text_alignment":"left","button_label":"","button_link":"shopify:\/\/collections\/alle-weine"}},"dynamic_image_with_text_XTCfe4":{"type":"dynamic-image-with-text","custom_css":[".image-with-text__heading {margin-bottom: 2rem;}"],"settings":{"section_heading":"","show_border":false,"image":"shopify:\/\/shop_images\/Martin_Keller.webp","desktop_height":"600px","mobile_height":"natural","desktop_image_alignment":"right","mobile_image_alignment":"top","heading":"WENIGER IST MEHR: UNSER QUALITÄTSVERSPRECHEN","subheading":"<p>Im Weingut Meßmer gelangen nur Weine in die Flasche, die in jeder Hinsicht überzeugen – ob Gutswein oder Großes Gewächs. <\/p><p><strong>Jeder Arbeitsschritt, vom Rebschnitt bis zur Füllung, folgt dem Prinzip: maximale Herkunft, minimale Eingriffe. <\/strong>Keine Zusätze, keine Kompromisse: Unsere Weine werden spontan vergoren, auf der Vollhefe ausgebaut und mit Zeit zur Reife gebracht. <\/p><p><strong>Genießen Sie unsere charakterstarken Weine mit Klarheit, Tiefe und Herkunft im Glas!<\/strong><\/p>","text_alignment":"left","button_label":"Unser Sortiment","button_link":"shopify:\/\/collections\/alle-weine"}},"dynamic_featured_product_XcaRPA":{"type":"dynamic-featured-product","blocks":{"text_9amciP":{"type":"text","settings":{"text":"<h2>Ein Riesling, drei Böden – das Terroirpaket<\/h2>"}},"text_mrkMVx":{"type":"text","settings":{"text":"<p>Drei Böden, ein Riesling – und jede Flasche erzählt ihre eigene Geschichte. Unser Terroirpaket zeigt, <strong>wie stark Granit, Muschelkalk und Schiefer den Charakter ein und derselben Rebsorte prägen. <\/strong><\/p><p>Entdecken Sie Riesling mit Herkunft!<\/p>"}},"text_PtNf3k":{"type":"text","settings":{"text":""}},"title_WhMLMB":{"type":"title","settings":{}},"gallery_KePPCj":{"type":"gallery","settings":{"position":"two-column"}},"price_Q69mDk":{"type":"price","settings":{}},"variant_selection_3zRDDQ":{"type":"variant_selection","settings":{"show_labels":false}},"form_km8pQq":{"type":"form","settings":{}}},"block_order":["text_9amciP","text_mrkMVx","text_PtNf3k","title_WhMLMB","gallery_KePPCj","price_Q69mDk","variant_selection_3zRDDQ","form_km8pQq"],"custom_css":["@media only screen and (min-width: 1024px) {.product-details {position: sticky; top: 100px; align-self: flex-start; }}"],"settings":{"product_handle":"riesling-terroirpaket-3x0-75l-1","gallery_image_zoom":false,"gallery_video_autoplay":true,"gallery_video_looping":true}},"dynamic_image_with_text_KLUP36":{"type":"dynamic-image-with-text","custom_css":[],"settings":{"section_heading":"","show_border":true,"image":"shopify:\/\/shop_images\/VDP.Pyramide_21_af905d76-d145-4bc5-a3e2-1c8d94e2ad7b.png","desktop_height":"natural","mobile_height":"natural","desktop_image_alignment":"right","mobile_image_alignment":"top","heading":"Ein Versprechen an die Qualität","subheading":"<p>Seit 1997 ist das Weingut Meßmer stolzes Mitglied im renommierten Verband Deutscher Prädikatsweingüter (VDP®). Diese Zugehörigkeit steht für unsere Verpflichtung zu höchster Qualität, nachhaltigem Weinbau und klarer Herkunft.<\/p><p> Mit unseren charaktervollen Lagenweinen aus der Klassifikationsstufe <strong>VDP.ERSTE LAGE®<\/strong> und <strong>VDP.GROSSE LAGE®<\/strong> gehören wir zu den führenden Weingütern der deutschen Weinwelt.<\/p>","text_alignment":"left","button_label":"Button","button_link":""}},"dynamic_promotions_AL3Eg9":{"type":"dynamic-promotions","blocks":{"feature_8qE4Lg":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/20250414_WG_Messmer_Produktbilder_878524da-f8ab-4f87-beed-c9f3b2af59bb.jpg","title":"","caption":"<p><strong>VDP. Große Lage<\/strong><\/p>","url":"shopify:\/\/collections\/vdp-grosse-lage","cta_title":"Hier entdecken","text_color":"light"}},"feature_ViKzk3":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/3.jpg","title":"","caption":"<p><strong>VDP. Erste Lage<\/strong><\/p>","url":"shopify:\/\/collections\/vdp-erste-lage","cta_title":"Hier entdecken","text_color":"light"}},"feature_Q7JCNW":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/4.jpg","title":"","caption":"<p><strong>VDP. Ortswein<\/strong><\/p>","url":"shopify:\/\/collections\/vdp-ortswein","cta_title":"Hier entdecken","text_color":"light"}},"feature_HRAEFF":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/5.jpg","title":"","caption":"<p>VDP. Gutswein<\/p>","url":"shopify:\/\/collections\/vdp-gutswein","cta_title":"Hier entdecken","text_color":"light"}}},"block_order":["feature_8qE4Lg","feature_ViKzk3","feature_Q7JCNW","feature_HRAEFF"],"disabled":true,"custom_css":[".promotion-blocks__wrapper {grid-template-columns: repeat(4, 2fr); font-weight: 800; font-style: italic; font-size: 20px;}","@media only screen and (max-width: 769px) {.promotion-blocks__wrapper {display: inline; }}"],"settings":{"title":"","show_border":true}},"dynamic_image_with_text_m79jfQ":{"type":"dynamic-image-with-text","custom_css":["@media only screen and (min-width: 769px) {.image-with-text__heading {margin-bottom: 3rem; }}"],"settings":{"section_heading":"","show_border":true,"image":"shopify:\/\/shop_images\/WG_Messmer_SchaewerRieslingGGtrocken.png","desktop_height":"natural","mobile_height":"natural","desktop_image_alignment":"left","mobile_image_alignment":"bottom","heading":"VDP.GROSSES GEWÄCHS®","subheading":"<p>Wenn Riesling auf Devonschiefer und Granit treffen und der Ertrag auf ein Minimum reduziert wird, entsteht etwas Besonderes: <strong>unser großes Gewächs. Die absolute Spitze.<\/strong> Mehr Abgrenzung durch kleine Parzellierung, also der qualitativen Lagen Herkunft geht nicht. <\/p><p>Strenges und sehr aufwendiges Handwerk <strong>machen diese Toplagen seit Jahrzehnte zum Nonplusultra der Lagenphilosophie<\/strong>. Bei uns liegen sie am Hang zum Haardtrand auf über 270 Höhenmeter und heißen Schäwer sowie Micheslberg. <\/p><p>Dieser einzigartige Charakter durch Cool Climate, Exposition und geologischer Grundlage, <strong>wie beispielsweise dem sehr seltenen Devonschiefer,<\/strong> spiegeln sich zu 100% in unseren großen Gewächsen wider. <\/p><p><strong>Die Wertigkeit ist vergleichbar mit den französischen Grand Crus<\/strong>, weshalb die GG‘s in eine besondere Flasche mit goldener Kapsel und Naturkork gefüllt werden.<\/p>","text_alignment":"left","button_label":"VDP.GROSSES GEWÄCHS® entdecken","button_link":"shopify:\/\/collections\/vdp-grosse-lage"}},"dynamic_image_with_text_7fbjHY":{"type":"dynamic-image-with-text","custom_css":["@media only screen and (min-width: 769px) {.image-with-text__heading {margin-bottom: 2rem; } .image-with-text__container {margin-top: 3rem; }}"],"settings":{"section_heading":"","show_border":false,"image":"shopify:\/\/shop_images\/WG_Messmer_BurrweilerAltenforstRieslingtrocken_cfe96d28-a845-4d86-86d3-13cff0ce25fe.png","desktop_height":"natural","mobile_height":"natural","desktop_image_alignment":"right","mobile_image_alignment":"bottom","heading":"VDP.ERSTE LAGE®","subheading":"<p>Eng umfasste Lagen und Einzelweinberge, <strong>deren Wertigkeit den Winzern schon vor über 150 Jahren bekannt war.  <\/strong><\/p><p>In unseren Weinen der Klassifikationsstufe VDP.ERSTE LAGE® wie aus dem Böchinger Rosenkranz, dem Burrweiler Schlossgarten und dem Burrweiler Altenforst, <strong>wachsen alte Reben auf charaktervollen Böden. Sie sind nur den Rebsporten vorbehalten , die das Geschmacksprofil der Lage aufnehmen und im Wein widerspiegeln können. <\/strong><\/p><p>Die Herkunftsprägung und das eigenständige Geschmacksprofil sind  daher absolut wiedererkennbar, was diese Weine so wertvoll macht.<\/p><p><strong>Die trockenen Weine aus den Ersten Lagen heißen übrigens VDP Erstes Gewächs mit dem 1G Logo auf dem Etikett.<\/strong> Nicht zu verwechseln mit dem Großen Gewächs, also dem GG Zeichen.<\/p><p>Unsere Lagenweine sind an der braun-anthrazitfarbenen Kapsel erkennbar und werden wie die Ortsweine mit einem Korken abgefüllt.<\/p>","text_alignment":"left","button_label":"VDP.ERSTE LAGE® entdecken","button_link":"shopify:\/\/collections\/vdp-erste-lage"}},"dynamic_image_with_text_LHJQBE":{"type":"dynamic-image-with-text","custom_css":["@media only screen and (min-width: 769px) {.image-with-text__heading {margin-bottom: 2rem; } .image-with-text__container {}}"],"settings":{"section_heading":"","show_border":false,"image":"shopify:\/\/shop_images\/WG_Messmer_BoechingenRieslingMuschelkalk.png","desktop_height":"natural","mobile_height":"natural","desktop_image_alignment":"left","mobile_image_alignment":"bottom","heading":"VDP.ORTSWEINE","subheading":"<p>Wie der Name schon sagt, <strong>stammen die Ortsweine aus den besten Weinbergen eines Ortes. <\/strong>Bei uns erzählen sie zusätzlich von ihrer geologischen Herkunft, da wir auf sehr unterschiedlichen geologischen Untergründen und Terroir arbeiten dürfen. <\/p><p><strong>So kommt beispielsweise der Burrweiler Riesling vom Schiefer, der Hainfelder Riesling vom Granit und der Gleisweiler Grauburgunder vom Muschelkalk.<\/strong><\/p><p>Diese Unterschiede kann man schmecken und nachvollziehen. Die Ortsweine zeigen deutlich das Kleinklima und die Bodenstrukturen, <strong>erst recht, wenn man Ihnen etwas mehr Zeit zur Entwicklung gibt.<\/strong> Um ihnen das volle Potenzial mitzugeben, <strong>kommen unsere Ortsweine nach längerem Hefelager auch erst anderthalb Jahre nach der Ernte in den Verkauf.<\/strong><\/p><p>Ein Qualitätsversprechen. Die Ortsweine erkennst du übrigens an der weißen Kapsel. <strong>Und wenn Du die Unterschiede erfahren möchtest, hol Dir einfach unser <\/strong><a href=\"\/products\/riesling-terroirpaket-3x0-75l-1\" title=\"Riesling Terroirpaket 3x0,75l\"><strong>Terroirpaket Riesling.<\/strong><\/a><\/p>","text_alignment":"left","button_label":"VDP.ORTSWEIN entdecken","button_link":"shopify:\/\/collections\/vdp-ortswein"}},"dynamic_image_with_text_47Di9x":{"type":"dynamic-image-with-text","custom_css":[],"settings":{"section_heading":"","show_border":false,"image":"shopify:\/\/shop_images\/WG_Messmer_Grauburgundertrocken_1.png","desktop_height":"natural","mobile_height":"natural","desktop_image_alignment":"right","mobile_image_alignment":"bottom","heading":"VDP.GUTSWEINE","subheading":"<p>Oft lediglich als Einstiegsweine tituliert, wird dieser Begriff unserer Meinung nach den Gutsweinen nicht ganz gerecht. <\/p><p><strong>Denn sie werden mit genau der gleichen Sorgfalt und den Werten des Weinguts produziert, wie alle unsere Weine. <\/strong>Die scharfe Abgrenzung von geologischer Herkunft und oder gar Einzellagen steht dabei nicht im Vordergrund. <strong>Dennoch sind sie deutlich vom Terroir, der Region und den gutseigenen Weinbergen geprägt. <\/strong><\/p><p>Es verbinden sich beispielsweise Buntsandstein, Kalk, Muschelkalk zu einem dynamischen Wein und durch die natürliche, spontane Vergärung, ohne jegliche Additive spiegeln <strong>sie die eindeutige Handschrift und bewusste Vinifikation des Weinguts durch Charakter, Klarheit und Ausdruck wider.<\/strong><\/p><p>Unsere Gutsweine bringen den <strong>Spaß am Genießen auf eine leichte und elegante Art und der für uns typischen Weinstilistik auf die Zunge. <\/strong><\/p><p>Du erkennst sie an dem blauen Schraubverschluss. <\/p>","text_alignment":"left","button_label":"VDP.GUTSWEIN entdecken","button_link":"shopify:\/\/collections\/vdp-gutswein"}},"dynamic_image_with_text_eyXUiP":{"type":"dynamic-image-with-text","disabled":true,"settings":{"section_heading":"","show_border":true,"image":"shopify:\/\/shop_images\/Jonas_keller.jpg","desktop_height":"500px","mobile_height":"natural","desktop_image_alignment":"left","mobile_image_alignment":"top","heading":"HERKUNFT, HANDWERK UND HALTUNG","subheading":"<p><strong>Im Weingut Meßmer entsteht Wein aus Überzeugung<\/strong> – und das schmeckt man. Hier treffen herausragende Lagen wie der Burrweiler Schäwer auf konsequent biologischen Anbau, Schiefermineralität auf Handwerk, Tradition auf neue Wege.<\/p><p><strong>Martin Meßmer und sein Team leben Nachhaltigkeit ganzheitlich<\/strong> – ohne Kompromisse. Das Ergebnis: terroirgeprägte Weine mit Tiefe, Charakter und Klarheit, die mit viel Hingabe und Respekt zur Natur entstehen.<\/p><p><strong>Als Bio-Weingut steht Meßmer für authentischen Weinbau mit Haltung<\/strong> - tief verwurzelt in Boden, Handwerk und Verantwortung.<\/p>","text_alignment":"left","button_label":"Mehr zum Weingut","button_link":"shopify:\/\/pages\/uber-uns"}},"dynamic_slideshow_7VAnbx":{"type":"dynamic-slideshow","blocks":{"feature_gWmAwe":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/WG_Messmer_Schiefer_Schaewer_reben.webp","title":"BODEN, DER CHARAKTER FORMT: UNSER TERROIR","subheading":"Im Herzen der Pfalz, zwischen Pfälzerwald und Rheinebene, vereinen sich Granit, Schiefer, Muschelkalk und mehr zu einem einzigartigen Terroir. Diese geologische Vielfalt bringt Weine hervor, die durch Mineralität, Tiefe und Eleganz überzeugen. Wir nutzen bewusst die ideal passenden Rebsorten, um Weine zu schaffen, die ihre Herkunft klar widerspiegeln.","button_label":"Die Terroirprobe für Zuhause","link":"shopify:\/\/products\/riesling-terroirpaket-3x0-75l-1","color":"#ffffff","background_color":"#000000","background_color_opacity":37,"alignment":"center-center"}}},"block_order":["feature_gWmAwe"],"custom_css":[".slideshow-slide__button {background-color: #f5f3f2; color: #404040; border: 0px;}",".slideshow-slide__button:hover {background-color: #404040; color: #f5f3f2;}"],"settings":{"show_border":false,"should_autoplay":true,"slide_frequency":3,"aspect_ratio":"2-1"}},"dynamic_image_with_text_bAXX96":{"type":"dynamic-image-with-text","disabled":true,"settings":{"section_heading":"","show_border":false,"image":"shopify:\/\/shop_images\/Wg_Messmer_Boden.webp","desktop_height":"natural","mobile_height":"natural","desktop_image_alignment":"left","mobile_image_alignment":"top","heading":"Ein Block über die Besonderheiten des Terroirs","subheading":"<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","text_alignment":"left","button_label":"Button","button_link":""}},"dynamic_featured_collection_9pUk7p":{"type":"dynamic-featured-collection","custom_css":[],"settings":{"title":"UNSERE BESTSELLER","show_border":true,"collection":"bestseller","products-per-row":4,"product-rows":1,"view_all":true}},"175101692897787d71":{"type":"apps","blocks":{"ck_google_reviews_google_reviews_tHryxb":{"type":"shopify:\/\/apps\/ck-google-reviews\/blocks\/google_reviews\/65a77010-5e58-49de-928f-6b86aa6ecffe","settings":{}}},"block_order":["ck_google_reviews_google_reviews_tHryxb"],"settings":{}},"dynamic_testimonials_F4dPBP":{"type":"dynamic-testimonials","blocks":{"testimonial_fMDiyf":{"type":"testimonial","settings":{"rating":"5","quote":"<p>\"Eher durch Zufall hier nach meiner Wanderung gelandet und wirklich herzlich empfangen worden, samt Hund. Wirklich tolle Weine, habe direkt einige Kisten mitgenommen und werde sicherlich in Zukunft wieder mal vorbeischauen oder bestellen.\"<\/p>","image":"shopify:\/\/shop_images\/WG_Messmer_Google_Logo.jpg","author":"Christina E.","author_details":"","text_color":"","background":""}},"testimonial_MNmGwQ":{"type":"testimonial","settings":{"rating":"5","quote":"<p>\"Perfekte Degu und sehr kompetente Begleitung! Danke wir kommer wieder!\"<\/p>","image":"shopify:\/\/shop_images\/WG_Messmer_Google_Logo.jpg","author":"Thomas","author_details":"","text_color":"","background":""}},"testimonial_PNMWeD":{"type":"testimonial","settings":{"rating":"5","quote":"<p>\"Hier hat auch unglaublich viel getan, Wahnsinnsweine, da bewegt sich was!<br\/>Sensationell!\"<\/p>","image":"shopify:\/\/shop_images\/WG_Messmer_Google_Logo.jpg","author":"Emrah I.","author_details":"","text_color":"","background":""}},"testimonial_nyxye3":{"type":"testimonial","settings":{"rating":"5","quote":"<p>\"Wunderbare Weine, tolle Veranstaltungen, freundliche kompetente Angestellte. Kaufe immer wieder gerne meine Weine dort, oder verbringe angenehme Stunden bei kleinen feinen Speisen.<br\/>Sehr empfehlenswert!!!!<br\/>Es geht sehr gut weiter mit den neuen Kellermeister Jonas Bosch, die aktuellen Weine sind verdammt gut gelungen. Die Preise sind für die Qualität angemessen.\"<\/p>","image":"shopify:\/\/shop_images\/WG_Messmer_Google_Logo.jpg","author":"Dodo E.","author_details":"","text_color":"","background":""}}},"block_order":["testimonial_fMDiyf","testimonial_MNmGwQ","testimonial_PNMWeD","testimonial_nyxye3"],"custom_css":[".testimonials__desktop--slider .testimonial {background-color: #c3e3fa; font-style: italic; border-radius: 12px; box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.15); \/* sanfter schwarzer Schatten rundherum *\/}"],"settings":{"title":"Kundenstimmen","show_border":true,"alignment":"center","image_crop":"circle"}},"dynamic_slideshow_pEE97V":{"type":"dynamic-slideshow","blocks":{"feature_fTbEPT":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/Wg-Messmer_Wein_Ausschank.webp","title":"WEINKAUF IM WEINGUT","subheading":"In unserer Weinprobierstube im Weingut kannst du in aller Ruhe probieren und die passenden Weine für dich entdecken. Gerne beraten wir dich dabei persönlich und mit viel Leidenschaft für unsere Weine. Öffnungszeiten: Mo–Fr: 8:30 – 17:00 Uhr, Sa: 10:00 – 13:00 Uhr.","button_label":"Dein Weg zu uns","link":"shopify:\/\/pages\/kontakt","color":"#ffffff","background_color":"#000000","background_color_opacity":4,"alignment":"center-center"}},"feature_6MzfAt":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/WG_Messmer_Banner_5.webp","title":"WEINGENUSS NACH IHREM GESCHMACK","subheading":"Ob für einen gemütlichen Abend, ein festliches Dinner oder als Geschenk – unser Weinfinder hilft Ihnen, den idealen Wein zu finden. Nutzen Sie unsere Expertise oder lassen Sie sich persönlich von uns beraten. Martin Meßmer und sein Team stehen Ihnen gerne zur Seite! 01708324381 |  m.messmer@weingut-messmer.de","button_label":"Speise & Wein","link":"shopify:\/\/pages\/speise-wein","color":"#ffffff","background_color":"#000000","background_color_opacity":0,"alignment":"center-center"}}},"block_order":["feature_fTbEPT","feature_6MzfAt"],"disabled":true,"custom_css":[".slideshow-slide__button {background-color: #f5f3f2; color: #404040; border: 0px;}",".slideshow-slide__button:hover {background-color: #404040; color: #f5f3f2;}"],"settings":{"show_border":true,"should_autoplay":true,"slide_frequency":9,"aspect_ratio":"23-9"}},"dynamic_promotions_CgdtDr":{"type":"dynamic-promotions","blocks":{"feature_WwtfhP":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/WG_Messmer_Footer_1.jpg","title":"WEINPRÄSENTE & PAKETE","caption":"<p>ALLE PAKETE UND PRÄSENTE SIND VOR ORT IM WEINGUT, IN DER VINOTHEK ODER ONLINE VERFÜGBAR!<\/p>","url":"shopify:\/\/collections\/weinpakete","cta_title":"JETZT ENTDECKEN","text_color":"light"}},"feature_ckzAUF":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/WG_Messmer_Footer_2_cac1ca51-da44-4a69-a58d-1e2e15aea51f.jpg","title":"WEINPROBE","caption":"<p>DU MÖCHTEST UNSERE WEINE PROBIEREN UND MEHR ÜBER UNSER WEINGUT, DIE WEINBEREITUNG UND UNSERE PHILOSOPHIE ERFAHREN?<\/p><p>DANN BUCH DIR HIER DEINE INDIVIDUELLE WEINPROBE!<\/p>","url":"shopify:\/\/pages\/weinprobeanfrage","cta_title":"ANFRAGE SENDEN","text_color":"light"}}},"block_order":["feature_WwtfhP","feature_ckzAUF"],"disabled":true,"custom_css":[".promotion-block__heading {--font-size-heading-2: 2.5rem; margin-top: 0; margin-bottom: 3rem;}"],"settings":{"title":"","show_border":true}}},"order":["dynamic_slideshow","dynamic_slideshow_4DW3pJ","ss_feature_1_tiM9xh","ss_feature_1_egVqEN","ss_feature_1_PF3EzM","dynamic_rich_text_zbzUPr","dynamic_image_with_text_GinXTH","dynamic_image_with_text_iLMAxW","dynamic_image_with_text_XTCfe4","dynamic_featured_product_XcaRPA","dynamic_image_with_text_KLUP36","dynamic_promotions_AL3Eg9","dynamic_image_with_text_m79jfQ","dynamic_image_with_text_7fbjHY","dynamic_image_with_text_LHJQBE","dynamic_image_with_text_47Di9x","dynamic_image_with_text_eyXUiP","dynamic_slideshow_7VAnbx","dynamic_image_with_text_bAXX96","dynamic_featured_collection_9pUk7p","175101692897787d71","dynamic_testimonials_F4dPBP","dynamic_slideshow_pEE97V","dynamic_promotions_CgdtDr"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "dynamic_slideshow": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "slide_4": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_Homepage_Hero.Ver_2.jpg",
+            "title": "WIR ERZEUGEN WEINE MIT HÖCHST MÖGLICHER HERKUNFTSPRÄGUNG",
+            "subheading": "",
+            "button_label": "Entdecke unser Terroirpaket!",
+            "link": "shopify://products/riesling-terroirpaket-3x0-75l",
+            "color": "#ffffff",
+            "background_color": "#000000",
+            "background_color_opacity": 10,
+            "alignment": "center-bottom"
+          }
+        },
+        "feature_64aE9D": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_Homepage_Hero.Ver_2.jpg",
+            "title": "WIR ERZEUGEN WEINE MIT HÖCHST MÖGLICHER HERKUNFTSPRÄGUNG",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://products/riesling-terroirpaket-3x0-75l",
+            "color": "#ffffff",
+            "background_color": "#000000",
+            "background_color_opacity": 10,
+            "alignment": "center-bottom"
+          }
+        }
+      },
+      "block_order": [
+        "slide_4",
+        "feature_64aE9D"
+      ],
+      "custom_css": [
+        ".slideshow-slide__button {background-color: #f5f3f2; color: #404040; border: 0px;}",
+        ".slideshow-slide__button:hover {background-color: #404040; color: #f5f3f2;}",
+        "@media screen and (max-width: 575px) {.no-section-border .slideshow__wrapper:first-child {margin-top: 0; }}",
+        "@media screen and (min-width: 575px) {.no-section-border .slideshow__wrapper:first-child {margin-top: 0; }}",
+        ".slideshow-slide__content--text-left-bottom,.slideshow-slide__content--text-center-bottom,.slideshow-slide__content--text-right-bottom {bottom: 30px;}"
+      ],
+      "settings": {
+        "show_border": false,
+        "should_autoplay": true,
+        "slide_frequency": 10,
+        "aspect_ratio": "2-1"
+      }
+    },
+    "dynamic_slideshow_4DW3pJ": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "feature_MjtbrV": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_Homepage_Hero.Ver_2.jpg",
+            "title": "WEINE, DIE NATUR, HANDWERK UND MENSCHEN VERBINDEN",
+            "subheading": "",
+            "button_label": "Entdecke unser Terroirpaket!",
+            "link": "shopify://products/riesling-terroirpaket-3x0-75l",
+            "color": "#ffffff",
+            "background_color": "#000000",
+            "background_color_opacity": 10,
+            "alignment": "center-bottom"
+          }
+        }
+      },
+      "block_order": [
+        "feature_MjtbrV"
+      ],
+      "settings": {
+        "show_border": false,
+        "should_autoplay": true,
+        "slide_frequency": 10,
+        "aspect_ratio": "2-1"
+      }
+    },
+    "ss_feature_1_tiM9xh": {
+      "type": "ss-feature-1",
+      "blocks": {
+        "image_4Ezbwk": {
+          "type": "image",
+          "settings": {
+            "feature_title": "Weinbau mit Vision",
+            "feature_text": "<p>seit über 240 Jahren</p>",
+            "feature_image": "shopify://shop_images/beeren.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_EqKdDQ": {
+          "type": "image",
+          "settings": {
+            "feature_title": "Terroir im Fokus",
+            "feature_text": "<p>Charaktervolle Weine von einzigartigen Lagen</p>",
+            "feature_image": "shopify://shop_images/boden.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_7nGUVh": {
+          "type": "image",
+          "settings": {
+            "feature_title": "VDP Weingut in der Pfalz",
+            "feature_text": "<p>Qualität mit Herkunft</p>",
+            "feature_image": "shopify://shop_images/VDP_Pfalz_Logo_Braun_RGB_400a3861-697a-472f-a7b0-55ca5ca3bc55.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_HFV8jD": {
+          "type": "image",
+          "settings": {
+            "feature_title": "Item title",
+            "feature_text": "<p>Item text</p>",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_kfhCBK": {
+          "type": "image",
+          "settings": {
+            "feature_title": "Item title",
+            "feature_text": "<p>Item text</p>",
+            "feature_url": "",
+            "hide_image": false
+          }
+        }
+      },
+      "block_order": [
+        "image_4Ezbwk",
+        "image_EqKdDQ",
+        "image_7nGUVh",
+        "image_HFV8jD",
+        "image_kfhCBK"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "{border-top: 1px solid #fff4f400; border-bottom: 1px solid #dcdcdc;}",
+        ".feature-template--25014535291221__ss_feature_1_tiM9xh .box__title {font-family: \"Font-1744884724371\"; font-weight: 400; font-style: normal;}"
+      ],
+      "settings": {
+        "feature_row": 5,
+        "feature_row_mobile": 1,
+        "feature_gap": 46,
+        "feature_gap_mobile": 20,
+        "feature_padding_horizontal": 20,
+        "feature_padding_vertical": 0,
+        "feature_radius": 18,
+        "feature_border_thickness": 0,
+        "feature_shadow": false,
+        "feature_heading_custom": true,
+        "feature_heading_font": "playfair_display_n4",
+        "feature_heading_size": 20,
+        "feature_heading_size_mobile": 12,
+        "feature_heading_height": 150,
+        "feature_heading_mt": 8,
+        "feature_text_custom": false,
+        "feature_text_font": "din_next_n4",
+        "feature_text_size": 16,
+        "feature_text_size_mobile": 12,
+        "feature_text_height": 130,
+        "feature_text_mt": 4,
+        "feature_icon_size": 46,
+        "feature_icon_size_mobile": 42,
+        "feature_bg": "#f5f3f2",
+        "feature_border_color": "#ffffff",
+        "feature_shadow_color": "rgba(0,0,0,0)",
+        "feature_heading_color": "#000000",
+        "feature_text_color": "#383442",
+        "feature_icon_color": "#383442",
+        "background_color": "#f5f3f2",
+        "background_gradient": "",
+        "border_color": "#f5f3f2",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 400,
+        "border_thickness": 15,
+        "lazy": true
+      }
+    },
+    "ss_feature_1_egVqEN": {
+      "type": "ss-feature-1",
+      "blocks": {
+        "image_JwB4gX": {
+          "type": "image",
+          "settings": {
+            "feature_title": "Rare Devonschieferlagen",
+            "feature_text": "<p>Botschafter des Pfälzer Devonschiefers</p>",
+            "feature_image": "shopify://shop_images/felsen.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_wJEQgN": {
+          "type": "image",
+          "settings": {
+            "feature_title": "Biologischer Anbau",
+            "feature_text": "<p>Aus Überzeugung, nicht aus Kalkül</p>",
+            "feature_image": "shopify://shop_images/bio_Background_Removed.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_aeKz9z": {
+          "type": "image",
+          "settings": {
+            "feature_title": "VDP® Weingut",
+            "feature_text": "<p>Qualität mit Herkunft</p>",
+            "feature_image": "shopify://shop_images/VDP_Pfalz_Logo_Braun_RGB_400a3861-697a-472f-a7b0-55ca5ca3bc55.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_LDweJB": {
+          "type": "image",
+          "settings": {
+            "feature_title": "FairChoice®",
+            "feature_text": "<p>Unsere Nachhaltigkeit ist gemessen und zertifiziert</p>",
+            "feature_image": "shopify://shop_images/Fair_Choice.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_Yxpb7H": {
+          "type": "image",
+          "settings": {
+            "feature_title": "Vegan",
+            "feature_text": "<p>Unsere Weine entstehen ohne tierische Hilfsmittel</p>",
+            "feature_image": "shopify://shop_images/vegan_1_Background_Removed.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        }
+      },
+      "block_order": [
+        "image_JwB4gX",
+        "image_wJEQgN",
+        "image_aeKz9z",
+        "image_LDweJB",
+        "image_Yxpb7H"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "{border-top: 1px solid #fff4f400; border-bottom: 1px solid #dcdcdc;}",
+        ".feature-template--25014535291221__ss_feature_1_tiM9xh .box__title {font-family: \"Font-1744884724371\"; font-weight: 400; font-style: normal;}"
+      ],
+      "settings": {
+        "feature_row": 5,
+        "feature_row_mobile": 1,
+        "feature_gap": 46,
+        "feature_gap_mobile": 52,
+        "feature_padding_horizontal": 20,
+        "feature_padding_vertical": 0,
+        "feature_radius": 18,
+        "feature_border_thickness": 0,
+        "feature_shadow": false,
+        "feature_heading_custom": true,
+        "feature_heading_font": "playfair_display_n4",
+        "feature_heading_size": 20,
+        "feature_heading_size_mobile": 12,
+        "feature_heading_height": 150,
+        "feature_heading_mt": 8,
+        "feature_text_custom": false,
+        "feature_text_font": "din_next_n4",
+        "feature_text_size": 16,
+        "feature_text_size_mobile": 12,
+        "feature_text_height": 130,
+        "feature_text_mt": 4,
+        "feature_icon_size": 46,
+        "feature_icon_size_mobile": 42,
+        "feature_bg": "#f5f3f2",
+        "feature_border_color": "#ffffff",
+        "feature_shadow_color": "rgba(0,0,0,0)",
+        "feature_heading_color": "#000000",
+        "feature_text_color": "#383442",
+        "feature_icon_color": "#383442",
+        "background_color": "#f5f3f2",
+        "background_gradient": "",
+        "border_color": "#f5f3f2",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 400,
+        "border_thickness": 15,
+        "lazy": true
+      }
+    },
+    "ss_feature_1_PF3EzM": {
+      "type": "ss-feature-1",
+      "blocks": {
+        "image_NNqPmB": {
+          "type": "image",
+          "settings": {
+            "feature_title": "Pfälzer Grauschiefer",
+            "feature_text": "<p>Nur in Burrweiler</p>",
+            "feature_image": "shopify://shop_images/felsen.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_n8HyRB": {
+          "type": "image",
+          "settings": {
+            "feature_title": "VDP. Weingut",
+            "feature_text": "<p>Qualität mit Herkunft</p>",
+            "feature_image": "shopify://shop_images/VDP_Pfalz_Logo_Braun_RGB_400a3861-697a-472f-a7b0-55ca5ca3bc55.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_gAfiVJ": {
+          "type": "image",
+          "settings": {
+            "feature_title": "Naturverbunden",
+            "feature_text": "<p>BIO, FairChoice zertifiziert & vegan</p>",
+            "feature_image": "shopify://shop_images/boden.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        }
+      },
+      "block_order": [
+        "image_NNqPmB",
+        "image_n8HyRB",
+        "image_gAfiVJ"
+      ],
+      "custom_css": [
+        "{border-top: 1px solid #fff4f400; border-bottom: 1px solid #dcdcdc;}",
+        ".feature-template--25014535291221__ss_feature_1_tiM9xh .box__title {font-family: \"Font-1744884724371\"; font-weight: 400; font-style: normal;}"
+      ],
+      "settings": {
+        "feature_row": 3,
+        "feature_row_mobile": 1,
+        "feature_gap": 46,
+        "feature_gap_mobile": 52,
+        "feature_padding_horizontal": 20,
+        "feature_padding_vertical": 0,
+        "feature_radius": 18,
+        "feature_border_thickness": 0,
+        "feature_shadow": false,
+        "feature_heading_custom": true,
+        "feature_heading_font": "playfair_display_n4",
+        "feature_heading_size": 20,
+        "feature_heading_size_mobile": 12,
+        "feature_heading_height": 150,
+        "feature_heading_mt": 8,
+        "feature_text_custom": false,
+        "feature_text_font": "din_next_n4",
+        "feature_text_size": 16,
+        "feature_text_size_mobile": 12,
+        "feature_text_height": 130,
+        "feature_text_mt": 4,
+        "feature_icon_size": 46,
+        "feature_icon_size_mobile": 42,
+        "feature_bg": "#f5f3f2",
+        "feature_border_color": "#ffffff",
+        "feature_shadow_color": "rgba(0,0,0,0)",
+        "feature_heading_color": "#000000",
+        "feature_text_color": "#383442",
+        "feature_icon_color": "#383442",
+        "background_color": "#f5f3f2",
+        "background_gradient": "",
+        "border_color": "#f5f3f2",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 400,
+        "border_thickness": 15,
+        "lazy": true
+      }
+    },
+    "dynamic_rich_text_zbzUPr": {
+      "type": "dynamic-rich-text",
+      "custom_css": [],
+      "settings": {
+        "title": "Lebendige und gesunde Böden, biologischer Anbau, Handlese, spontane Vergärung, und viel Zeit sind dafür unerlässlich",
+        "introduction_tagline": "",
+        "show_border": false
+      }
+    },
+    "dynamic_image_with_text_GinXTH": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "show_border": false,
+        "image": "shopify://shop_images/Jonas_keller.jpg",
+        "desktop_height": "600px",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "HERKUNFT, HANDWERK UND HALTUNG",
+        "subheading": "<p><strong>Im Weingut Meßmer entsteht Wein aus Überzeugung</strong> – und das schmeckt man. Hier treffen herausragende Lagen wie der Burrweiler Schäwer auf konsequent biologischen Anbau, Schiefermineralität auf Handwerk, Tradition auf neue Wege.</p><p><strong>Heute steht Jonas Bosch für diesen Weg.</strong> Als Betriebsleiter prägt er mit Leidenschaft, Ehrgeiz und einem feinen Gespür für Qualität die Handschrift der Meßmer-Weine. </p><p><strong>Unter seiner Leitung hat sich das Weingut in den letzten Jahren spürbar weiterentwickelt</strong> – mit einer klaren Vision und dem Anspruch, das Beste aus jedem Jahrgang herauszuholen. Die nächsten Schritte plant Jonas gemeinsam mit dem Team – mutig, nachhaltig und voller Hingabe.</p><p>Als Bio-Weingut steht Meßmer für authentischen Weinbau mit Haltung – tief verwurzelt in Boden, Handwerk und Verantwortung. <strong>Das Ergebnis: terroirgeprägte Weine mit Tiefe, Charakter und Klarheit, die mit Respekt gegenüber der Natur entstehen.</strong></p>",
+        "text_alignment": "left",
+        "button_label": "Mehr zum Weingut",
+        "button_link": "shopify://pages/das-weingut"
+      }
+    },
+    "dynamic_image_with_text_iLMAxW": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "show_border": false,
+        "image": "shopify://shop_images/Schieferwand_3.webp",
+        "desktop_height": "600px",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "GRAUSCHIEFER - FUNDAMENT UNSERER IDENTITÄT",
+        "subheading": "<p>Alles beginnt mit dem Boden. Für uns: mit Grauschiefer <strong>(oder Devonschiefer)</strong>, der das Herzstück unseres Terroirs bildet und der ausschlaggebende Grund war, warum sich Herbert und Elisabeth Meßmer in Burrweiler niederließen und das Weingut gründeten.</p><p>Diese einzigartige geologische Formation prägt nicht nur unsere Weinberge, sondern vor allem den Charakter unserer Weine. Der <strong>Burrweiler Schäwer</strong>, unsere bedeutendste Lage, liegt auf genau diesem uralten Schiefer. Er speichert Wärme, fördert tief wurzelnde Reben und bringt eine unverwechselbare Mineralität in unsere Rieslinge – <strong>klar, salzig, kühl und strukturiert.</strong></p><p><strong>Devonschiefer ist für uns kein Marketingbegriff, sondern gelebte Überzeugung. </strong>Er steht für Herkunft, für Balance im Wein und für unsere Idee von nachhaltigem Weinbau – tief verwurzelt, authentisch, lebendig.</p>",
+        "text_alignment": "left",
+        "button_label": "",
+        "button_link": "shopify://collections/alle-weine"
+      }
+    },
+    "dynamic_image_with_text_XTCfe4": {
+      "type": "dynamic-image-with-text",
+      "custom_css": [
+        ".image-with-text__heading {margin-bottom: 2rem;}"
+      ],
+      "settings": {
+        "section_heading": "",
+        "show_border": false,
+        "image": "shopify://shop_images/Martin_Keller.webp",
+        "desktop_height": "600px",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "WENIGER IST MEHR: UNSER QUALITÄTSVERSPRECHEN",
+        "subheading": "<p>Im Weingut Meßmer gelangen nur Weine in die Flasche, die in jeder Hinsicht überzeugen – ob Gutswein oder Großes Gewächs. </p><p><strong>Jeder Arbeitsschritt, vom Rebschnitt bis zur Füllung, folgt dem Prinzip: maximale Herkunft, minimale Eingriffe. </strong>Keine Zusätze, keine Kompromisse: Unsere Weine werden spontan vergoren, auf der Vollhefe ausgebaut und mit Zeit zur Reife gebracht. </p><p><strong>Genießen Sie unsere charakterstarken Weine mit Klarheit, Tiefe und Herkunft im Glas!</strong></p>",
+        "text_alignment": "left",
+        "button_label": "Unser Sortiment",
+        "button_link": "shopify://collections/alle-weine"
+      }
+    },
+    "dynamic_featured_product_XcaRPA": {
+      "type": "dynamic-featured-product",
+      "blocks": {
+        "text_9amciP": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Ein Riesling, drei Böden – das Terroirpaket</h2>"
+          }
+        },
+        "text_mrkMVx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Drei Böden, ein Riesling – und jede Flasche erzählt ihre eigene Geschichte. Unser Terroirpaket zeigt, <strong>wie stark Granit, Muschelkalk und Schiefer den Charakter ein und derselben Rebsorte prägen. </strong></p><p>Entdecken Sie Riesling mit Herkunft!</p>"
+          }
+        },
+        "text_PtNf3k": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "title_WhMLMB": {
+          "type": "title",
+          "settings": {}
+        },
+        "gallery_KePPCj": {
+          "type": "gallery",
+          "settings": {
+            "position": "two-column"
+          }
+        },
+        "price_Q69mDk": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_selection_3zRDDQ": {
+          "type": "variant_selection",
+          "settings": {
+            "show_labels": false
+          }
+        },
+        "form_km8pQq": {
+          "type": "form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "text_9amciP",
+        "text_mrkMVx",
+        "text_PtNf3k",
+        "title_WhMLMB",
+        "gallery_KePPCj",
+        "price_Q69mDk",
+        "variant_selection_3zRDDQ",
+        "form_km8pQq"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 1024px) {.product-details {position: sticky; top: 100px; align-self: flex-start; }}"
+      ],
+      "settings": {
+        "product_handle": "riesling-terroirpaket-3x0-75l-1",
+        "gallery_image_zoom": false,
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true
+      }
+    },
+    "dynamic_image_with_text_KLUP36": {
+      "type": "dynamic-image-with-text",
+      "custom_css": [],
+      "settings": {
+        "section_heading": "",
+        "show_border": true,
+        "image": "shopify://shop_images/VDP.Pyramide_21_af905d76-d145-4bc5-a3e2-1c8d94e2ad7b.png",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Ein Versprechen an die Qualität",
+        "subheading": "<p>Seit 1997 ist das Weingut Meßmer stolzes Mitglied im renommierten Verband Deutscher Prädikatsweingüter (VDP®). Diese Zugehörigkeit steht für unsere Verpflichtung zu höchster Qualität, nachhaltigem Weinbau und klarer Herkunft.</p><p> Mit unseren charaktervollen Lagenweinen aus der Klassifikationsstufe <strong>VDP.ERSTE LAGE®</strong> und <strong>VDP.GROSSE LAGE®</strong> gehören wir zu den führenden Weingütern der deutschen Weinwelt.</p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "dynamic_promotions_AL3Eg9": {
+      "type": "dynamic-promotions",
+      "blocks": {
+        "feature_8qE4Lg": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/20250414_WG_Messmer_Produktbilder_878524da-f8ab-4f87-beed-c9f3b2af59bb.jpg",
+            "title": "",
+            "caption": "<p><strong>VDP. Große Lage</strong></p>",
+            "url": "shopify://collections/vdp-grosse-lage",
+            "cta_title": "Hier entdecken",
+            "text_color": "light"
+          }
+        },
+        "feature_ViKzk3": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/3.jpg",
+            "title": "",
+            "caption": "<p><strong>VDP. Erste Lage</strong></p>",
+            "url": "shopify://collections/vdp-erste-lage",
+            "cta_title": "Hier entdecken",
+            "text_color": "light"
+          }
+        },
+        "feature_Q7JCNW": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/4.jpg",
+            "title": "",
+            "caption": "<p><strong>VDP. Ortswein</strong></p>",
+            "url": "shopify://collections/vdp-ortswein",
+            "cta_title": "Hier entdecken",
+            "text_color": "light"
+          }
+        },
+        "feature_HRAEFF": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/5.jpg",
+            "title": "",
+            "caption": "<p>VDP. Gutswein</p>",
+            "url": "shopify://collections/vdp-gutswein",
+            "cta_title": "Hier entdecken",
+            "text_color": "light"
+          }
+        }
+      },
+      "block_order": [
+        "feature_8qE4Lg",
+        "feature_ViKzk3",
+        "feature_Q7JCNW",
+        "feature_HRAEFF"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".promotion-blocks__wrapper {grid-template-columns: repeat(4, 2fr); font-weight: 800; font-style: italic; font-size: 20px;}",
+        "@media only screen and (max-width: 769px) {.promotion-blocks__wrapper {display: inline; }}"
+      ],
+      "settings": {
+        "title": "",
+        "show_border": true
+      }
+    },
+    "dynamic_image_with_text_m79jfQ": {
+      "type": "dynamic-image-with-text",
+      "custom_css": [
+        "@media only screen and (min-width: 769px) {.image-with-text__heading {margin-bottom: 3rem; }}"
+      ],
+      "settings": {
+        "section_heading": "",
+        "show_border": true,
+        "image": "shopify://shop_images/WG_Messmer_SchaewerRieslingGGtrocken.png",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "bottom",
+        "heading": "VDP.GROSSES GEWÄCHS®",
+        "subheading": "<p>Wenn Riesling auf Devonschiefer und Granit treffen und der Ertrag auf ein Minimum reduziert wird, entsteht etwas Besonderes: <strong>unser großes Gewächs. Die absolute Spitze.</strong> Mehr Abgrenzung durch kleine Parzellierung, also der qualitativen Lagen Herkunft geht nicht. </p><p>Strenges und sehr aufwendiges Handwerk <strong>machen diese Toplagen seit Jahrzehnte zum Nonplusultra der Lagenphilosophie</strong>. Bei uns liegen sie am Hang zum Haardtrand auf über 270 Höhenmeter und heißen Schäwer sowie Micheslberg. </p><p>Dieser einzigartige Charakter durch Cool Climate, Exposition und geologischer Grundlage, <strong>wie beispielsweise dem sehr seltenen Devonschiefer,</strong> spiegeln sich zu 100% in unseren großen Gewächsen wider. </p><p><strong>Die Wertigkeit ist vergleichbar mit den französischen Grand Crus</strong>, weshalb die GG‘s in eine besondere Flasche mit goldener Kapsel und Naturkork gefüllt werden.</p>",
+        "text_alignment": "left",
+        "button_label": "VDP.GROSSES GEWÄCHS® entdecken",
+        "button_link": "shopify://collections/vdp-grosse-lage"
+      }
+    },
+    "dynamic_image_with_text_7fbjHY": {
+      "type": "dynamic-image-with-text",
+      "custom_css": [
+        "@media only screen and (min-width: 769px) {.image-with-text__heading {margin-bottom: 2rem; } .image-with-text__container {margin-top: 3rem; }}"
+      ],
+      "settings": {
+        "section_heading": "",
+        "show_border": false,
+        "image": "shopify://shop_images/WG_Messmer_BurrweilerAltenforstRieslingtrocken_cfe96d28-a845-4d86-86d3-13cff0ce25fe.png",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "bottom",
+        "heading": "VDP.ERSTE LAGE®",
+        "subheading": "<p>Eng umfasste Lagen und Einzelweinberge, <strong>deren Wertigkeit den Winzern schon vor über 150 Jahren bekannt war.  </strong></p><p>In unseren Weinen der Klassifikationsstufe VDP.ERSTE LAGE® wie aus dem Böchinger Rosenkranz, dem Burrweiler Schlossgarten und dem Burrweiler Altenforst, <strong>wachsen alte Reben auf charaktervollen Böden. Sie sind nur den Rebsporten vorbehalten , die das Geschmacksprofil der Lage aufnehmen und im Wein widerspiegeln können. </strong></p><p>Die Herkunftsprägung und das eigenständige Geschmacksprofil sind  daher absolut wiedererkennbar, was diese Weine so wertvoll macht.</p><p><strong>Die trockenen Weine aus den Ersten Lagen heißen übrigens VDP Erstes Gewächs mit dem 1G Logo auf dem Etikett.</strong> Nicht zu verwechseln mit dem Großen Gewächs, also dem GG Zeichen.</p><p>Unsere Lagenweine sind an der braun-anthrazitfarbenen Kapsel erkennbar und werden wie die Ortsweine mit einem Korken abgefüllt.</p>",
+        "text_alignment": "left",
+        "button_label": "VDP.ERSTE LAGE® entdecken",
+        "button_link": "shopify://collections/vdp-erste-lage"
+      }
+    },
+    "dynamic_image_with_text_LHJQBE": {
+      "type": "dynamic-image-with-text",
+      "custom_css": [
+        "@media only screen and (min-width: 769px) {.image-with-text__heading {margin-bottom: 2rem; } .image-with-text__container {}}"
+      ],
+      "settings": {
+        "section_heading": "",
+        "show_border": false,
+        "image": "shopify://shop_images/WG_Messmer_BoechingenRieslingMuschelkalk.png",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "bottom",
+        "heading": "VDP.ORTSWEINE",
+        "subheading": "<p>Wie der Name schon sagt, <strong>stammen die Ortsweine aus den besten Weinbergen eines Ortes. </strong>Bei uns erzählen sie zusätzlich von ihrer geologischen Herkunft, da wir auf sehr unterschiedlichen geologischen Untergründen und Terroir arbeiten dürfen. </p><p><strong>So kommt beispielsweise der Burrweiler Riesling vom Schiefer, der Hainfelder Riesling vom Granit und der Gleisweiler Grauburgunder vom Muschelkalk.</strong></p><p>Diese Unterschiede kann man schmecken und nachvollziehen. Die Ortsweine zeigen deutlich das Kleinklima und die Bodenstrukturen, <strong>erst recht, wenn man Ihnen etwas mehr Zeit zur Entwicklung gibt.</strong> Um ihnen das volle Potenzial mitzugeben, <strong>kommen unsere Ortsweine nach längerem Hefelager auch erst anderthalb Jahre nach der Ernte in den Verkauf.</strong></p><p>Ein Qualitätsversprechen. Die Ortsweine erkennst du übrigens an der weißen Kapsel. <strong>Und wenn Du die Unterschiede erfahren möchtest, hol Dir einfach unser </strong><a href=\"/products/riesling-terroirpaket-3x0-75l-1\" title=\"Riesling Terroirpaket 3x0,75l\"><strong>Terroirpaket Riesling.</strong></a></p>",
+        "text_alignment": "left",
+        "button_label": "VDP.ORTSWEIN entdecken",
+        "button_link": "shopify://collections/vdp-ortswein"
+      }
+    },
+    "dynamic_image_with_text_47Di9x": {
+      "type": "dynamic-image-with-text",
+      "custom_css": [],
+      "settings": {
+        "section_heading": "",
+        "show_border": false,
+        "image": "shopify://shop_images/WG_Messmer_Grauburgundertrocken_1.png",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "bottom",
+        "heading": "VDP.GUTSWEINE",
+        "subheading": "<p>Oft lediglich als Einstiegsweine tituliert, wird dieser Begriff unserer Meinung nach den Gutsweinen nicht ganz gerecht. </p><p><strong>Denn sie werden mit genau der gleichen Sorgfalt und den Werten des Weinguts produziert, wie alle unsere Weine. </strong>Die scharfe Abgrenzung von geologischer Herkunft und oder gar Einzellagen steht dabei nicht im Vordergrund. <strong>Dennoch sind sie deutlich vom Terroir, der Region und den gutseigenen Weinbergen geprägt. </strong></p><p>Es verbinden sich beispielsweise Buntsandstein, Kalk, Muschelkalk zu einem dynamischen Wein und durch die natürliche, spontane Vergärung, ohne jegliche Additive spiegeln <strong>sie die eindeutige Handschrift und bewusste Vinifikation des Weinguts durch Charakter, Klarheit und Ausdruck wider.</strong></p><p>Unsere Gutsweine bringen den <strong>Spaß am Genießen auf eine leichte und elegante Art und der für uns typischen Weinstilistik auf die Zunge. </strong></p><p>Du erkennst sie an dem blauen Schraubverschluss. </p>",
+        "text_alignment": "left",
+        "button_label": "VDP.GUTSWEIN entdecken",
+        "button_link": "shopify://collections/vdp-gutswein"
+      }
+    },
+    "dynamic_image_with_text_eyXUiP": {
+      "type": "dynamic-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_heading": "",
+        "show_border": true,
+        "image": "shopify://shop_images/Jonas_keller.jpg",
+        "desktop_height": "500px",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "HERKUNFT, HANDWERK UND HALTUNG",
+        "subheading": "<p><strong>Im Weingut Meßmer entsteht Wein aus Überzeugung</strong> – und das schmeckt man. Hier treffen herausragende Lagen wie der Burrweiler Schäwer auf konsequent biologischen Anbau, Schiefermineralität auf Handwerk, Tradition auf neue Wege.</p><p><strong>Martin Meßmer und sein Team leben Nachhaltigkeit ganzheitlich</strong> – ohne Kompromisse. Das Ergebnis: terroirgeprägte Weine mit Tiefe, Charakter und Klarheit, die mit viel Hingabe und Respekt zur Natur entstehen.</p><p><strong>Als Bio-Weingut steht Meßmer für authentischen Weinbau mit Haltung</strong> - tief verwurzelt in Boden, Handwerk und Verantwortung.</p>",
+        "text_alignment": "left",
+        "button_label": "Mehr zum Weingut",
+        "button_link": "shopify://pages/uber-uns"
+      }
+    },
+    "dynamic_slideshow_7VAnbx": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "feature_gWmAwe": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_Schiefer_Schaewer_reben.webp",
+            "title": "BODEN, DER CHARAKTER FORMT: UNSER TERROIR",
+            "subheading": "Im Herzen der Pfalz, zwischen Pfälzerwald und Rheinebene, vereinen sich Granit, Schiefer, Muschelkalk und mehr zu einem einzigartigen Terroir. Diese geologische Vielfalt bringt Weine hervor, die durch Mineralität, Tiefe und Eleganz überzeugen. Wir nutzen bewusst die ideal passenden Rebsorten, um Weine zu schaffen, die ihre Herkunft klar widerspiegeln.",
+            "button_label": "Die Terroirprobe für Zuhause",
+            "link": "shopify://products/riesling-terroirpaket-3x0-75l-1",
+            "color": "#ffffff",
+            "background_color": "#000000",
+            "background_color_opacity": 37,
+            "alignment": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "feature_gWmAwe"
+      ],
+      "custom_css": [
+        ".slideshow-slide__button {background-color: #f5f3f2; color: #404040; border: 0px;}",
+        ".slideshow-slide__button:hover {background-color: #404040; color: #f5f3f2;}"
+      ],
+      "settings": {
+        "show_border": false,
+        "should_autoplay": true,
+        "slide_frequency": 3,
+        "aspect_ratio": "2-1"
+      }
+    },
+    "dynamic_image_with_text_bAXX96": {
+      "type": "dynamic-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_heading": "",
+        "show_border": false,
+        "image": "shopify://shop_images/Wg_Messmer_Boden.webp",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Ein Block über die Besonderheiten des Terroirs",
+        "subheading": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "dynamic_featured_collection_9pUk7p": {
+      "type": "dynamic-featured-collection",
+      "custom_css": [],
+      "settings": {
+        "title": "UNSERE BESTSELLER",
+        "show_border": true,
+        "collection": "bestseller",
+        "products-per-row": 4,
+        "product-rows": 1,
+        "view_all": true
+      }
+    },
+    "175101692897787d71": {
+      "type": "apps",
+      "blocks": {
+        "ck_google_reviews_google_reviews_tHryxb": {
+          "type": "shopify://apps/ck-google-reviews/blocks/google_reviews/65a77010-5e58-49de-928f-6b86aa6ecffe",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "ck_google_reviews_google_reviews_tHryxb"
+      ],
+      "settings": {}
+    },
+    "dynamic_testimonials_F4dPBP": {
+      "type": "dynamic-testimonials",
+      "blocks": {
+        "testimonial_fMDiyf": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5",
+            "quote": "<p>\"Eher durch Zufall hier nach meiner Wanderung gelandet und wirklich herzlich empfangen worden, samt Hund. Wirklich tolle Weine, habe direkt einige Kisten mitgenommen und werde sicherlich in Zukunft wieder mal vorbeischauen oder bestellen.\"</p>",
+            "image": "shopify://shop_images/WG_Messmer_Google_Logo.jpg",
+            "author": "Christina E.",
+            "author_details": "",
+            "text_color": "",
+            "background": ""
+          }
+        },
+        "testimonial_MNmGwQ": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5",
+            "quote": "<p>\"Perfekte Degu und sehr kompetente Begleitung! Danke wir kommer wieder!\"</p>",
+            "image": "shopify://shop_images/WG_Messmer_Google_Logo.jpg",
+            "author": "Thomas",
+            "author_details": "",
+            "text_color": "",
+            "background": ""
+          }
+        },
+        "testimonial_PNMWeD": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5",
+            "quote": "<p>\"Hier hat auch unglaublich viel getan, Wahnsinnsweine, da bewegt sich was!<br/>Sensationell!\"</p>",
+            "image": "shopify://shop_images/WG_Messmer_Google_Logo.jpg",
+            "author": "Emrah I.",
+            "author_details": "",
+            "text_color": "",
+            "background": ""
+          }
+        },
+        "testimonial_nyxye3": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5",
+            "quote": "<p>\"Wunderbare Weine, tolle Veranstaltungen, freundliche kompetente Angestellte. Kaufe immer wieder gerne meine Weine dort, oder verbringe angenehme Stunden bei kleinen feinen Speisen.<br/>Sehr empfehlenswert!!!!<br/>Es geht sehr gut weiter mit den neuen Kellermeister Jonas Bosch, die aktuellen Weine sind verdammt gut gelungen. Die Preise sind für die Qualität angemessen.\"</p>",
+            "image": "shopify://shop_images/WG_Messmer_Google_Logo.jpg",
+            "author": "Dodo E.",
+            "author_details": "",
+            "text_color": "",
+            "background": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_fMDiyf",
+        "testimonial_MNmGwQ",
+        "testimonial_PNMWeD",
+        "testimonial_nyxye3"
+      ],
+      "custom_css": [
+        ".testimonials__desktop--slider .testimonial {background-color: #c3e3fa; font-style: italic; border-radius: 12px; box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.15); /* sanfter schwarzer Schatten rundherum */}"
+      ],
+      "settings": {
+        "title": "Kundenstimmen",
+        "show_border": true,
+        "alignment": "center",
+        "image_crop": "circle"
+      }
+    },
+    "dynamic_slideshow_pEE97V": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "feature_fTbEPT": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/Wg-Messmer_Wein_Ausschank.webp",
+            "title": "WEINKAUF IM WEINGUT",
+            "subheading": "In unserer Weinprobierstube im Weingut kannst du in aller Ruhe probieren und die passenden Weine für dich entdecken. Gerne beraten wir dich dabei persönlich und mit viel Leidenschaft für unsere Weine. Öffnungszeiten: Mo–Fr: 8:30 – 17:00 Uhr, Sa: 10:00 – 13:00 Uhr.",
+            "button_label": "Dein Weg zu uns",
+            "link": "shopify://pages/kontakt",
+            "color": "#ffffff",
+            "background_color": "#000000",
+            "background_color_opacity": 4,
+            "alignment": "center-center"
+          }
+        },
+        "feature_6MzfAt": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_Banner_5.webp",
+            "title": "WEINGENUSS NACH IHREM GESCHMACK",
+            "subheading": "Ob für einen gemütlichen Abend, ein festliches Dinner oder als Geschenk – unser Weinfinder hilft Ihnen, den idealen Wein zu finden. Nutzen Sie unsere Expertise oder lassen Sie sich persönlich von uns beraten. Martin Meßmer und sein Team stehen Ihnen gerne zur Seite! 01708324381 |  m.messmer@weingut-messmer.de",
+            "button_label": "Speise & Wein",
+            "link": "shopify://pages/speise-wein",
+            "color": "#ffffff",
+            "background_color": "#000000",
+            "background_color_opacity": 0,
+            "alignment": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "feature_fTbEPT",
+        "feature_6MzfAt"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".slideshow-slide__button {background-color: #f5f3f2; color: #404040; border: 0px;}",
+        ".slideshow-slide__button:hover {background-color: #404040; color: #f5f3f2;}"
+      ],
+      "settings": {
+        "show_border": true,
+        "should_autoplay": true,
+        "slide_frequency": 9,
+        "aspect_ratio": "23-9"
+      }
+    },
+    "dynamic_promotions_CgdtDr": {
+      "type": "dynamic-promotions",
+      "blocks": {
+        "feature_WwtfhP": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_Footer_1.jpg",
+            "title": "WEINPRÄSENTE & PAKETE",
+            "caption": "<p>ALLE PAKETE UND PRÄSENTE SIND VOR ORT IM WEINGUT, IN DER VINOTHEK ODER ONLINE VERFÜGBAR!</p>",
+            "url": "shopify://collections/weinpakete",
+            "cta_title": "JETZT ENTDECKEN",
+            "text_color": "light"
+          }
+        },
+        "feature_ckzAUF": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_Footer_2_cac1ca51-da44-4a69-a58d-1e2e15aea51f.jpg",
+            "title": "WEINPROBE",
+            "caption": "<p>DU MÖCHTEST UNSERE WEINE PROBIEREN UND MEHR ÜBER UNSER WEINGUT, DIE WEINBEREITUNG UND UNSERE PHILOSOPHIE ERFAHREN?</p><p>DANN BUCH DIR HIER DEINE INDIVIDUELLE WEINPROBE!</p>",
+            "url": "shopify://pages/weinprobeanfrage",
+            "cta_title": "ANFRAGE SENDEN",
+            "text_color": "light"
+          }
+        }
+      },
+      "block_order": [
+        "feature_WwtfhP",
+        "feature_ckzAUF"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".promotion-block__heading {--font-size-heading-2: 2.5rem; margin-top: 0; margin-bottom: 3rem;}"
+      ],
+      "settings": {
+        "title": "",
+        "show_border": true
+      }
+    }
+  },
+  "order": [
+    "dynamic_slideshow",
+    "dynamic_slideshow_4DW3pJ",
+    "ss_feature_1_tiM9xh",
+    "ss_feature_1_egVqEN",
+    "ss_feature_1_PF3EzM",
+    "dynamic_rich_text_zbzUPr",
+    "dynamic_image_with_text_GinXTH",
+    "dynamic_image_with_text_iLMAxW",
+    "dynamic_image_with_text_XTCfe4",
+    "dynamic_featured_product_XcaRPA",
+    "dynamic_image_with_text_KLUP36",
+    "dynamic_promotions_AL3Eg9",
+    "dynamic_image_with_text_m79jfQ",
+    "dynamic_image_with_text_7fbjHY",
+    "dynamic_image_with_text_LHJQBE",
+    "dynamic_image_with_text_47Di9x",
+    "dynamic_image_with_text_eyXUiP",
+    "dynamic_slideshow_7VAnbx",
+    "dynamic_image_with_text_bAXX96",
+    "dynamic_featured_collection_9pUk7p",
+    "175101692897787d71",
+    "dynamic_testimonials_F4dPBP",
+    "dynamic_slideshow_pEE97V",
+    "dynamic_promotions_CgdtDr"
+  ]
+}
