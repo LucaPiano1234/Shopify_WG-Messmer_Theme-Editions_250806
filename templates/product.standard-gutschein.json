@@ -348,6 +348,7 @@
         "question_T7UUC4",
         "question_PTmaQi"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "show_border": false
