@@ -18,7 +18,7 @@
         ".custom-liquid__wrapper {display: block;}"
       ],
       "settings": {
-        "custom_liquid": "<h2>Jetzt anmelden und 10% Rabatt genießen!</h2>\n<p>In unserem Newsletter stellt dir Martin Meßmer persönlich unser Sortiment vor. Außerdem erhältst du exklusive Einblicke in unser Weingut und erfährst als Erste, wenn neue Jahrgänge abgefüllt werden, Weine ausgezeichnet wurden oder beliebte Tropfen knapp werden.</p>\n\n<h2>Wenige Mails. Viel drin. Jetzt eintragen!</h2>\n\n</body>\n</html>"
+        "custom_liquid": "<h2>Wenige Mails, viel drin. Jetzt 10% Rabatt genießen\n</h2>\n<p>In unserem Newsletter stellt dir Martin Meßmer persönlich unser Sortiment vor. Außerdem erhältst du exklusive Einblicke in unser Weingut und erfährst als Erste, wenn neue Jahrgänge abgefüllt werden, Weine ausgezeichnet wurden oder beliebte Tropfen knapp werden.</p>\n\n</body>\n</html>"
       }
     },
     "174375974310452540": {
