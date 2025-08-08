@@ -35,30 +35,33 @@
         "text_6xDtBn": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Enthält Sulfite<br/></strong><a href=\"<shopify-token value=\"><strong><br/></strong></a>Lage: {{ product.metafields.custom.lage.value }}</p><p>Terroir: {{ product.metafields.custom.terroir.value }}</p>"
+            "text": "<p><strong>Enthält Sulfite<br/></strong><a href=\"<shopify-token value=\"><strong><br/></strong></a>Details variieren je nach Paket. Genaue Informationen finden Sie auf den einzelnen Produktseiten der Weine und der Säfte<br/><br/>Alle Weine und enthalten geringfügige Mengen von Fett, gesättigten Fettsäuren, Eiweiß und Salz</p><p>Passt perfekt zu:</p>{{ product.metafields.custom.passt_zu | metafield_tag }}<p>Zu welchem Anlass?<br/></p>{{ product.metafields.custom.anlass | metafield_tag }}"
           }
         },
         "text_gV6UWi": {
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Passt gut zu: </p><p>{{ product.metafields.custom.passt_zu | metafield_tag }}</p><p>Anlass: </p><p>{{ product.metafields.custom.anlass | metafield_tag }}</p>"
+            "text": "<p>Passt gut zu: </p>{{ product.metafields.custom.passt_zu | metafield_tag }}<p>Anlass: </p>{{ product.metafields.custom.anlass | metafield_tag }}"
           }
         },
         "custom_liquid_FRWwmt": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% if product.metafields.custom.e_label %}\n <b> <a href=\"{{ product.metafields.custom.e_label }}\" target=\"_blank\">\n    Zu den Nährwertangaben\n  </b></a>\n{% endif %}"
           }
         },
         "custom_liquid_iB8mWM": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% assign max_score = 6 %}\n{% assign frucht_score = product.metafields.custom.frucht | default: 0 %}\n{% assign suesse_score = product.metafields.custom.s_e | default: 0 %}\n{% assign komplex_score = product.metafields.custom.k_rper_komplexit_t | default: 0 %}\n{% assign mineral_score = product.metafields.custom.mineralit_t | default: 0 %}\n{% assign holz_score = product.metafields.custom.holz_schmeckbar | default: 0 %}\n\n<!-- Frucht -->\n<div style=\"display: flex; align-items: center; margin-bottom: 8px;\">\n  <div style=\"width: 150px;\">Frucht:</div>\n  <div style=\"display: flex; gap: 4px;\">\n    {% for i in (1..max_score) %}\n      {% if i <= frucht_score %}\n        <img src=\"{{ 'glas_aktiv.png' | file_url }}\" width=\"20\" height=\"40\">\n      {% else %}\n        <img src=\"{{ 'glas_inaktiv.png' | file_url }}\" width=\"20\" height=\"40\">\n      {% endif %}\n    {% endfor %}\n  </div>\n</div>\n\n<!-- Süße -->\n<div style=\"display: flex; align-items: center; margin-bottom: 8px;\">\n  <div style=\"width: 150px;\">Süße:</div>\n  <div style=\"display: flex; gap: 4px;\">\n    {% for i in (1..max_score) %}\n      {% if i <= suesse_score %}\n        <img src=\"{{ 'glas_aktiv.png' | file_url }}\" width=\"20\" height=\"40\">\n      {% else %}\n        <img src=\"{{ 'glas_inaktiv.png' | file_url }}\" width=\"20\" height=\"40\">\n      {% endif %}\n    {% endfor %}\n  </div>\n</div>\n\n<!-- Körper Komplexität -->\n<div style=\"display: flex; align-items: center; margin-bottom: 8px;\">\n  <div style=\"width: 150px;\">Körper Komplexität:</div>\n  <div style=\"display: flex; gap: 4px;\">\n    {% for i in (1..max_score) %}\n      {% if i <= komplex_score %}\n        <img src=\"{{ 'glas_aktiv.png' | file_url }}\" width=\"20\" height=\"40\">\n      {% else %}\n        <img src=\"{{ 'glas_inaktiv.png' | file_url }}\" width=\"20\" height=\"40\">\n      {% endif %}\n    {% endfor %}\n  </div>\n</div>\n\n<!-- Mineralität -->\n<div style=\"display: flex; align-items: center; margin-bottom: 8px;\">\n  <div style=\"width: 150px;\">Mineralität:</div>\n  <div style=\"display: flex; gap: 4px;\">\n    {% for i in (1..max_score) %}\n      {% if i <= mineral_score %}\n        <img src=\"{{ 'glas_aktiv.png' | file_url }}\" width=\"20\" height=\"40\">\n      {% else %}\n        <img src=\"{{ 'glas_inaktiv.png' | file_url }}\" width=\"20\" height=\"40\">\n      {% endif %}\n    {% endfor %}\n  </div>\n</div>\n\n<!-- Holz schmeckbar -->\n<div style=\"display: flex; align-items: center; margin-bottom: 8px;\">\n  <div style=\"width: 150px;\">Holz schmeckbar:</div>\n  <div style=\"display: flex; gap: 4px;\">\n    {% for i in (1..max_score) %}\n      {% if i <= holz_score %}\n        <img src=\"{{ 'glas_aktiv.png' | file_url }}\" width=\"20\" height=\"40\">\n      {% else %}\n        <img src=\"{{ 'glas_inaktiv.png' | file_url }}\" width=\"20\" height=\"40\">\n      {% endif %}\n    {% endfor %}\n  </div>\n</div>"
           }
         },
         "custom_liquid_bFBNt6": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<div class=\"aroma-und-geschmack-bilder\">\n  {% if product.metafields.custom.aroma_und_geschmack_1 %}\n    <img src=\"{{ product.metafields.custom.aroma_und_geschmack_1 | img_url: '100x100' }}\" alt=\"Aroma 1\">\n  {% endif %}\n\n  {% if product.metafields.custom._aroma_und_geschmack_2 %}\n    <img src=\"{{ product.metafields.custom._aroma_und_geschmack_2 | img_url: '100x100' }}\" alt=\"Aroma 2\">\n  {% endif %}\n\n  {% if product.metafields.custom._aroma_und_geschmack_3 %}\n    <img src=\"{{ product.metafields.custom._aroma_und_geschmack_3 | img_url: '100x100' }}\" alt=\"Aroma 3\">\n  {% endif %}\n\n  {% if product.metafields.custom.aroma_und_geschmack_4 %}\n    <img src=\"{{ product.metafields.custom.aroma_und_geschmack_4 | img_url: '100x100' }}\" alt=\"Aroma 4\">\n  {% endif %}\n\n{% if product.metafields.custom.aroma_und_geschmack_5 %}\n    <img src=\"{{ product.metafields.custom.aroma_und_geschmack_5 | img_url: '100x100' }}\" alt=\"Aroma 5\">\n  {% endif %}\n</div>"
           }
@@ -344,6 +347,7 @@
         "question_T7UUC4",
         "question_PTmaQi"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "show_border": false
@@ -367,6 +371,7 @@
       "block_order": [
         "button_F4y9Kp"
       ],
+      "disabled": true,
       "custom_css": [
         "{border-top: 1px solid #fff4f400;}"
       ],
