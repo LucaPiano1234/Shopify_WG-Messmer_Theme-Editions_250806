@@ -1,0 +1,1043 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "gallery": {
+          "type": "gallery",
+          "settings": {
+            "position": "two-column"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "custom_liquid_x4Kwyx": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.custom.e_label_url %}\n  <a href=\"{{ product.metafields.custom.e_label_url }}\"target=\"_blank\"><strong>→Zu den Zutaten und  Nährwertangaben</strong></a>\n{% endif %}"
+          }
+        },
+        "text_6xDtBn": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Enthält Sulfite<br/></strong><a href=\"<shopify-token value=\"><strong><br/></strong></a>Lage: {{ product.metafields.custom.lage.value }}</p><p>Terroir: {{ product.metafields.custom.terroir.value }}</p>"
+          }
+        },
+        "text_gV6UWi": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Passt gut zu: </p><p>{{ product.metafields.custom.passt_zu | metafield_tag }}</p><p>Anlass: </p><p>{{ product.metafields.custom.anlass | metafield_tag }}</p>"
+          }
+        },
+        "custom_liquid_FRWwmt": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.custom.e_label %}\n <b> <a href=\"{{ product.metafields.custom.e_label }}\" target=\"_blank\">\n    Zu den Nährwertangaben\n  </b></a>\n{% endif %}"
+          }
+        },
+        "custom_liquid_iB8mWM": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% assign max_score = 6 %}\n{% assign frucht_score = product.metafields.custom.frucht | default: 0 %}\n{% assign suesse_score = product.metafields.custom.s_e | default: 0 %}\n{% assign komplex_score = product.metafields.custom.k_rper_komplexit_t | default: 0 %}\n{% assign mineral_score = product.metafields.custom.mineralit_t | default: 0 %}\n{% assign holz_score = product.metafields.custom.holz_schmeckbar | default: 0 %}\n\n<!-- Frucht -->\n<div style=\"display: flex; align-items: center; margin-bottom: 8px;\">\n  <div style=\"width: 150px;\">Frucht:</div>\n  <div style=\"display: flex; gap: 4px;\">\n    {% for i in (1..max_score) %}\n      {% if i <= frucht_score %}\n        <img src=\"{{ 'glas_aktiv.png' | file_url }}\" width=\"20\" height=\"40\">\n      {% else %}\n        <img src=\"{{ 'glas_inaktiv.png' | file_url }}\" width=\"20\" height=\"40\">\n      {% endif %}\n    {% endfor %}\n  </div>\n</div>\n\n<!-- Süße -->\n<div style=\"display: flex; align-items: center; margin-bottom: 8px;\">\n  <div style=\"width: 150px;\">Süße:</div>\n  <div style=\"display: flex; gap: 4px;\">\n    {% for i in (1..max_score) %}\n      {% if i <= suesse_score %}\n        <img src=\"{{ 'glas_aktiv.png' | file_url }}\" width=\"20\" height=\"40\">\n      {% else %}\n        <img src=\"{{ 'glas_inaktiv.png' | file_url }}\" width=\"20\" height=\"40\">\n      {% endif %}\n    {% endfor %}\n  </div>\n</div>\n\n<!-- Körper Komplexität -->\n<div style=\"display: flex; align-items: center; margin-bottom: 8px;\">\n  <div style=\"width: 150px;\">Körper Komplexität:</div>\n  <div style=\"display: flex; gap: 4px;\">\n    {% for i in (1..max_score) %}\n      {% if i <= komplex_score %}\n        <img src=\"{{ 'glas_aktiv.png' | file_url }}\" width=\"20\" height=\"40\">\n      {% else %}\n        <img src=\"{{ 'glas_inaktiv.png' | file_url }}\" width=\"20\" height=\"40\">\n      {% endif %}\n    {% endfor %}\n  </div>\n</div>\n\n<!-- Mineralität -->\n<div style=\"display: flex; align-items: center; margin-bottom: 8px;\">\n  <div style=\"width: 150px;\">Mineralität:</div>\n  <div style=\"display: flex; gap: 4px;\">\n    {% for i in (1..max_score) %}\n      {% if i <= mineral_score %}\n        <img src=\"{{ 'glas_aktiv.png' | file_url }}\" width=\"20\" height=\"40\">\n      {% else %}\n        <img src=\"{{ 'glas_inaktiv.png' | file_url }}\" width=\"20\" height=\"40\">\n      {% endif %}\n    {% endfor %}\n  </div>\n</div>\n\n<!-- Holz schmeckbar -->\n<div style=\"display: flex; align-items: center; margin-bottom: 8px;\">\n  <div style=\"width: 150px;\">Holz schmeckbar:</div>\n  <div style=\"display: flex; gap: 4px;\">\n    {% for i in (1..max_score) %}\n      {% if i <= holz_score %}\n        <img src=\"{{ 'glas_aktiv.png' | file_url }}\" width=\"20\" height=\"40\">\n      {% else %}\n        <img src=\"{{ 'glas_inaktiv.png' | file_url }}\" width=\"20\" height=\"40\">\n      {% endif %}\n    {% endfor %}\n  </div>\n</div>"
+          }
+        },
+        "custom_liquid_bFBNt6": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"aroma-und-geschmack-bilder\">\n  {% if product.metafields.custom.aroma_und_geschmack_1 %}\n    <img src=\"{{ product.metafields.custom.aroma_und_geschmack_1 | img_url: '100x100' }}\" alt=\"Aroma 1\">\n  {% endif %}\n\n  {% if product.metafields.custom._aroma_und_geschmack_2 %}\n    <img src=\"{{ product.metafields.custom._aroma_und_geschmack_2 | img_url: '100x100' }}\" alt=\"Aroma 2\">\n  {% endif %}\n\n  {% if product.metafields.custom._aroma_und_geschmack_3 %}\n    <img src=\"{{ product.metafields.custom._aroma_und_geschmack_3 | img_url: '100x100' }}\" alt=\"Aroma 3\">\n  {% endif %}\n\n  {% if product.metafields.custom.aroma_und_geschmack_4 %}\n    <img src=\"{{ product.metafields.custom.aroma_und_geschmack_4 | img_url: '100x100' }}\" alt=\"Aroma 4\">\n  {% endif %}\n\n{% if product.metafields.custom.aroma_und_geschmack_5 %}\n    <img src=\"{{ product.metafields.custom.aroma_und_geschmack_5 | img_url: '100x100' }}\" alt=\"Aroma 5\">\n  {% endif %}\n</div>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {}
+        },
+        "variant_selection": {
+          "type": "variant_selection",
+          "settings": {
+            "show_labels": false
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "disabled": true,
+          "settings": {
+            "inventory_status": "always",
+            "quantity_status": "low_stock_only",
+            "low_stock_threshold": 3,
+            "inventory_status_bar": true,
+            "initial_stock_level": "15",
+            "inventory_transfer_notice": false
+          }
+        },
+        "badges_ENpCGg": {
+          "type": "badges",
+          "settings": {
+            "display_sale_soldout_badge": true,
+            "display_custom_badge": true
+          }
+        },
+        "price_and_quantity_eDaGq8": {
+          "type": "price_and_quantity",
+          "settings": {}
+        },
+        "text_nbCWJf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>inkl. MwSt. , die <a href=\"/policies/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">Versandkosten</a> werden an der Kasse berechnet.</p>"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "show_gift_card_recipient_form": false
+          }
+        },
+        "custom_liquid_KK3CAY": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"lb-pdp-badge-holder\">\n<div class=\"lb-pdp-badge-3\">\nVersandkosten frei ab 100€!\n</div>\n</div>\n\n<style>\n\n.lb-pdp-badge-holder {\ndisplay: block;\n}\n\n.lb-pdp-badge-3 {\ndisplay: grid;\npadding: 5px 24px 5px 18px;\nborder-radius: 20px 50px 20px 50px;\nbackground: #414141;\ncolor: white;\nfont-size: 13px;\nfont-weight: bold;\nmargin: 0px 0px;\ntext-align: center;\n}\n\n.lb-pdp-badge-3:before {\ncontent: \"\";\nposition: absolute;\nright: 0;\nbottom: 0;\nwidth: 0;\nheight: 0;\nborder-right: 25px solid #f5f3f2;\nborder-top: 35px solid transparent;\nborder-bottom: 00px solid transparent;\n\n}\n\n</style>"
+          }
+        },
+        "custom_liquid_EfAhYT": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<div class=\"lb-pdp-shop-benefits-2\">\n<div>\n<img src=\"https://cdn.shopify.com/s/files/1/0936/3731/2853/files/Wg_Messmer_VDP_Logo_Background_Removed.png?v=1743780472\">\n<b>Mitglied im VDP</b> – Qualität mit Herkunft\n</div>\n<div>\n<img src=\"https://cdn.shopify.com/s/files/1/0936/3731/2853/files/beeren.png?v=1744793830\">\n<b>Weinbau mit Vision </b><br>seit über 240 Jahren\n</div>\n<div>\n<img src=\"https://cdn.shopify.com/s/files/1/0936/3731/2853/files/boden.png?v=1744794277\">\n<b>Terroir im Fokus</b><br> vom Boden bis ins Glas\n</div>\n</div>\n\n<style>\n.lb-pdp-shop-benefits-2 {\ndisplay: flex;\nmargin: 0px 0px 0px 0px!important; /* Oben Rechts Unten Links */\n}\n\n.lb-pdp-shop-benefits-2 div {\nborder: 1px solid #BEBEBE;\nborder-radius: 9px;\npadding: 9px 12px;\nwidth: 32.333%;\nmargin: 0.5%;\ntext-align: center;\nfont-size: 12px;\nline-height: 14px;\n}\n\n.lb-pdp-shop-benefits-2 div img {\nwidth: 24px;\ndisplay: block;\nmargin: 0px auto 4px auto;\n}\n</style>"
+          }
+        },
+        "custom_liquid_Cfwy9P": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0936/3731/2853/files/image.png?v=1744725800\" class=\"lb-payment-icons\">‍\n\n<style>\n.lb-payment-icons {\nmargin-top: 0px!important; /* Änderung Abstand nach oben */\nmargin-bottom: 0px!important; /* Änderung Abstand nach oben */\ndisplay: block!important;\nwidth: 100%!important;\nmax-width: 100%!important;\nmargin: 0px!important;\n}\n</style>"
+          }
+        },
+        "complementary_products_X4Brrd": {
+          "type": "complementary_products",
+          "disabled": true,
+          "settings": {
+            "heading": "Gerne zusammen gekauft:",
+            "product_recommendation_limit": 2,
+            "products_per_slide": 2
+          }
+        }
+      },
+      "block_order": [
+        "gallery",
+        "title",
+        "description",
+        "custom_liquid_x4Kwyx",
+        "text_6xDtBn",
+        "text_gV6UWi",
+        "custom_liquid_FRWwmt",
+        "custom_liquid_iB8mWM",
+        "custom_liquid_bFBNt6",
+        "price",
+        "quantity",
+        "variant_selection",
+        "inventory_status",
+        "badges_ENpCGg",
+        "price_and_quantity_eDaGq8",
+        "text_nbCWJf",
+        "form",
+        "custom_liquid_KK3CAY",
+        "custom_liquid_EfAhYT",
+        "custom_liquid_Cfwy9P",
+        "complementary_products_X4Brrd"
+      ],
+      "custom_css": [
+        ".product-details .quantity-field {background: #f5f3f2; border: 1px solid #404040;}",
+        ".product-gallery--media-thumbnail img {height: 120px; padding: 0px;}",
+        "@media only screen and (min-width: 1024px) {.product__wrapper--two-column .product-gallery {position: sticky; top: 5px; align-self: flex-start; }}",
+        "@media screen and (max-width: 1023px) {.aroma-und-geschmack-bilder {display: grid; grid-template-columns: repeat(2, 2fr); justify-items: center; margin: 10px; } .aroma-und-geschmack-bilder img {width: 100%; max-width: 120px; margin: 10px; }}"
+      ],
+      "settings": {
+        "gallery_image_zoom": false,
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true
+      }
+    },
+    "ss_feature_1_crHqdA": {
+      "type": "ss-feature-1",
+      "blocks": {
+        "image_H6RdFQ": {
+          "type": "image",
+          "settings": {
+            "feature_title": "Pfälzer Grauschiefer",
+            "feature_text": "<p>Nur in Burrweiler</p>",
+            "feature_image": "shopify://shop_images/felsen_5bfe1d94-1ced-4b34-9a02-d61c55575c7a.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_TjtrMB": {
+          "type": "image",
+          "settings": {
+            "feature_title": "VDP. Weingut",
+            "feature_text": "<p>Qualität mit Herkunft</p>",
+            "feature_image": "shopify://shop_images/VDP_Pfalz_Logo_Braun_RGB_400a3861-697a-472f-a7b0-55ca5ca3bc55.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_TqPQkx": {
+          "type": "image",
+          "settings": {
+            "feature_title": "Naturverbunden",
+            "feature_text": "<p>BIO, FairChoice zertifiziert & vegan</p>",
+            "feature_image": "shopify://shop_images/boden.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        }
+      },
+      "block_order": [
+        "image_H6RdFQ",
+        "image_TjtrMB",
+        "image_TqPQkx"
+      ],
+      "custom_css": [
+        "{border-top: 1px solid #fff4f400; border-bottom: 1px solid #dcdcdc;}",
+        ".feature-template--25014535291221__ss_feature_1_tiM9xh .box__title {font-family: \"Font-1744884724371\"; font-weight: 400; font-style: normal;}"
+      ],
+      "settings": {
+        "feature_row": 3,
+        "feature_row_mobile": 1,
+        "feature_gap": 46,
+        "feature_gap_mobile": 52,
+        "feature_padding_horizontal": 20,
+        "feature_padding_vertical": 44,
+        "feature_radius": 18,
+        "feature_border_thickness": 0,
+        "feature_shadow": false,
+        "feature_heading_custom": true,
+        "feature_heading_font": "playfair_display_n4",
+        "feature_heading_size": 20,
+        "feature_heading_size_mobile": 12,
+        "feature_heading_height": 150,
+        "feature_heading_mt": 8,
+        "feature_text_custom": false,
+        "feature_text_font": "din_next_n4",
+        "feature_text_size": 16,
+        "feature_text_size_mobile": 12,
+        "feature_text_height": 130,
+        "feature_text_mt": 4,
+        "feature_icon_size": 46,
+        "feature_icon_size_mobile": 42,
+        "feature_bg": "#f5f3f2",
+        "feature_border_color": "#ffffff",
+        "feature_shadow_color": "#404040",
+        "feature_heading_color": "#000000",
+        "feature_text_color": "#383442",
+        "feature_icon_color": "#383442",
+        "background_color": "#f5f3f2",
+        "background_gradient": "",
+        "border_color": "#f5f3f2",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 400,
+        "border_thickness": 15,
+        "lazy": true
+      }
+    },
+    "dynamic_logo_list_7n8tzF": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "logo_NBDnh8": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_Bio_Logo_Schwarz.png",
+            "link": ""
+          }
+        },
+        "logo_tiKDRR": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Wg_Messmer_VDP_Logo_Background_Removed.png",
+            "link": ""
+          }
+        },
+        "logo_AX6yeX": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/20250414_WG_Messmer_Bilder_und_grafiken_fuer_Onlineshop_4.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_NBDnh8",
+        "logo_tiKDRR",
+        "logo_AX6yeX"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".logo-list__logo-wrapper {justify-content: space-evenly;}",
+        ".logo-list-logo {width: 70px;}",
+        "@media only screen and (max-width: 769px) {.logo-list-logo {width: 40px; justify-content: center; }}"
+      ],
+      "settings": {
+        "title": "",
+        "show_border": true,
+        "mobile_layout": "grid"
+      }
+    },
+    "dynamic_faq_4dFa9q": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "heading_NjJtB6": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.title }}"
+          }
+        },
+        "question_4TmUQj": {
+          "type": "question",
+          "settings": {
+            "title": "Mehr Details:",
+            "content": "<p>Rebsorte: {{ product.metafields.custom.rebsorte.value }}</p><p>Geschmacksrichtung: {{ product.metafields.custom.geschmack.value }}</p><p>VDP. Klassifikation: {{ product.metafields.custom.vdp_klassifikation.value }}</p><p>Lage: {{ product.metafields.custom.lage.value }}</p><p>Terroir: {{ product.metafields.custom.terroir.value }}</p><p>Trinktemperatur: {{ product.metafields.custom.trinktemperatur.value }}</p><p>Flaschengröße: {{ product.metafields.custom.flaschengroesse.value }}</p><p>Alkoholgehalt: {{ product.metafields.custom.alkohol.value }}</p><p>Säuregehalt: {{ product.metafields.custom.saeure.value }}</p><p>Restsüße: {{ product.metafields.custom.restsuesse.value }}</p><p>{{ product.metafields.custom.trinkreife.value }}</p>"
+          }
+        },
+        "question_T7UUC4": {
+          "type": "question",
+          "settings": {
+            "title": "Passt gut zu:",
+            "content": "{{ product.metafields.custom.passt_zu | metafield_tag }}<p>Anlass: </p>{{ product.metafields.custom.anlass | metafield_tag }}<p></p>"
+          }
+        },
+        "question_PTmaQi": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "Nährwertangabe:",
+            "content": "<p>100 ml enthalten durchschnittlich:</p><ul><li>Brennwert: {{ product.metafields.custom.brennwert.value }}</li><li>Kohlenhydrate: {{ product.metafields.custom.kohlenhydrate.value }}</li><li>davon Zucker: {{ product.metafields.custom.davon_zucker.value }}</li></ul><p>Zutatenliste: </p>{{ product.metafields.custom.zutaten | metafield_tag }}<p>Enthält geringfügige mengen von fett gesättigten fettsäuren eiweiß und salz</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NjJtB6",
+        "question_4TmUQj",
+        "question_T7UUC4",
+        "question_PTmaQi"
+      ],
+      "settings": {
+        "title": "",
+        "show_border": false
+      }
+    },
+    "ss_text_block_TU6Xn8": {
+      "type": "ss-text-block",
+      "blocks": {
+        "button_F4y9Kp": {
+          "type": "button",
+          "settings": {
+            "button_text": " Expertise herunterladen",
+            "button_link": "{{ product.metafields.custom.expertise.value }}",
+            "color": "#ffffff",
+            "background_color": "#404040",
+            "border_radius": "",
+            "font_size": 18
+          }
+        }
+      },
+      "block_order": [
+        "button_F4y9Kp"
+      ],
+      "custom_css": [
+        "{border-top: 1px solid #fff4f400;}"
+      ],
+      "name": "SS - Text block",
+      "settings": {
+        "padding_header": 0,
+        "padding_button": 0,
+        "background-color": "#f5f3f2",
+        "padding_top": 0,
+        "padding_bottom": 36,
+        "section-width": 80
+      }
+    },
+    "dynamic_featured_collection_jXcj3g": {
+      "type": "dynamic-featured-collection",
+      "settings": {
+        "title": "Gerne zusammen gekauft:",
+        "show_border": true,
+        "collection": "alle-weine",
+        "products-per-row": 4,
+        "product-rows": 1,
+        "view_all": false
+      }
+    },
+    "dynamic_slideshow_zXbiNA": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "feature_MbnDCa": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_Team_Ernte_3.webp",
+            "title": "HERKUNFT, HANDWERK UND HALTUNG",
+            "subheading": "Im Weingut Meßmer entsteht Wein aus Überzeugung – und das schmeckt man. Hier treffen herausragende Lagen wie der Burrweiler Schäwer auf konsequent biologischen Anbau, Schiefermineralität auf Handwerk, Tradition auf neue Wege. Martin Meßmer und sein Team leben Nachhaltigkeit ganzheitlich – ohne Kompromisse. Das Ergebnis: terroirgeprägte Weine mit Tiefe, Charakter und Klarheit, die mit viel Hingabe und Respekt zur Natur entstehen.Als Bio-Weingut steht Meßmer für authentischen Weinbau mit Haltung - tief verwurzelt in Boden, Handwerk und Verantwortung.",
+            "button_label": "Mehr über uns",
+            "link": "shopify://pages/uber-uns",
+            "color": "#ffffff",
+            "background_color": "#000000",
+            "background_color_opacity": 25,
+            "alignment": "left-center"
+          }
+        }
+      },
+      "block_order": [
+        "feature_MbnDCa"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_border": true,
+        "should_autoplay": true,
+        "slide_frequency": 2,
+        "aspect_ratio": "23-9"
+      }
+    },
+    "dynamic_image_with_text_jWDWwh": {
+      "type": "dynamic-image-with-text",
+      "custom_css": [
+        ".image-with-text__container {margin-bottom: 0px;}"
+      ],
+      "settings": {
+        "section_heading": "HERKUNFT, HANDWERK UND HALTUNG",
+        "show_border": true,
+        "image": "shopify://shop_images/Wg_Messmer_Martin_Lager.jpg",
+        "desktop_height": "500px",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "",
+        "subheading": "<p><strong>Im Weingut Meßmer entsteht Wein aus Überzeugung -</strong> und das schmeckt man. Hier treffen herausragende Lagen wie der Burrweiler Schäwer auf konsequent biologischen Anbau, Schiefermineralität auf Handwerk, <strong>Tradition auf neue Wege<br/><br/>Unser Terroir liegt im Herzen der Pfalz</strong> – zwischen Pfälzerwald und Rheinebene vereinen sich Granit, Schiefer, Muschelkalk und mehr zu einem einzigartigen Bodenprofil. </p><p><strong>Diese geologische Vielfalt bringt Weine hervor, die durch Mineralität, Tiefe und Eleganz überzeugen.</strong> Mit bewusst gewählten, ideal passenden Rebsorten entstehen Weine, die ihre Herkunft klar widerspiegeln.</p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "dynamic_image_with_text_QdeVKD": {
+      "type": "dynamic-image-with-text",
+      "custom_css": [
+        ".image-with-text__container {margin-top: 0px;}"
+      ],
+      "settings": {
+        "section_heading": "",
+        "show_border": false,
+        "image": "shopify://shop_images/WG_Messmer_Bernd_Jonas_Keller.webp",
+        "desktop_height": "500px",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "",
+        "subheading": "<p><strong>Heute steht Jonas Bosch für diesen Weg.</strong> Als Betriebsleiter prägt er mit Leidenschaft, Ehrgeiz und einem feinen Gespür für Qualität die Handschrift der Meßmer-Weine. </p><p><strong>Unter seiner Leitung hat sich das Weingut in den letzten Jahren spürbar weiterentwickelt</strong> – mit einer klaren Vision und dem Anspruch, das Beste aus jedem Jahrgang herauszuholen. Die nächsten Schritte plant Jonas gemeinsam mit dem Team – mutig, nachhaltig und voller Hingabe.</p><p>Als Bio-Weingut steht Meßmer für authentischen Weinbau mit Haltung – tief verwurzelt in Boden, Handwerk und Verantwortung. <strong>Das Ergebnis: terroirgeprägte Weine mit Tiefe, Charakter und Klarheit, die mit Respekt gegenüber der Natur entstehen.</strong></p>",
+        "text_alignment": "left",
+        "button_label": "",
+        "button_link": "#class=\"product-details__text\""
+      }
+    },
+    "dynamic_testimonials_Cr4VPj": {
+      "type": "dynamic-testimonials",
+      "blocks": {
+        "testimonial_Gzkhzg": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5",
+            "quote": "<p>\"Eher durch Zufall hier nach meiner Wanderung gelandet und wirklich herzlich empfangen worden, samt Hund. Wirklich tolle Weine, habe direkt einige Kisten mitgenommen und werde sicherlich in Zukunft wieder mal vorbeischauen oder bestellen.\"</p>",
+            "image": "shopify://shop_images/WG_Messmer_Google_Logo.jpg",
+            "author": "Christina E.",
+            "author_details": "",
+            "text_color": "",
+            "background": "#575551"
+          }
+        },
+        "testimonial_ftpCVa": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5",
+            "quote": "<p>\"Perfekte Degu und sehr kompetente Begleitung! Danke wir kommer wieder!\"</p>",
+            "image": "shopify://shop_images/WG_Messmer_Google_Logo.jpg",
+            "author": "Thomas",
+            "author_details": "",
+            "text_color": "",
+            "background": ""
+          }
+        },
+        "testimonial_kALAUj": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5",
+            "quote": "<p>\"Hier hat auch unglaublich viel getan, Wahnsinnsweine, da bewegt sich was!<br/>Sensationell!\"</p>",
+            "image": "shopify://shop_images/WG_Messmer_Google_Logo.jpg",
+            "author": "Emrah I.",
+            "author_details": "",
+            "text_color": "",
+            "background": ""
+          }
+        },
+        "testimonial_xtrLxe": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5",
+            "quote": "<p>\"Wunderbare Weine, tolle Veranstaltungen, freundliche kompetente Angestellte. Kaufe immer wieder gerne meine Weine dort, oder verbringe angenehme Stunden bei kleinen feinen Speisen.<br/>Sehr empfehlenswert!!!!<br/>Es geht sehr gut weiter mit den neuen Kellermeister Jonas Bosch, die aktuellen Weine sind verdammt gut gelungen. Die Preise sind für die Qualität angemessen.\"</p>",
+            "image": "shopify://shop_images/WG_Messmer_Google_Logo.jpg",
+            "author": "Dodo E.",
+            "author_details": "",
+            "text_color": "",
+            "background": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_Gzkhzg",
+        "testimonial_ftpCVa",
+        "testimonial_kALAUj",
+        "testimonial_xtrLxe"
+      ],
+      "custom_css": [
+        ".testimonials__desktop--slider .testimonial {background-color: #b0def5; font-style: italic; border-radius: 12px; box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.15); margin: 15px;}"
+      ],
+      "settings": {
+        "title": "sq",
+        "show_border": true,
+        "alignment": "center",
+        "image_crop": "circle"
+      }
+    },
+    "product_recommendations": {
+      "type": "static-product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "Besonders beliebt:"
+      }
+    },
+    "dynamic_image_with_text_Pqb36f": {
+      "type": "dynamic-image-with-text",
+      "custom_css": [],
+      "settings": {
+        "section_heading": "",
+        "show_border": true,
+        "image": "shopify://shop_images/VDP.Pyramide_21_af905d76-d145-4bc5-a3e2-1c8d94e2ad7b.png",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Ein Versprechen an die Qualität",
+        "subheading": "<p>Seit 1997 ist das Weingut Meßmer stolzes Mitglied im renommierten Verband Deutscher Prädikatsweingüter (VDP). Diese Zugehörigkeit steht für unsere Verpflichtung zu höchster Qualität, nachhaltigem Weinbau und klarer Herkunft.</p><p> Mit unseren charaktervollen Lagenweinen aus der Klassifikationsstufe <strong>VDP.ERSTE LAGEN®</strong> und <strong>VDP.GROSSE LAGEN®</strong> gehören wir zu den führenden Weingütern der deutschen Weinwelt.</p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "dynamic_faq_BPetCH": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "question_apNbbp": {
+          "type": "question",
+          "settings": {
+            "title": "VDP.GROSSE LAGE",
+            "content": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>"
+          }
+        },
+        "question_r4rRke": {
+          "type": "question",
+          "settings": {
+            "title": "VDP.LAGENWEIN",
+            "content": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>"
+          }
+        },
+        "question_6mKFEy": {
+          "type": "question",
+          "settings": {
+            "title": "VDP.ORTSWEIN",
+            "content": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>"
+          }
+        },
+        "question_CxP8Nk": {
+          "type": "question",
+          "settings": {
+            "title": "VDP.GUTSWEIN",
+            "content": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_apNbbp",
+        "question_r4rRke",
+        "question_6mKFEy",
+        "question_CxP8Nk"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Die VDP. Klassifizierung",
+        "show_border": false
+      }
+    },
+    "ss_feature_1_HdYnzd": {
+      "type": "ss-feature-1",
+      "blocks": {
+        "image_8xy3xW": {
+          "type": "image",
+          "settings": {
+            "feature_title": "Free Shipping",
+            "feature_text": "<p>Order today, receive tomorrow</p>",
+            "feature_image": "shopify://shop_images/VDP_Pfalz_Logo_Braun_RGB_400a3861-697a-472f-a7b0-55ca5ca3bc55.png",
+            "feature_url": "https://section.store/",
+            "hide_image": false
+          }
+        },
+        "image_UtKGyW": {
+          "type": "image",
+          "settings": {
+            "feature_title": "Price-match guarantee",
+            "feature_text": "<p>Safe money when ordering with us</p>",
+            "feature_image": "shopify://shop_images/VDP_Pfalz_Logo_Braun_RGB_400a3861-697a-472f-a7b0-55ca5ca3bc55.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_pnntBM": {
+          "type": "image",
+          "settings": {
+            "feature_title": "Hassle-free exchange",
+            "feature_text": "<p>Receive a slip for exchanges</p>",
+            "feature_image": "shopify://shop_images/VDP_Pfalz_Logo_Braun_RGB_400a3861-697a-472f-a7b0-55ca5ca3bc55.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_PRqDzt": {
+          "type": "image",
+          "settings": {
+            "feature_title": "5.0 Google Reviews",
+            "feature_text": "<p>Customer satisfaction #1 priority</p>",
+            "feature_image": "shopify://shop_images/VDP_Pfalz_Logo_Braun_RGB_400a3861-697a-472f-a7b0-55ca5ca3bc55.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        }
+      },
+      "block_order": [
+        "image_8xy3xW",
+        "image_UtKGyW",
+        "image_pnntBM",
+        "image_PRqDzt"
+      ],
+      "disabled": true,
+      "name": "SS - Feature #1",
+      "settings": {
+        "feature_row": 4,
+        "feature_row_mobile": 1,
+        "feature_gap": 20,
+        "feature_gap_mobile": 20,
+        "feature_padding_horizontal": 0,
+        "feature_padding_vertical": 0,
+        "feature_radius": 16,
+        "feature_border_thickness": 0,
+        "feature_shadow": false,
+        "feature_heading_custom": false,
+        "feature_heading_font": "josefin_sans_n4",
+        "feature_heading_size": 14,
+        "feature_heading_size_mobile": 12,
+        "feature_heading_height": 130,
+        "feature_heading_mt": 8,
+        "feature_text_custom": false,
+        "feature_text_font": "josefin_sans_n4",
+        "feature_text_size": 12,
+        "feature_text_size_mobile": 12,
+        "feature_text_height": 130,
+        "feature_text_mt": 4,
+        "feature_icon_size": 42,
+        "feature_icon_size_mobile": 42,
+        "feature_bg": "#f5f3f2",
+        "feature_border_color": "#000000",
+        "feature_shadow_color": "#000000",
+        "feature_heading_color": "#000000",
+        "feature_text_color": "#000000",
+        "feature_icon_color": "#000000",
+        "background_color": "#f5f3f2",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "dynamic_logo_list_xepHjm": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "logo_xHG7Lz": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/csm_vdp_grosses-gewaechs-logo_kleine_variante_schwarz_12ed1d4344.png",
+            "link": "shopify://collections/vdp-grosse-lage"
+          }
+        },
+        "logo_WHJ9aE": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/csm_vdp_erstes-gewaechs-logo_kleine_variante_schwarz_56b4c88458.png",
+            "link": "shopify://collections/vdp-erste-lage"
+          }
+        },
+        "logo_tWWzmj": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/VDP_Klassifikationspyramiden_ORTSWEIN_Schwarz.png",
+            "link": "shopify://collections/vdp-ortswein"
+          }
+        },
+        "logo_RwxA7H": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/csm_VDP_Klassifikationspyramiden_GUTSWEIN_Schwarz_89e7f649a1.png",
+            "link": "shopify://collections/vdp-gutswein"
+          }
+        }
+      },
+      "block_order": [
+        "logo_xHG7Lz",
+        "logo_WHJ9aE",
+        "logo_tWWzmj",
+        "logo_RwxA7H"
+      ],
+      "custom_css": [
+        ".logo-list__logo-wrapper {justify-content: space-between;}",
+        ".logo-list-logo__image {transition: transform 0.5s;}",
+        ".logo-list-logo__image:hover {transform: scale(1.2);}"
+      ],
+      "settings": {
+        "title": "",
+        "show_border": false,
+        "mobile_layout": "slider"
+      }
+    },
+    "dynamic_promotions_WVxFNY": {
+      "type": "dynamic-promotions",
+      "blocks": {
+        "feature_77w378": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/20250414_WG_Messmer_Produktbilder_878524da-f8ab-4f87-beed-c9f3b2af59bb.jpg",
+            "title": "",
+            "caption": "<p><strong>VDP.GROSSE LAGE®</strong></p>",
+            "url": "shopify://collections/vdp-grosse-lage",
+            "cta_title": "Hier entdecken",
+            "text_color": "dark"
+          }
+        },
+        "feature_yhMzF8": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/3.jpg",
+            "title": "",
+            "caption": "<p><strong>VDP.ERSTE LAGE®</strong></p>",
+            "url": "shopify://collections/vdp-erste-lage",
+            "cta_title": "Hier entdecken",
+            "text_color": "dark"
+          }
+        },
+        "feature_pTPKXj": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/4.jpg",
+            "title": "",
+            "caption": "<p><strong>VDP.ORTSWEIN</strong></p>",
+            "url": "shopify://collections/vdp-ortswein",
+            "cta_title": "Hier entdecken",
+            "text_color": "dark"
+          }
+        },
+        "feature_Uqi3WM": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/5.jpg",
+            "title": "",
+            "caption": "<p><strong>VDP.GUTSWEIN</strong></p>",
+            "url": "shopify://collections/vdp-gutswein",
+            "cta_title": "Hier entdecken",
+            "text_color": "dark"
+          }
+        }
+      },
+      "block_order": [
+        "feature_77w378",
+        "feature_yhMzF8",
+        "feature_pTPKXj",
+        "feature_Uqi3WM"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".promotion-blocks__wrapper {display: grid; grid-template-columns: repeat(4, 1fr); /* Desktop */ gap: 16px; font-weight: 400; font-size: 20px;}",
+        "@media only screen and (max-width: 1024px) {.promotion-blocks__wrapper {grid-template-columns: repeat(2, 1fr); /* Tablet */ }}",
+        "@media only screen and (max-width: 600px) {.promotion-blocks__wrapper {grid-template-columns: 1fr; /* Mobil */ font-size: 16px; }}"
+      ],
+      "settings": {
+        "title": "",
+        "show_border": true
+      }
+    },
+    "dynamic_promotions_Pif7Ac": {
+      "type": "dynamic-promotions",
+      "blocks": {
+        "feature_YL4Miq": {
+          "type": "feature",
+          "settings": {
+            "title": "",
+            "caption": "<p><strong>VDP. Große Lage</strong></p>",
+            "url": "shopify://collections/vdp-grosse-lage",
+            "cta_title": "Hier entdecken",
+            "text_color": "light"
+          }
+        },
+        "feature_QzHaen": {
+          "type": "feature",
+          "settings": {
+            "title": "",
+            "caption": "<p><strong>VDP. Erste Lage</strong></p>",
+            "url": "shopify://collections/vdp-erste-lage",
+            "cta_title": "Hier entdecken",
+            "text_color": "light"
+          }
+        },
+        "feature_X6VKPw": {
+          "type": "feature",
+          "settings": {
+            "title": "",
+            "caption": "<p><strong>VDP. Ortswein</strong></p>",
+            "url": "shopify://collections/vdp-ortswein",
+            "cta_title": "Hier entdecken",
+            "text_color": "light"
+          }
+        },
+        "feature_ypa4B6": {
+          "type": "feature",
+          "settings": {
+            "title": "",
+            "caption": "<p><strong>VDP. Gutswein</strong></p>",
+            "url": "shopify://collections/vdp-gutswein",
+            "cta_title": "Hier entdecken",
+            "text_color": "light"
+          }
+        }
+      },
+      "block_order": [
+        "feature_YL4Miq",
+        "feature_QzHaen",
+        "feature_X6VKPw",
+        "feature_ypa4B6"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".promotion-blocks__wrapper {grid-template-columns: repeat(4, 2fr);}",
+        ".promotion-block--text-color-light {--promotion-block-text-color: #000000;"
+      ],
+      "settings": {
+        "title": "",
+        "show_border": false
+      }
+    },
+    "dynamic_promotions_T4b6Rx": {
+      "type": "dynamic-promotions",
+      "blocks": {
+        "feature_GzWGcE": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6823_1.heic",
+            "title": "",
+            "caption": "",
+            "url": "shopify://collections/vdp-grosse-lage",
+            "cta_title": "VDP. Große Lage",
+            "text_color": "light"
+          }
+        },
+        "feature_HK89LM": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/Fass_Farbe_A_1.webp",
+            "title": "",
+            "caption": "",
+            "url": "shopify://collections/vdp-erste-lage",
+            "cta_title": "VDP. Erste Lage",
+            "text_color": "light"
+          }
+        },
+        "feature_FABEVY": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/DKlick019_1.webp",
+            "title": "",
+            "caption": "",
+            "url": "shopify://collections/vdp-ortswein",
+            "cta_title": "VDP. Ortswein",
+            "text_color": "light"
+          }
+        },
+        "feature_3A7eBh": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1033_1_Medium_ce7b0f7b-1cc4-468e-bdd6-2989166e232b.jpg",
+            "title": "",
+            "caption": "",
+            "url": "shopify://collections/vdp-gutswein",
+            "cta_title": "VDP. Gutswein",
+            "text_color": "light"
+          }
+        }
+      },
+      "block_order": [
+        "feature_GzWGcE",
+        "feature_HK89LM",
+        "feature_FABEVY",
+        "feature_3A7eBh"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".promotion-blocks__wrapper {grid-template-columns: repeat(4, 2fr);}"
+      ],
+      "settings": {
+        "title": "",
+        "show_border": false
+      }
+    },
+    "dynamic_slideshow_6Q4bUa": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "feature_dmE94h": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/Wg-Messmer_Wein_Ausschank.webp",
+            "title": "WEINKAUF IM WEINGUT",
+            "subheading": "In unserer Weinprobierstube im Weingut kannst du in aller Ruhe probieren und die passenden Weine für dich entdecken. Gerne beraten wir dich dabei persönlich und mit viel Leidenschaft für unsere Weine. Öffnungszeiten: Mo–Fr: 8:30 – 17:00 Uhr, Sa: 10:00 – 13:00 Uhr.",
+            "button_label": "Dein Weg zu uns",
+            "link": "shopify://pages/kontakt",
+            "color": "#ffffff",
+            "background_color": "#000000",
+            "background_color_opacity": 0,
+            "alignment": "center-center"
+          }
+        },
+        "feature_9TcXqJ": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_Banner_5.webp",
+            "title": "WEINGENUSS NACH IHREM GESCHMACK",
+            "subheading": "Ob für einen gemütlichen Abend, ein festliches Dinner oder als Geschenk – unser Weinfinder hilft Ihnen, den idealen Wein zu finden. Nutzen Sie unsere Expertise oder lassen Sie sich persönlich von uns beraten. Martin Meßmer und sein Team stehen Ihnen gerne zur Seite! 01708324381 |  m.messmer@weingut-messmer.de",
+            "button_label": "Speise & Wein",
+            "link": "shopify://pages/speise-wein",
+            "color": "#ffffff",
+            "background_color": "#000000",
+            "background_color_opacity": 15,
+            "alignment": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "feature_dmE94h",
+        "feature_9TcXqJ"
+      ],
+      "custom_css": [
+        ".slideshow-slide__button {background-color: #f5f3f2; color: #404040; border: 0px;}",
+        ".slideshow-slide__button:hover {background-color: #404040; color: #f5f3f2;}"
+      ],
+      "settings": {
+        "show_border": true,
+        "should_autoplay": true,
+        "slide_frequency": 9,
+        "aspect_ratio": "23-9"
+      }
+    },
+    "dynamic_promotions_fAqbMa": {
+      "type": "dynamic-promotions",
+      "blocks": {
+        "feature_JGXDye": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_Footer_1.jpg",
+            "title": "WEINPRÄSENTE & PAKETE",
+            "caption": "<p>ALLE PAKETE UND PRÄSENTE SIND VOR ORT IM WEINGUT, IN DER VINOTHEK ODER ONLINE VERFÜGBAR!</p>",
+            "url": "shopify://collections/weinpakete",
+            "cta_title": "JETZT ENTDECKEN",
+            "text_color": "light"
+          }
+        },
+        "feature_iDXwjB": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_Footer_2_cac1ca51-da44-4a69-a58d-1e2e15aea51f.jpg",
+            "title": "WEINPROBE",
+            "caption": "<p>DU MÖCHTEST UNSERE WEINE PROBIEREN UND MEHR ÜBER UNSER WEINGUT, DIE WEINBEREITUNG UND UNSERE PHILOSOPHIE ERFAHREN?</p><p>DANN BUCH DIR HIER DEINE INDIVIDUELLE WEINPROBE!</p>",
+            "url": "shopify://pages/weinprobeanfrage",
+            "cta_title": "ANFRAGE SENDEN",
+            "text_color": "light"
+          }
+        }
+      },
+      "block_order": [
+        "feature_JGXDye",
+        "feature_iDXwjB"
+      ],
+      "custom_css": [
+        ".promotion-block__heading {--font-size-heading-2: 2.5rem; margin-top: 0; margin-bottom: 3rem;}"
+      ],
+      "settings": {
+        "title": "",
+        "show_border": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ss_feature_1_crHqdA",
+    "dynamic_logo_list_7n8tzF",
+    "dynamic_faq_4dFa9q",
+    "ss_text_block_TU6Xn8",
+    "dynamic_featured_collection_jXcj3g",
+    "dynamic_slideshow_zXbiNA",
+    "dynamic_image_with_text_jWDWwh",
+    "dynamic_image_with_text_QdeVKD",
+    "dynamic_testimonials_Cr4VPj",
+    "product_recommendations",
+    "dynamic_image_with_text_Pqb36f",
+    "dynamic_faq_BPetCH",
+    "ss_feature_1_HdYnzd",
+    "dynamic_logo_list_xepHjm",
+    "dynamic_promotions_WVxFNY",
+    "dynamic_promotions_Pif7Ac",
+    "dynamic_promotions_T4b6Rx",
+    "dynamic_slideshow_6Q4bUa",
+    "dynamic_promotions_fAqbMa"
+  ]
+}
