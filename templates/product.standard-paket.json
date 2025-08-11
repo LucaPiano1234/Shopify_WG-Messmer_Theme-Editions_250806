@@ -542,7 +542,9 @@
     },
     "dynamic_image_with_text_Pqb36f": {
       "type": "dynamic-image-with-text",
-      "custom_css": [],
+      "custom_css": [
+        "@media only screen and (min-width: 769px) {.image-with-text__heading {margin-bottom: 3rem; }"
+      ],
       "settings": {
         "section_heading": "",
         "show_border": true,
