@@ -28,7 +28,7 @@
     "low_stock": "#d77a66",
     "font_heading": "playfair_display_n4",
     "font_body": "din_next_n3",
-    "font_accent": "barlow_n4",
+    "font_accent": "playfair_display_n4",
     "reduce_animations": false,
     "favicon": "shopify://shop_images/Screenshot_2025-04-04_at_17.11.28.png",
     "enable_cart_redirection": false,
