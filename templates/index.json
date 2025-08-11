@@ -443,7 +443,7 @@
     "dynamic_image_with_text_XTCfe4": {
       "type": "dynamic-image-with-text",
       "custom_css": [
-        ".image-with-text__heading {margin-bottom: 2rem;}"
+        ".image-with-text__heading {margin-bottom: 3rem;}"
       ],
       "settings": {
         "section_heading": "",
