@@ -409,7 +409,7 @@
     "dynamic_image_with_text_GinXTH": {
       "type": "dynamic-image-with-text",
       "custom_css": [
-        ".image-with-text__heading {margin-bottom: 3rem;}"
+        "@media only screen and (min-width: 769px) {.image-with-text__heading {margin-bottom: 3rem; }"
       ],
       "settings": {
         "section_heading": "",
@@ -429,7 +429,7 @@
     "dynamic_image_with_text_iLMAxW": {
       "type": "dynamic-image-with-text",
       "custom_css": [
-        ".image-with-text__heading {margin-bottom: 3rem;}"
+        "@media only screen and (min-width: 769px) {.image-with-text__heading {margin-bottom: 3rem; }"
       ],
       "settings": {
         "section_heading": "",
@@ -449,7 +449,7 @@
     "dynamic_image_with_text_XTCfe4": {
       "type": "dynamic-image-with-text",
       "custom_css": [
-        ".image-with-text__heading {margin-bottom: 3rem;}"
+        "@media only screen and (min-width: 769px) {.image-with-text__heading {margin-bottom: 3rem; }"
       ],
       "settings": {
         "section_heading": "",
