@@ -403,7 +403,7 @@
       "settings": {
         "title": "Lebendige und gesunde Böden, biologischer Anbau, Handlese, spontane Vergärung, und viel Zeit sind dafür unerlässlich",
         "introduction_tagline": "",
-        "show_border": false
+        "show_border": true
       }
     },
     "dynamic_image_with_text_GinXTH": {
@@ -413,7 +413,7 @@
       ],
       "settings": {
         "section_heading": "",
-        "show_border": false,
+        "show_border": true,
         "image": "shopify://shop_images/Jonas_keller.jpg",
         "desktop_height": "600px",
         "mobile_height": "natural",
@@ -736,7 +736,7 @@
         "feature_gWmAwe"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 600px) {.slideshow-slide__button {background-color: #f5f3f2; color: #404040; border: 0px;}.slideshow-slide__button:hover {background-color: #404040; color: #f5f3f2;}}"
+        "@media only screen and (min-width: 600px) {.slideshow-slide__button {background-color: #f5f3f2; color: #404040; border: 0px; } .slideshow-slide__button:hover {background-color: #404040; color: #f5f3f2; }}"
       ],
       "settings": {
         "show_border": false,
