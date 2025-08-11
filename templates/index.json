@@ -639,7 +639,7 @@
     "dynamic_image_with_text_7fbjHY": {
       "type": "dynamic-image-with-text",
       "custom_css": [
-        "@media only screen and (min-width: 769px) {.image-with-text__heading {margin-bottom: 2rem; } .image-with-text__container {margin-top: 3rem; }}"
+        "@media only screen and (min-width: 769px) {.image-with-text__heading {margin-bottom: 3rem; } .image-with-text__container {margin-top: 3rem; }}"
       ],
       "settings": {
         "section_heading": "",
@@ -659,7 +659,7 @@
     "dynamic_image_with_text_LHJQBE": {
       "type": "dynamic-image-with-text",
       "custom_css": [
-        "@media only screen and (min-width: 769px) {.image-with-text__heading {margin-bottom: 2rem; } .image-with-text__container {}}"
+        "@media only screen and (min-width: 769px) {.image-with-text__heading {margin-bottom: 3rem; } .image-with-text__container {}}"
       ],
       "settings": {
         "section_heading": "",
@@ -678,7 +678,9 @@
     },
     "dynamic_image_with_text_47Di9x": {
       "type": "dynamic-image-with-text",
-      "custom_css": [],
+      "custom_css": [
+        "@media only screen and (min-width: 769px) {.image-with-text__heading {margin-bottom: 3rem; } .image-with-text__container {}}"
+      ],
       "settings": {
         "section_heading": "",
         "show_border": false,
