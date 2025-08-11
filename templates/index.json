@@ -736,8 +736,7 @@
         "feature_gWmAwe"
       ],
       "custom_css": [
-        ".slideshow-slide__button {background-color: #f5f3f2; color: #404040; border: 0px;}",
-        ".slideshow-slide__button:hover {background-color: #404040; color: #f5f3f2;}"
+        "@media only screen and (min-width: 600px) {.slideshow-slide__button {background-color: #f5f3f2; color: #404040; border: 0px;}.slideshow-slide__button:hover {background-color: #404040; color: #f5f3f2;}}"
       ],
       "settings": {
         "show_border": false,
