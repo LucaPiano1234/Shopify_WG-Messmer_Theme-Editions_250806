@@ -40,9 +40,8 @@
         },
         "text_gV6UWi": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>Passt gut zu: </p>{{ product.metafields.custom.passt_zu | metafield_tag }}<p>Anlass: </p>{{ product.metafields.custom.anlass | metafield_tag }}"
+            "text": "<p>Passt gut zu: </p>{{ product.metafields.custom.passt_zu | metafield_tag }}"
           }
         },
         "custom_liquid_FRWwmt": {
