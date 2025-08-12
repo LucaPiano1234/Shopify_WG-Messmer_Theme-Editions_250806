@@ -628,7 +628,7 @@
         "desktop_height": "natural",
         "mobile_height": "natural",
         "desktop_image_alignment": "left",
-        "mobile_image_alignment": "bottom",
+        "mobile_image_alignment": "top",
         "heading": "VDP.GROSSES GEWÄCHS®",
         "subheading": "<p>Wenn Riesling auf Devonschiefer und Granit treffen und der Ertrag auf ein Minimum reduziert wird, entsteht etwas Besonderes: <strong>unser großes Gewächs. Die absolute Spitze.</strong> Mehr Abgrenzung durch kleine Parzellierung, also der qualitativen Lagen Herkunft geht nicht. </p><p>Strenges und sehr aufwendiges Handwerk <strong>machen diese Toplagen seit Jahrzehnte zum Nonplusultra der Lagenphilosophie</strong>. Bei uns liegen sie am Hang zum Haardtrand auf über 270 Höhenmeter und heißen Schäwer sowie Micheslberg. </p><p>Dieser einzigartige Charakter durch Cool Climate, Exposition und geologischer Grundlage, <strong>wie beispielsweise dem sehr seltenen Devonschiefer,</strong> spiegeln sich zu 100% in unseren großen Gewächsen wider. </p><p><strong>Die Wertigkeit ist vergleichbar mit den französischen Grand Crus</strong>, weshalb die GG‘s in eine besondere Flasche mit goldener Kapsel und Naturkork gefüllt werden.</p>",
         "text_alignment": "left",
@@ -648,7 +648,7 @@
         "desktop_height": "natural",
         "mobile_height": "natural",
         "desktop_image_alignment": "right",
-        "mobile_image_alignment": "bottom",
+        "mobile_image_alignment": "top",
         "heading": "VDP.ERSTE LAGE®",
         "subheading": "<p>Eng umfasste Lagen und Einzelweinberge, <strong>deren Wertigkeit den Winzern schon vor über 150 Jahren bekannt war.  </strong></p><p>In unseren Weinen der Klassifikationsstufe VDP.ERSTE LAGE® wie aus dem Böchinger Rosenkranz, dem Burrweiler Schlossgarten und dem Burrweiler Altenforst, <strong>wachsen alte Reben auf charaktervollen Böden. Sie sind nur den Rebsporten vorbehalten , die das Geschmacksprofil der Lage aufnehmen und im Wein widerspiegeln können. </strong></p><p>Die Herkunftsprägung und das eigenständige Geschmacksprofil sind  daher absolut wiedererkennbar, was diese Weine so wertvoll macht.</p><p><strong>Die trockenen Weine aus den Ersten Lagen heißen übrigens VDP Erstes Gewächs mit dem 1G Logo auf dem Etikett.</strong> Nicht zu verwechseln mit dem Großen Gewächs, also dem GG Zeichen.</p><p>Unsere Lagenweine sind an der braun-anthrazitfarbenen Kapsel erkennbar und werden wie die Ortsweine mit einem Korken abgefüllt.</p>",
         "text_alignment": "left",
@@ -668,7 +668,7 @@
         "desktop_height": "natural",
         "mobile_height": "natural",
         "desktop_image_alignment": "left",
-        "mobile_image_alignment": "bottom",
+        "mobile_image_alignment": "top",
         "heading": "VDP.ORTSWEINE",
         "subheading": "<p>Wie der Name schon sagt, <strong>stammen die Ortsweine aus den besten Weinbergen eines Ortes. </strong>Bei uns erzählen sie zusätzlich von ihrer geologischen Herkunft, da wir auf sehr unterschiedlichen geologischen Untergründen und Terroir arbeiten dürfen. </p><p><strong>So kommt beispielsweise der Burrweiler Riesling vom Schiefer, der Hainfelder Riesling vom Granit und der Gleisweiler Grauburgunder vom Muschelkalk.</strong></p><p>Diese Unterschiede kann man schmecken und nachvollziehen. Die Ortsweine zeigen deutlich das Kleinklima und die Bodenstrukturen, <strong>erst recht, wenn man Ihnen etwas mehr Zeit zur Entwicklung gibt.</strong> Um ihnen das volle Potenzial mitzugeben, <strong>kommen unsere Ortsweine nach längerem Hefelager auch erst anderthalb Jahre nach der Ernte in den Verkauf.</strong></p><p>Ein Qualitätsversprechen. Die Ortsweine erkennst du übrigens an der weißen Kapsel. <strong>Und wenn Du die Unterschiede erfahren möchtest, hol Dir einfach unser </strong><a href=\"/products/riesling-terroirpaket-3x0-75l-1\" title=\"Riesling Terroirpaket 3x0,75l\"><strong>Terroirpaket Riesling.</strong></a></p>",
         "text_alignment": "left",
@@ -688,7 +688,7 @@
         "desktop_height": "natural",
         "mobile_height": "natural",
         "desktop_image_alignment": "right",
-        "mobile_image_alignment": "bottom",
+        "mobile_image_alignment": "top",
         "heading": "VDP.GUTSWEINE",
         "subheading": "<p>Oft lediglich als Einstiegsweine tituliert, wird dieser Begriff unserer Meinung nach den Gutsweinen nicht ganz gerecht. </p><p><strong>Denn sie werden mit genau der gleichen Sorgfalt und den Werten des Weinguts produziert, wie alle unsere Weine. </strong>Die scharfe Abgrenzung von geologischer Herkunft und oder gar Einzellagen steht dabei nicht im Vordergrund. <strong>Dennoch sind sie deutlich vom Terroir, der Region und den gutseigenen Weinbergen geprägt. </strong></p><p>Es verbinden sich beispielsweise Buntsandstein, Kalk, Muschelkalk zu einem dynamischen Wein und durch die natürliche, spontane Vergärung, ohne jegliche Additive spiegeln <strong>sie die eindeutige Handschrift und bewusste Vinifikation des Weinguts durch Charakter, Klarheit und Ausdruck wider.</strong></p><p>Unsere Gutsweine bringen den <strong>Spaß am Genießen auf eine leichte und elegante Art und der für uns typischen Weinstilistik auf die Zunge. </strong></p><p>Du erkennst sie an dem blauen Schraubverschluss. </p>",
         "text_alignment": "left",
@@ -847,7 +847,7 @@
         "testimonial_nyxye3"
       ],
       "custom_css": [
-        ".testimonials__desktop--slider .testimonial {background-color: #c3e3fa; font-style: italic; border-radius: 12px; box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.15); /* sanfter schwarzer Schatten rundherum */}"
+        ".testimonials__desktop--slider .testimonial {background-color: #b0def5; font-style: italic; border-radius: 12px; box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.15); margin: 15px;}"
       ],
       "settings": {
         "title": "Kundenstimmen",
