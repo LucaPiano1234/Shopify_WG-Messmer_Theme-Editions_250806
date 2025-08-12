@@ -33,7 +33,7 @@
             "image": "shopify://shop_images/WG_Messmer_Homepage_Hero.Ver_2.jpg",
             "title": "WIR ERZEUGEN WEINE MIT HÖCHST MÖGLICHER HERKUNFTSPRÄGUNG",
             "subheading": "",
-            "button_label": "",
+            "button_label": "Die Terroirprobe für Zuhause",
             "link": "shopify://products/riesling-terroirpaket-3x0-75l",
             "color": "#ffffff",
             "background_color": "#383442",
@@ -663,7 +663,7 @@
             "link": "shopify://products/riesling-terroirpaket-3x0-75l-1",
             "color": "#ffffff",
             "background_color": "#000000",
-            "background_color_opacity": 37,
+            "background_color_opacity": 19,
             "alignment": "center-center"
           }
         }
