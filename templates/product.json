@@ -42,7 +42,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Passt gut zu: </p><p>{{ product.metafields.custom.passt_zu | metafield_tag }}</p><p>Anlass: </p><p>{{ product.metafields.custom.anlass | metafield_tag }}</p>"
+            "text": "<p>Passt gut zu: </p>{{ product.metafields.custom.passt_zu | metafield_tag }}<p>Anlass: </p>{{ product.metafields.custom.anlass | metafield_tag }}"
           }
         },
         "custom_liquid_FRWwmt": {
@@ -326,7 +326,7 @@
           "type": "question",
           "settings": {
             "title": "Passt gut zu:",
-            "content": "{{ product.metafields.custom.passt_zu | metafield_tag }}<p>Anlass: </p>{{ product.metafields.custom.anlass | metafield_tag }}<p></p>"
+            "content": "{{ product.metafields.custom.passt_zu | metafield_tag }}<p></p><p></p>"
           }
         },
         "question_PTmaQi": {
