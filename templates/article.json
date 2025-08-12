@@ -12,7 +12,7 @@
     "main": {
       "type": "static-article",
       "settings": {
-        "page_width": "regular",
+        "page_width": "full",
         "show_author": false,
         "show_date": true,
         "show_post_tags": false,
