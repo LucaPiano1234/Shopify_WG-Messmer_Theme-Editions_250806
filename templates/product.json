@@ -41,7 +41,7 @@
         "text_gV6UWi": {
           "type": "text",
           "settings": {
-            "text": "<p>Passt gut zu: </p>{{ product.metafields.custom.passt_zu | metafield_tag }}"
+            "text": "<p>Passt perfekt zu:</p>{{ product.metafields.custom.passt_zu | metafield_tag }}"
           }
         },
         "custom_liquid_FRWwmt": {
@@ -317,14 +317,14 @@
         "question_4TmUQj": {
           "type": "question",
           "settings": {
-            "title": "Mehr Details:",
+            "title": "Mehr Details",
             "content": "<p>Rebsorte: {{ product.metafields.custom.rebsorte.value }}</p><p>Geschmacksrichtung: {{ product.metafields.custom.geschmack.value }}</p><p>VDP. Klassifikation: {{ product.metafields.custom.vdp_klassifikation.value }}</p><p>Lage: {{ product.metafields.custom.lage.value }}</p><p>Terroir: {{ product.metafields.custom.terroir.value }}</p><p>Trinktemperatur: {{ product.metafields.custom.trinktemperatur.value }}</p><p>Flaschengröße: {{ product.metafields.custom.flaschengroesse.value }}</p><p>Alkoholgehalt: {{ product.metafields.custom.alkohol.value }}</p><p>Säuregehalt: {{ product.metafields.custom.saeure.value }}</p><p>Restsüße: {{ product.metafields.custom.restsuesse.value }}</p><p>{{ product.metafields.custom.trinkreife.value }}</p>"
           }
         },
         "question_T7UUC4": {
           "type": "question",
           "settings": {
-            "title": "Passt gut zu:",
+            "title": "Passt perfekt zu",
             "content": "{{ product.metafields.custom.passt_zu | metafield_tag }}<p></p><p></p>"
           }
         },
