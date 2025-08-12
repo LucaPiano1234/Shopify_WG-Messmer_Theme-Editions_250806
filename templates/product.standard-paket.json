@@ -35,7 +35,7 @@
         "text_6xDtBn": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Enthält Sulfite</strong></p><p>Passt perfekt zu:</p>{{ product.metafields.custom.passt_zu | metafield_tag }}<p>Zu welchem Anlass?</p>{{ product.metafields.custom.anlass | metafield_tag }}<p></p>"
+            "text": "<p><strong>Enthält Sulfite</strong></p><p>Passt perfekt zu:</p>{{ product.metafields.custom.passt_zu | metafield_tag }}"
           }
         },
         "text_gV6UWi": {
