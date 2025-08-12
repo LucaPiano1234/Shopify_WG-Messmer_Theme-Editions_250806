@@ -552,70 +552,6 @@
         "button_link": ""
       }
     },
-    "dynamic_promotions_AL3Eg9": {
-      "type": "dynamic-promotions",
-      "blocks": {
-        "feature_8qE4Lg": {
-          "type": "feature",
-          "settings": {
-            "image": "shopify://shop_images/20250414_WG_Messmer_Produktbilder_878524da-f8ab-4f87-beed-c9f3b2af59bb.jpg",
-            "title": "",
-            "caption": "<p><strong>VDP. Große Lage</strong></p>",
-            "url": "shopify://collections/vdp-grosse-lage",
-            "cta_title": "Hier entdecken",
-            "text_color": "light"
-          }
-        },
-        "feature_ViKzk3": {
-          "type": "feature",
-          "settings": {
-            "image": "shopify://shop_images/3.jpg",
-            "title": "",
-            "caption": "<p><strong>VDP. Erste Lage</strong></p>",
-            "url": "shopify://collections/vdp-erste-lage",
-            "cta_title": "Hier entdecken",
-            "text_color": "light"
-          }
-        },
-        "feature_Q7JCNW": {
-          "type": "feature",
-          "settings": {
-            "image": "shopify://shop_images/4.jpg",
-            "title": "",
-            "caption": "<p><strong>VDP. Ortswein</strong></p>",
-            "url": "shopify://collections/vdp-ortswein",
-            "cta_title": "Hier entdecken",
-            "text_color": "light"
-          }
-        },
-        "feature_HRAEFF": {
-          "type": "feature",
-          "settings": {
-            "image": "shopify://shop_images/5.jpg",
-            "title": "",
-            "caption": "<p>VDP. Gutswein</p>",
-            "url": "shopify://collections/vdp-gutswein",
-            "cta_title": "Hier entdecken",
-            "text_color": "light"
-          }
-        }
-      },
-      "block_order": [
-        "feature_8qE4Lg",
-        "feature_ViKzk3",
-        "feature_Q7JCNW",
-        "feature_HRAEFF"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".promotion-blocks__wrapper {grid-template-columns: repeat(4, 2fr); font-weight: 800; font-style: italic; font-size: 20px;}",
-        "@media only screen and (max-width: 769px) {.promotion-blocks__wrapper {display: inline; }}"
-      ],
-      "settings": {
-        "title": "",
-        "show_border": true
-      }
-    },
     "dynamic_image_with_text_m79jfQ": {
       "type": "dynamic-image-with-text",
       "custom_css": [
@@ -956,7 +892,6 @@
     "dynamic_image_with_text_XTCfe4",
     "dynamic_featured_product_XcaRPA",
     "dynamic_image_with_text_KLUP36",
-    "dynamic_promotions_AL3Eg9",
     "dynamic_image_with_text_m79jfQ",
     "dynamic_image_with_text_7fbjHY",
     "dynamic_image_with_text_LHJQBE",
