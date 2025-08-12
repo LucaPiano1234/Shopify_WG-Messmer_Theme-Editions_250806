@@ -36,8 +36,8 @@
             "button_label": "",
             "link": "shopify://products/riesling-terroirpaket-3x0-75l",
             "color": "#ffffff",
-            "background_color": "#000000",
-            "background_color_opacity": 10,
+            "background_color": "#383442",
+            "background_color_opacity": 4,
             "alignment": "center-bottom"
           }
         }
