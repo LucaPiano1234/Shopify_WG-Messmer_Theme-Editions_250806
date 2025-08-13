@@ -30,8 +30,8 @@
             "link": "",
             "color": "#ffffff",
             "background_color": "#000000",
-            "background_color_opacity": 42,
-            "alignment": "center-center"
+            "background_color_opacity": 23,
+            "alignment": "center-top"
           }
         }
       },
@@ -145,8 +145,8 @@
             "link": "",
             "color": "#ffffff",
             "background_color": "#000000",
-            "background_color_opacity": 25,
-            "alignment": "left-bottom"
+            "background_color_opacity": 0,
+            "alignment": "right-bottom"
           }
         }
       },
