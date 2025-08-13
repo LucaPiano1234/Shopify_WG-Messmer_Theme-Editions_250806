@@ -26,7 +26,7 @@
             "image": "shopify://shop_images/WG_Messmer_Wein_am_Fass_991cb6c4-5115-408f-9d66-ef77d72923ad.webp",
             "title": "DAS ERWARTET DICH BEI UNS !",
             "subheading": "Unsere Vinothek ist an vier Tagen die Woche für euch geöffnet – für Weineinkauf, Verkostung und puren Weingenuss.",
-            "button_label": "was geht wo",
+            "button_label": "",
             "link": "",
             "color": "#ffffff",
             "background_color": "#000000",
@@ -110,6 +110,15 @@
         "text_alignment": "left",
         "button_label": "Button",
         "button_link": ""
+      }
+    },
+    "dynamic_rich_text_7e9gBp": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "title": "ZUR VINOTHEK",
+        "introduction_tagline": "<p>klick hier</p>",
+        "show_border": true
       }
     },
     "dynamic_image_with_text_bcFBtg": {
@@ -265,6 +274,7 @@
     "dynamic_slideshow_LH9TpU",
     "dynamic_rich_text_LyBVfj",
     "dynamic_image_with_text_QjnLHh",
+    "dynamic_rich_text_7e9gBp",
     "dynamic_image_with_text_bcFBtg",
     "dynamic_slideshow_bWaV7b",
     "dynamic_image_with_text_aPbqet",
