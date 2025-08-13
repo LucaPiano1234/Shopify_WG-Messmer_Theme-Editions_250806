@@ -117,7 +117,7 @@
       "name": "t:sections.rich_text.presets.name",
       "settings": {
         "title": "ZUR VINOTHEK",
-        "introduction_tagline": "<p>klick hier</p>",
+        "introduction_tagline": "<p>klick hier<a href=\"https://www.endlichwein.net/\" title=\"https://www.endlichwein.net/\">https://www.endlichwein.net/</a></p>",
         "show_border": true
       }
     },
