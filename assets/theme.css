@@ -12431,7 +12431,7 @@ http://flickity.metafizzy.co
 
 .mobile-menu__tier-1-button,
 .mobile-menu__tier-2-button {
-  font-family: "Font-1754902772543" !important;
+  font-family: "Font-1754902772543";
   font-style: normal;
   font-weight: 300;
   position: relative;
