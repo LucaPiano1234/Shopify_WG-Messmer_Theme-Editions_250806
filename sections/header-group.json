@@ -43,7 +43,7 @@
         ".navigation-desktop {font-size: 18px;}",
         ".navigation-desktop__tier-1-link {font-size: 1rem;}",
         ".custom-nav-wrapper {margin-right: 30px;}",
-        ".mobile-menu__tier-1-button, .mobile-menu__tier-2-button {font-family: \"Font-1754902772543\" !important ;}"
+        ".mobile-menu__tier-1-button, {font-family: \"Font-1754902772543\" !important ;}"
       ],
       "settings": {
         "sticky_header": false,
