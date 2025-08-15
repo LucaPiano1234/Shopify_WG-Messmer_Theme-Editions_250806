@@ -53,18 +53,18 @@
     "footer": {
       "type": "static-footer",
       "blocks": {
-        "menu_jaQxYd": {
-          "type": "menu",
-          "settings": {
-            "title": "Menu",
-            "footer_menu": "main-menu"
-          }
-        },
         "text": {
           "type": "text",
           "settings": {
             "title": "Kontakt",
             "caption": "<p><strong>​Weingut Herbert Meßmer<br/></strong><br/>Gaisbergstrasse 5<br/>76835 Burrweiler<br/><a href=\"mailto:messmer@weingut-messmer.de\" target=\"_self\"><span style=\"text-decoration:underline\">messmer@weingut-messmer.de</span></a></p>"
+          }
+        },
+        "menu_jaQxYd": {
+          "type": "menu",
+          "settings": {
+            "title": "Menu",
+            "footer_menu": "main-menu"
           }
         },
         "menu_B3c3zz": {
@@ -77,13 +77,13 @@
         "social": {
           "type": "social",
           "settings": {
-            "title": "Folgen Sie uns"
+            "title": "Folge uns"
           }
         }
       },
       "block_order": [
-        "menu_jaQxYd",
         "text",
+        "menu_jaQxYd",
         "menu_B3c3zz",
         "social"
       ],

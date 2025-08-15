@@ -89,226 +89,6 @@
         "aspect_ratio": "2-1"
       }
     },
-    "ss_feature_1_tiM9xh": {
-      "type": "ss-feature-1",
-      "blocks": {
-        "image_4Ezbwk": {
-          "type": "image",
-          "settings": {
-            "feature_title": "Weinbau mit Vision",
-            "feature_text": "<p>seit über 240 Jahren</p>",
-            "feature_image": "shopify://shop_images/beeren.png",
-            "feature_url": "",
-            "hide_image": false
-          }
-        },
-        "image_EqKdDQ": {
-          "type": "image",
-          "settings": {
-            "feature_title": "Terroir im Fokus",
-            "feature_text": "<p>Charaktervolle Weine von einzigartigen Lagen</p>",
-            "feature_image": "shopify://shop_images/boden.png",
-            "feature_url": "",
-            "hide_image": false
-          }
-        },
-        "image_7nGUVh": {
-          "type": "image",
-          "settings": {
-            "feature_title": "VDP Weingut in der Pfalz",
-            "feature_text": "<p>Qualität mit Herkunft</p>",
-            "feature_image": "shopify://shop_images/VDP_Pfalz_Logo_Braun_RGB_400a3861-697a-472f-a7b0-55ca5ca3bc55.png",
-            "feature_url": "",
-            "hide_image": false
-          }
-        },
-        "image_HFV8jD": {
-          "type": "image",
-          "settings": {
-            "feature_title": "Item title",
-            "feature_text": "<p>Item text</p>",
-            "feature_url": "",
-            "hide_image": false
-          }
-        },
-        "image_kfhCBK": {
-          "type": "image",
-          "settings": {
-            "feature_title": "Item title",
-            "feature_text": "<p>Item text</p>",
-            "feature_url": "",
-            "hide_image": false
-          }
-        }
-      },
-      "block_order": [
-        "image_4Ezbwk",
-        "image_EqKdDQ",
-        "image_7nGUVh",
-        "image_HFV8jD",
-        "image_kfhCBK"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "{border-top: 1px solid #fff4f400; border-bottom: 1px solid #dcdcdc;}",
-        ".feature-template--25014535291221__ss_feature_1_tiM9xh .box__title {font-family: \"Font-1744884724371\"; font-weight: 400; font-style: normal;}"
-      ],
-      "settings": {
-        "feature_row": 5,
-        "feature_row_mobile": 1,
-        "feature_gap": 46,
-        "feature_gap_mobile": 20,
-        "feature_padding_horizontal": 20,
-        "feature_padding_vertical": 0,
-        "feature_radius": 18,
-        "feature_border_thickness": 0,
-        "feature_shadow": false,
-        "feature_heading_custom": true,
-        "feature_heading_font": "playfair_display_n4",
-        "feature_heading_size": 20,
-        "feature_heading_size_mobile": 12,
-        "feature_heading_height": 150,
-        "feature_heading_mt": 8,
-        "feature_text_custom": false,
-        "feature_text_font": "din_next_n4",
-        "feature_text_size": 16,
-        "feature_text_size_mobile": 12,
-        "feature_text_height": 130,
-        "feature_text_mt": 4,
-        "feature_icon_size": 46,
-        "feature_icon_size_mobile": 42,
-        "feature_bg": "#f5f3f2",
-        "feature_border_color": "#ffffff",
-        "feature_shadow_color": "rgba(0,0,0,0)",
-        "feature_heading_color": "#000000",
-        "feature_text_color": "#383442",
-        "feature_icon_color": "#383442",
-        "background_color": "#f5f3f2",
-        "background_gradient": "",
-        "border_color": "#f5f3f2",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 0,
-        "padding_bottom": 40,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": true,
-        "content_width": 400,
-        "border_thickness": 15,
-        "lazy": true
-      }
-    },
-    "ss_feature_1_egVqEN": {
-      "type": "ss-feature-1",
-      "blocks": {
-        "image_JwB4gX": {
-          "type": "image",
-          "settings": {
-            "feature_title": "Rare Devonschieferlagen",
-            "feature_text": "<p>Botschafter des Pfälzer Devonschiefers</p>",
-            "feature_image": "shopify://shop_images/felsen.png",
-            "feature_url": "",
-            "hide_image": false
-          }
-        },
-        "image_wJEQgN": {
-          "type": "image",
-          "settings": {
-            "feature_title": "Biologischer Anbau",
-            "feature_text": "<p>Aus Überzeugung, nicht aus Kalkül</p>",
-            "feature_image": "shopify://shop_images/bio_Background_Removed.png",
-            "feature_url": "",
-            "hide_image": false
-          }
-        },
-        "image_aeKz9z": {
-          "type": "image",
-          "settings": {
-            "feature_title": "VDP® Weingut",
-            "feature_text": "<p>Qualität mit Herkunft</p>",
-            "feature_image": "shopify://shop_images/VDP_Pfalz_Logo_Braun_RGB_400a3861-697a-472f-a7b0-55ca5ca3bc55.png",
-            "feature_url": "",
-            "hide_image": false
-          }
-        },
-        "image_LDweJB": {
-          "type": "image",
-          "settings": {
-            "feature_title": "FairChoice®",
-            "feature_text": "<p>Unsere Nachhaltigkeit ist gemessen und zertifiziert</p>",
-            "feature_image": "shopify://shop_images/Fair_Choice.png",
-            "feature_url": "",
-            "hide_image": false
-          }
-        },
-        "image_Yxpb7H": {
-          "type": "image",
-          "settings": {
-            "feature_title": "Vegan",
-            "feature_text": "<p>Unsere Weine entstehen ohne tierische Hilfsmittel</p>",
-            "feature_image": "shopify://shop_images/vegan_1_Background_Removed.png",
-            "feature_url": "",
-            "hide_image": false
-          }
-        }
-      },
-      "block_order": [
-        "image_JwB4gX",
-        "image_wJEQgN",
-        "image_aeKz9z",
-        "image_LDweJB",
-        "image_Yxpb7H"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "{border-top: 1px solid #fff4f400; border-bottom: 1px solid #dcdcdc;}",
-        ".feature-template--25014535291221__ss_feature_1_tiM9xh .box__title {font-family: \"Font-1744884724371\"; font-weight: 400; font-style: normal;}"
-      ],
-      "settings": {
-        "feature_row": 5,
-        "feature_row_mobile": 1,
-        "feature_gap": 46,
-        "feature_gap_mobile": 52,
-        "feature_padding_horizontal": 20,
-        "feature_padding_vertical": 0,
-        "feature_radius": 18,
-        "feature_border_thickness": 0,
-        "feature_shadow": false,
-        "feature_heading_custom": true,
-        "feature_heading_font": "playfair_display_n4",
-        "feature_heading_size": 20,
-        "feature_heading_size_mobile": 12,
-        "feature_heading_height": 150,
-        "feature_heading_mt": 8,
-        "feature_text_custom": false,
-        "feature_text_font": "din_next_n4",
-        "feature_text_size": 16,
-        "feature_text_size_mobile": 12,
-        "feature_text_height": 130,
-        "feature_text_mt": 4,
-        "feature_icon_size": 46,
-        "feature_icon_size_mobile": 42,
-        "feature_bg": "#f5f3f2",
-        "feature_border_color": "#ffffff",
-        "feature_shadow_color": "rgba(0,0,0,0)",
-        "feature_heading_color": "#000000",
-        "feature_text_color": "#383442",
-        "feature_icon_color": "#383442",
-        "background_color": "#f5f3f2",
-        "background_gradient": "",
-        "border_color": "#f5f3f2",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 0,
-        "padding_bottom": 40,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": true,
-        "content_width": 400,
-        "border_thickness": 15,
-        "lazy": true
-      }
-    },
     "ss_feature_1_PF3EzM": {
       "type": "ss-feature-1",
       "blocks": {
@@ -681,24 +461,6 @@
         "aspect_ratio": "2-1"
       }
     },
-    "dynamic_image_with_text_bAXX96": {
-      "type": "dynamic-image-with-text",
-      "disabled": true,
-      "settings": {
-        "section_heading": "",
-        "show_border": false,
-        "image": "shopify://shop_images/Wg_Messmer_Boden.webp",
-        "desktop_height": "natural",
-        "mobile_height": "natural",
-        "desktop_image_alignment": "left",
-        "mobile_image_alignment": "top",
-        "heading": "Ein Block über die Besonderheiten des Terroirs",
-        "subheading": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-        "text_alignment": "left",
-        "button_label": "Button",
-        "button_link": ""
-      }
-    },
     "dynamic_featured_collection_9pUk7p": {
       "type": "dynamic-featured-collection",
       "custom_css": [],
@@ -883,8 +645,6 @@
   "order": [
     "dynamic_slideshow",
     "dynamic_slideshow_4DW3pJ",
-    "ss_feature_1_tiM9xh",
-    "ss_feature_1_egVqEN",
     "ss_feature_1_PF3EzM",
     "dynamic_rich_text_zbzUPr",
     "dynamic_image_with_text_GinXTH",
@@ -898,7 +658,6 @@
     "dynamic_image_with_text_47Di9x",
     "dynamic_image_with_text_eyXUiP",
     "dynamic_slideshow_7VAnbx",
-    "dynamic_image_with_text_bAXX96",
     "dynamic_featured_collection_9pUk7p",
     "175101692897787d71",
     "dynamic_testimonials_F4dPBP",
