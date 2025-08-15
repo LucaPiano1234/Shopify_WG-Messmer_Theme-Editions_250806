@@ -122,6 +122,11 @@
         "type": "shopify://apps/glc-geolocation/blocks/selector/e347b539-0714-46e4-9e69-23a73992ae3a",
         "disabled": true,
         "settings": {}
+      },
+      "18197795979873361081": {
+        "type": "shopify://apps/ta-banner-pop-up/blocks/bss-banner-popup/2db47c8b-7637-4260-aa84-586b08e92aea",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
