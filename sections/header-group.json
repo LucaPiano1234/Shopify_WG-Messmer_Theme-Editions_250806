@@ -42,7 +42,8 @@
         ".site-header__heading {padding-bottom: 1rem;}",
         ".navigation-desktop {font-size: 18px;}",
         ".navigation-desktop__tier-1-link {font-size: 1rem;}",
-        ".custom-nav-wrapper {margin-right: 30px;}"
+        ".custom-nav-wrapper {margin-right: 30px;}",
+        ".navigation-desktop__tier-1-details {font-family: \"Font-1754902772543\"!important ;}"
       ],
       "settings": {
         "sticky_header": false,
