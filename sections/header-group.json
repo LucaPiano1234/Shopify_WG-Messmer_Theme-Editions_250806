@@ -52,10 +52,26 @@
         "enable_predictive_search": true,
         "main_menu": "mega-men"
       }
+    },
+    "17552621597128e794": {
+      "type": "apps",
+      "blocks": {
+        "attrac_app_block_HyExMn": {
+          "type": "shopify://apps/attrac/blocks/app-block/b783956d-47a9-4434-91ad-4ec960bd74b0",
+          "settings": {
+            "aph_code": ""
+          }
+        }
+      },
+      "block_order": [
+        "attrac_app_block_HyExMn"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "announcement_bar",
-    "header"
+    "header",
+    "17552621597128e794"
   ]
 }
