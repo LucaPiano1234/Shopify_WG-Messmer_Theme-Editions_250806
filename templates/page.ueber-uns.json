@@ -1,1 +1,591 @@
-{"sections":{"main":{"type":"static-page","disabled":true,"settings":{"page_width":"regular","text_alignment":"center"}},"dynamic_slideshow_nAAtfb":{"type":"dynamic-slideshow","blocks":{"feature_z6ne3x":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/WG_Messmer_Homepage_Hero.Ver_2.jpg","title":"HERKUNFT, HERZ UND HANDWERK","subheading":"Über uns","button_label":"","link":"","color":"#ffffff","background_color":"#000000","background_color_opacity":10,"alignment":"center-center"}}},"block_order":["feature_z6ne3x"],"custom_css":["@media screen and (max-width: 575px) {.no-section-border .slideshow__wrapper:first-child {margin-top: 0; }}","@media screen and (min-width: 575px) {.no-section-border .slideshow__wrapper:first-child {margin-top: 0; }}",".slideshow-slide__content--text-left-bottom,.slideshow-slide__content--text-center-bottom,.slideshow-slide__content--text-right-bottom {bottom: 30px;}"],"settings":{"show_border":false,"should_autoplay":true,"slide_frequency":3,"aspect_ratio":"2-1"}},"dynamic_rich_text_hGGHKk":{"type":"dynamic-rich-text","custom_css":[],"settings":{"title":"Tradition & Teamgeist verbindet","introduction_tagline":"<p><strong>Seit über 240 Jahren stellen wir in Burrweiler Wein her –<\/strong> heute mit frischem Geist und tiefer Überzeugung. Özlem und Martin Meßmer führen den Betrieb gemeinsam mit Jonas Bosch, der als Betriebsleiter und Vinifikationsverantwortlicher die Weine prägt.<\/p><p>Unterstützt werden sie von einem engagierten Team – vom Keller bis zur Vinothek. Was sie verbindet? <strong>Leidenschaft für Wein, Bodenständigkeit und das Ziel, die Einzigartigkeit der Pfälzer Böden in jeder Flasche erlebbar zu machen<\/strong> – Für Weine, die Menschen berühren und die Geschichte ihres Ursprungs  erzählen.<\/p>","show_border":false}},"dynamic_image_with_text_QjnLHh":{"type":"dynamic-image-with-text","custom_css":[".image-with-text__heading {margin-bottom: 2rem;}"],"settings":{"section_heading":"","show_border":true,"image":"shopify:\/\/shop_images\/Team_Ernte_3_1.webp","desktop_height":"500px","mobile_height":"400px","desktop_image_alignment":"left","mobile_image_alignment":"top","heading":"Gelebte Vielfalt im Weinberg","subheading":"<p>Unsere Weinberge erstrecken sich über herausragende Einzellagen wie <strong>Burrweiler Schäwer, Burrweiler Schlossgarten, Altenforst, Böchinger Rosenkranz, Gleisweiler Hölle, Weyher Michelsberg und die Hainfelder Kapelle<\/strong><\/p><p>Jede Lage bringt ihre eigene Handschrift mit – <strong>vom Devonschiefer im Schäwer bis hin zu Granit, Muschelkalk oder Buntsandstein in den Ortsweinen.<\/strong><\/p><p>Diese geologische Bandbreite erlaubt es uns, jede Rebsorte dort zu pflanzen, wo sie sich am besten entfalten kann – für authentische, bodengeprägte Weine mit Tiefe und Charakter.<\/p>","text_alignment":"left","button_label":"Die Terroirprobe für Zuhause","button_link":"shopify:\/\/products\/riesling-terroirpaket-3x0-75l-1"}},"dynamic_image_with_text_RheMdU":{"type":"dynamic-image-with-text","settings":{"section_heading":"","show_border":false,"image":"shopify:\/\/shop_images\/VDP.Pyramide_21_4b1f6dbd-d367-4886-a969-a46a915a99e0.png","desktop_height":"natural","mobile_height":"natural","desktop_image_alignment":"right","mobile_image_alignment":"top","heading":"Ein Versprechen an die Qualität","subheading":"<p>Seit 1997 ist das Weingut Meßmer stolzes Mitglied im renommierten Verband Deutscher Prädikatsweingüter (VDP®). Diese Zugehörigkeit steht für unsere Verpflichtung zu höchster Qualität, nachhaltigem Weinbau und klarer Herkunft.<\/p><p>Mit unseren charaktervollen Lagenweinen aus der Klassifikationsstufe <strong>VDP.ERSTE LAGE®<\/strong> und <strong>VDP.GROSSE LAGE®<\/strong> gehören wir zu den führenden Weingütern der deutschen Weinwelt.<\/p>","text_alignment":"left","button_label":"Entdecke unser Sortiment","button_link":"shopify:\/\/collections\/alle-weine"}},"dynamic_rich_text_LyBVfj":{"type":"dynamic-rich-text","disabled":true,"custom_css":[".rich-text__heading {margin-bottom: 2rem;}"],"settings":{"title":"UNSERE LAGEN - Gelebte Vielfalt im Weinberg","introduction_tagline":"<h3>Unsere Weinberge erstrecken sich über herausragende Einzellagen wie Burrweiler Schäwer, Burrweiler Schlossgarten, Altenforst, Böchinger Rosenkranz, Gleisweiler Hölle, Weyher Michelsberg und die Hainfelder Kapelle.<\/h3><p>Jede Lage bringt ihre eigene Handschrift mit – vom kargen Devonschiefer im Schäwer bis hin zu Granit, Muschelkalk oder Buntsandstein in den Ortsweinen.<\/p><p>Diese geologische Bandbreite erlaubt es uns, jede Rebsorte dort zu pflanzen, wo sie sich am besten entfalten kann – für authentische, bodengeprägte Weine mit Tiefe und Charakter.<\/p>","show_border":true}},"dynamic_slideshow_LH9TpU":{"type":"dynamic-slideshow","blocks":{"feature_HryaRH":{"type":"feature","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/WG_Messmer_Hero_Banner.webp","title":"","subheading":"","button_label":"","link":"","color":"#404040","background_color":"#000000","background_color_opacity":0,"alignment":"center-center"}}},"block_order":["feature_HryaRH"],"settings":{"show_border":false,"should_autoplay":true,"slide_frequency":3,"aspect_ratio":"23-9"}},"dynamic_faq_4Xff73":{"type":"dynamic-faq","blocks":{"question_RD3Lar":{"type":"question","disabled":true,"settings":{"title":"➤ Boden. Leben. Wein","content":"<h3>Alles beginnt im Boden.  Unsere Weinberge sind keine Monokulturen, sondern lebendige Ökosysteme. Zwischen den Reben wachsen Wildkräuter, Gräser und Pflanzen, die Insekten, Würmern und Mikroorganismen Lebensraum bieten.<\/h3><p>Diese Biodiversität fördert gesunde, durchlüftete Böden mit hoher mikrobieller Aktivität – die Grundlage für stabile, widerstandsfähige Reben. Aus diesem Gleichgewicht entstehen Weine, die Klarheit und Herkunft zeigen – denn je lebendiger der Boden, desto eigenständiger der Wein.<\/p>"}},"question_z98xFF":{"type":"question","disabled":true,"settings":{"title":"➤ Kühle Nächte. Spannungsvolle Weine","content":"<h3>Unsere Weinberge liegen auf bis zu 310 m Höhe, direkt am Rand des Pfälzerwaldes. Diese Lage bringt kühle Nächte, frische Luftströme und verlängerte Reifezeiten mit sich – ein klarer Vorteil im Zuge des Klimawandels.<\/h3><p>So behalten die Trauben ihre Säure, Frische und Aromatik. Statt überreifer, opulenter Weine entstehen bei uns fein balancierte Weine mit Struktur, Frucht und lebendiger Spannung – das, was wir selbst gerne trinken.<\/p>"}},"question_z8NVrV":{"type":"question","settings":{"title":"➤ Biologischer Anbau: Aus Überzeugung, nicht aus Kalkül","content":"<h3>Wir verzichten konsequent auf chemisch-synthetische Pflanzenschutzmittel. Stattdessen arbeiten wir mit Kontaktmitteln, die nicht in die Pflanze eindringen – und setzen auf Vorbeugung statt Reaktion. <\/h3><p>Das bedeutet: Wir sind täglich im Weinberg unterwegs, beobachten das Wachstum und greifen früh ein, wenn es nötig ist. Diese Nähe zur Rebe und das Vertrauen in natürliche Prozesse prägen unsere Arbeit. Bio ist bei uns keine Strategie – es ist gelebte Verantwortung gegenüber Boden, Pflanze und Mensch.<\/p>"}},"question_YqtQhk":{"type":"question","settings":{"title":"➤ Wir sind vegan - selbstverständlich.","content":"<h3>Unsere Weine entstehen ohne tierische Hilfsmittel – denn bei gesunden Trauben und sauberem Ausbau braucht es keine Zusatzstoffe.<\/h3><p>Statt Gelatine oder Fischblase setzen wir auf Ruhe, Zeit und natürliche Klärung. Für uns ist das ein selbstverständlicher Teil unserer Philosophie: naturnah, transparent und respektvoll – gegenüber Wein, Natur und allen, die ihn trinken.<\/p>"}}},"block_order":["question_RD3Lar","question_z98xFF","question_z8NVrV","question_YqtQhk"],"disabled":true,"custom_css":[".faq__summary-heading {font-family: Font-1744884724371; font-size: 28px;}"],"settings":{"title":"","show_border":true}},"dynamic_image_with_text_MthEmW":{"type":"dynamic-image-with-text","settings":{"section_heading":"","show_border":true,"image":"shopify:\/\/shop_images\/WG_MessmerSchiefer_Schaewer_Bodenstruktur.png","desktop_height":"500px","mobile_height":"400px","desktop_image_alignment":"left","mobile_image_alignment":"top","heading":"Boden. Leben. Wein!","subheading":"<p>Alles beginnt im Boden. <strong>Unsere Weinberge sind keine Monokulturen, sondern lebendige Ökosysteme. <\/strong>Zwischen den Reben wachsen Wildkräuter, Gräser und Pflanzen, die Insekten, Würmern und Mikroorganismen Lebensraum bieten.<\/p><p><strong>Diese Biodiversität fördert gesunde, durchlüftete Böden mit hoher mikrobieller Aktivität <\/strong>– die Grundlage für stabile, widerstandsfähige Reben. Aus diesem Gleichgewicht entstehen Weine, die Klarheit und Herkunft zeigen – denn je lebendiger der Boden, desto eigenständiger der Wein.<\/p><p><strong>Unsere besten Lagen und ihre Böden:<\/strong><\/p><ul><li><strong>Burrweiler Schäwer <\/strong>– Grauschiefer<\/li><li><strong>Weyher Michelsberg<\/strong> – Schiefer mit Granit<\/li><li><strong>Burrweiler Schlossgarten<\/strong> – Buntsandstein und Kalk<\/li><li><strong>Gleisweiler Hölle<\/strong> – Roter Buntsandstein und Kalk<\/li><li><strong>Böchinger Rosenkranz <\/strong>– Muschelkalk<br\/><\/li><\/ul>","text_alignment":"left","button_label":"Button","button_link":""}},"dynamic_image_with_text_bcFBtg":{"type":"dynamic-image-with-text","custom_css":[".image-with-text__heading {margin-bottom: 2rem;}"],"settings":{"section_heading":"","show_border":false,"image":"shopify:\/\/shop_images\/WG_Messmer_Modenbachtal.webp","desktop_height":"500px","mobile_height":"300px","desktop_image_alignment":"right","mobile_image_alignment":"top","heading":"Kühle Nächte, spannungsvolle Weine","subheading":"<p><strong>Unsere Weinberge liegen auf bis zu 310 m Höhe, direkt am Rand des Pfälzerwaldes. <\/strong>Diese Lage bringt kühle Nächte, frische Luftströme und verlängerte Reifezeiten mit sich – ein klarer Vorteil im Zuge des Klimawandels.<\/p><p>So behalten die Trauben ihre Säure, Frische und Aromatik. <strong>Statt überreifer, opulenter Weine entstehen bei uns fein balancierte Weine mit Struktur, Frucht und lebendiger Spannung <\/strong>– das, was wir selbst gerne trinken.<\/p>","text_alignment":"left","button_label":"Button","button_link":""}},"dynamic_image_with_text_hrBhbM":{"type":"dynamic-image-with-text","settings":{"section_heading":"","show_border":false,"image":"shopify:\/\/shop_images\/20-09-30_Weingut-Messmer_highres_3.png","desktop_height":"500px","mobile_height":"300px","desktop_image_alignment":"left","mobile_image_alignment":"top","heading":"Biologischer Anbau: Aus Überzeugung, nicht aus Kalkül","subheading":"<p>Wir verzichten konsequent auf chemisch-synthetische Pflanzenschutzmittel. <strong>Stattdessen arbeiten wir mit Kontaktmitteln, die nicht in die Pflanze eindringen – und setzen auf Vorbeugung statt Reaktion. <\/strong><\/p><p>Das bedeutet: Wir sind täglich im Weinberg unterwegs, beobachten das Wachstum und greifen früh ein, wenn es nötig ist. Diese Nähe zur Rebe und das Vertrauen in natürliche Prozesse prägen unsere Arbeit. <strong>Bio ist bei uns keine Strategie – es ist gelebte Verantwortung gegenüber Boden, Pflanze und Mensch.<\/strong><\/p>","text_alignment":"left","button_label":"Button","button_link":""}},"dynamic_image_with_text_njDK6a":{"type":"dynamic-image-with-text","settings":{"section_heading":"","show_border":false,"image":"shopify:\/\/shop_images\/Wein_Team_5.jpg","desktop_height":"500px","mobile_height":"natural","desktop_image_alignment":"right","mobile_image_alignment":"top","heading":"Wir sind vegan - selbstverständlich.","subheading":"<p><strong>Unsere Weine entstehen ohne tierische Hilfsmittel <\/strong>– denn bei gesunden Trauben und sauberem Ausbau braucht es keine Zusatzstoffe.<\/p><p><strong>Statt Gelatine oder Fischblase setzen wir auf Ruhe,<\/strong> Zeit und natürliche Klärung. Für uns ist das ein selbstverständlicher Teil unserer Philosophie: naturnah, transparent und respektvoll – gegenüber Wein, Natur und allen, die ihn trinken.<\/p>","text_alignment":"left","button_label":"Button","button_link":""}},"dynamic_slideshow_bWaV7b":{"type":"dynamic-slideshow","blocks":{"feature_ee7mzB":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/20-09-30_Weingut-Messmer_highres_3.webp","title":"","subheading":"","button_label":"Button","link":"","color":"#ffffff","background_color":"#000000","background_color_opacity":0,"alignment":"center-center"}},"feature_4i8agC":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/DKlick019.jpg","title":"","subheading":"","button_label":"Button","link":"","color":"#ffffff","background_color":"#000000","background_color_opacity":0,"alignment":"center-center"}}},"block_order":["feature_ee7mzB","feature_4i8agC"],"disabled":true,"custom_css":[".slideshow-slide__heading {margin-bottom: 30px;}"],"settings":{"show_border":true,"should_autoplay":true,"slide_frequency":9,"aspect_ratio":"2-1"}},"dynamic_slideshow_Hy89gm":{"type":"dynamic-slideshow","blocks":{"feature_M9eReA":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/20-09-30_Weingut-Messmer_highres_3.webp","title":"BIOLOGISCHER ANBAU","subheading":"Wir verzichten auf das Spritzen mit chemisch synthetischen Pflanzenschutzmitteln.  Im biologischen Anbau von Wein stehen uns sogenannte Kontaktmitteln zur Verfügung, die wenig bis gar nicht von den Pflanzen aufgenommen werden. Im Gegensatz zu konventionellen Spritzmitteln müssen die Maßnahmen deshalb schon vor einem möglichen Befall, also in der Prävention angewandt werden.​Deshalb sind wir sehr nah an unseren Reben und haben Wachstum sowie Entwicklung permanent im Auge.  Das zu beobachten, die Erfahrung aus mehreren Jahren mit in die tägliche Arbeit zu bringen, verschafft uns eine hohe Zufriedenheit und ein gutes Gefühl.","button_label":"Button","link":"","color":"#ffffff","background_color":"#000000","background_color_opacity":46,"alignment":"center-center"}},"feature_RrgNTN":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/DKlick019.jpg","title":"VEGANER ANBAU","subheading":"Wir produzieren vegan! Sind denn Weine nicht grundsätzlich vegan? Diese Frage bekommen wir relativ häufig gestellt. Nicht unbedingt! Wir verzichten auf den Einsatz von sogenannten Schönungsmitteln. Diese sind oft auf tierischem Eiweiß oder Fischblase aufgebaut. Unserer Erfahrung nach schaffen es die Weine bei selektierter Qualität und Gesundheit, sich selbst entsprechend zu entwickeln und Klarheit und Glanz zu erreichen.","button_label":"Button","link":"","color":"#ffffff","background_color":"#000000","background_color_opacity":44,"alignment":"center-center"}}},"block_order":["feature_M9eReA","feature_RrgNTN"],"disabled":true,"settings":{"show_border":true,"should_autoplay":true,"slide_frequency":9,"aspect_ratio":"2-1"}},"dynamic_rich_text_gQCEKy":{"type":"dynamic-rich-text","disabled":true,"custom_css":[],"settings":{"title":"BIOLOGISCH","introduction_tagline":"<p>Wir verzichten auf das Spritzen mit chemisch synthetischen Pflanzenschutzmitteln.  Im biologischen Anbau von Wein stehen uns sogenannte Kontaktmitteln zur Verfügung, die wenig bis gar nicht von den Pflanzen aufgenommen werden.  Im Gegensatz zu konventionellen Spritzmitteln müssen die Maßnahmen deshalb schon vor einem möglichen Befall, also in der Prävention angewandt werden.<\/p><p>​Deshalb sind wir sehr nah an unseren Reben und haben Wachstum sowie Entwicklung permanent im Auge.  Das zu beobachten, die Erfahrung aus mehreren Jahren mit in die tägliche Arbeit zu bringen, verschafft uns eine hohe Zufriedenheit und ein gutes Gefühl.<\/p>","show_border":false}},"dynamic_promotions_nQiNyy":{"type":"dynamic-promotions","blocks":{"feature_Epd7CF":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/20-09-30_Weingut-Messmer_highres_3.webp","title":"","caption":"","url":"","cta_title":"","text_color":"light"}},"feature_VVJfEn":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/DKlick019.jpg","title":"","caption":"","url":"","cta_title":"","text_color":"light"}}},"block_order":["feature_Epd7CF","feature_VVJfEn"],"disabled":true,"settings":{"title":"","show_border":false}},"dynamic_rich_text_B9iPVy":{"type":"dynamic-rich-text","disabled":true,"custom_css":[],"settings":{"title":"VEGAN","introduction_tagline":"<p>Wir produzieren vegan! Sind denn Weine nicht grundsätzlich vegan? Diese Frage bekommen wir relativ häufig gestellt. Nicht unbedingt! Wir verzichten auf den Einsatz von sogenannten Schönungsmitteln. Diese sind oft auf tierischem Eiweiß oder Fischblase aufgebaut. Unserer Erfahrung nach schaffen es die Weine bei selektierter Qualität und Gesundheit, sich selbst entsprechend zu entwickeln und Klarheit und Glanz zu erreichen.<\/p>","show_border":false}},"dynamic_slideshow_Jf3Nfx":{"type":"dynamic-slideshow","blocks":{"feature_gFFFtc":{"type":"feature","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/WG_Messmer_Weinlese.webp","title":"","subheading":"","button_label":"Button","link":"","color":"#ffffff","background_color":"#000000","background_color_opacity":0,"alignment":"center-center"}}},"block_order":["feature_gFFFtc"],"settings":{"show_border":false,"should_autoplay":true,"slide_frequency":3,"aspect_ratio":"23-9"}},"dynamic_rich_text_eE74DL":{"type":"dynamic-rich-text","disabled":true,"custom_css":[],"settings":{"title":"HANDLESE & SELEKTION","introduction_tagline":"<p>Um gesunde und selektierte Qualität am Rebstock zu sichern, ist die Weinernte von Hand unabdingbar. Nur so finden die besten Trauben ihren Weg in den Keller. Alles was wir als nicht optimal empfinden, bleibt im Weinberg. Für die kontrollierte, sanfte und spontane Gährung ist gesundes Lesegut unabdingbar.<\/p><p>Ein weiterer Schritt um optimales Lesegut für die spontane Vergärung zu erhalten, ist die Handselektion im Keller.<\/p>","show_border":false}},"dynamic_promotions_NDUMiV":{"type":"dynamic-promotions","blocks":{"feature_nLHEQ8":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/WG_Messmer_1929_1_1.webp","title":"","caption":"","url":"","cta_title":"","text_color":"light"}},"feature_iryfyd":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/WG_Messmer_1929_2.webp","title":"","caption":"","url":"","cta_title":"","text_color":"light"}}},"block_order":["feature_nLHEQ8","feature_iryfyd"],"disabled":true,"settings":{"title":"","show_border":false}},"dynamic_slideshow_XLYN7R":{"type":"dynamic-slideshow","blocks":{"feature_akGmmN":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/Wg-Messmer_Wein_Ausschank.webp","title":"WEINKAUF IM WEINGUT","subheading":"In unserer Weinprobierstube im Weingut kannst du in aller Ruhe probieren und die passenden Weine für dich entdecken. Gerne beraten wir dich dabei persönlich und mit viel Leidenschaft für unsere Weine. Öffnungszeiten: Mo–Fr: 8:30 – 17:00 Uhr, Sa: 10:00 – 13:00 Uhr.","button_label":"Dein Weg zu uns","link":"shopify:\/\/pages\/kontakt","color":"#ffffff","background_color":"#000000","background_color_opacity":4,"alignment":"center-center"}},"feature_Epr4BP":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/WG_Messmer_Banner_5.webp","title":"WEINGENUSS NACH IHREM GESCHMACK","subheading":"Ob für einen gemütlichen Abend, ein festliches Dinner oder als Geschenk – unser Weinfinder hilft Ihnen, den idealen Wein zu finden. Nutzen Sie unsere Expertise oder lassen Sie sich persönlich von uns beraten. Martin Meßmer und sein Team stehen Ihnen gerne zur Seite! 01708324381 |  m.messmer@weingut-messmer.de","button_label":"Speise & Wein","link":"shopify:\/\/pages\/speise-wein","color":"#ffffff","background_color":"#000000","background_color_opacity":0,"alignment":"center-center"}}},"block_order":["feature_akGmmN","feature_Epr4BP"],"disabled":true,"custom_css":[".slideshow-slide__button {background-color: #f5f3f2; color: #404040; border: 0px;}",".slideshow-slide__button:hover {background-color: #404040; color: #f5f3f2;}"],"settings":{"show_border":true,"should_autoplay":true,"slide_frequency":3,"aspect_ratio":"23-9"}},"dynamic_promotions_ypTwjX":{"type":"dynamic-promotions","blocks":{"feature_WdBtEq":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/WG_Messmer_Footer_1.jpg","title":"WEINPRÄSENTE & PAKETE","caption":"<p>ALLE PAKETE UND PRÄSENTE SIND VOR ORT IM WEINGUT, IN DER VINOTHEK ODER ONLINE VERFÜGBAR!<\/p>","url":"shopify:\/\/collections\/weinpakete","cta_title":"JETZT ENTDECKEN","text_color":"light"}},"feature_jV7Jzh":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/WG_Messmer_Footer_2_cac1ca51-da44-4a69-a58d-1e2e15aea51f.jpg","title":"WEINPROBE","caption":"<p>DU MÖCHTEST UNSERE WEINE PROBIEREN UND MEHR ÜBER UNSER WEINGUT, DIE WEINBEREITUNG UND UNSERE PHILOSOPHIE ERFAHREN?<\/p><p>DANN BUCH DIR HIER DEINE INDIVIDUELLE WEINPROBE!<\/p>","url":"shopify:\/\/pages\/weinprobeanfrage","cta_title":"ANFRAGE SENDEN","text_color":"light"}}},"block_order":["feature_WdBtEq","feature_jV7Jzh"],"disabled":true,"settings":{"title":"","show_border":true}}},"order":["main","dynamic_slideshow_nAAtfb","dynamic_rich_text_hGGHKk","dynamic_image_with_text_QjnLHh","dynamic_image_with_text_RheMdU","dynamic_rich_text_LyBVfj","dynamic_slideshow_LH9TpU","dynamic_faq_4Xff73","dynamic_image_with_text_MthEmW","dynamic_image_with_text_bcFBtg","dynamic_image_with_text_hrBhbM","dynamic_image_with_text_njDK6a","dynamic_slideshow_bWaV7b","dynamic_slideshow_Hy89gm","dynamic_rich_text_gQCEKy","dynamic_promotions_nQiNyy","dynamic_rich_text_B9iPVy","dynamic_slideshow_Jf3Nfx","dynamic_rich_text_eE74DL","dynamic_promotions_NDUMiV","dynamic_slideshow_XLYN7R","dynamic_promotions_ypTwjX"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-page",
+      "disabled": true,
+      "settings": {
+        "page_width": "regular",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_slideshow_nAAtfb": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "feature_z6ne3x": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_Homepage_Hero.Ver_2.jpg",
+            "title": "HERKUNFT, HERZ UND HANDWERK",
+            "subheading": "Über uns",
+            "button_label": "",
+            "link": "",
+            "color": "#ffffff",
+            "background_color": "#000000",
+            "background_color_opacity": 10,
+            "alignment": "center-bottom"
+          }
+        }
+      },
+      "block_order": [
+        "feature_z6ne3x"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 575px) {.no-section-border .slideshow__wrapper:first-child {margin-top: 0; }}",
+        "@media screen and (min-width: 575px) {.no-section-border .slideshow__wrapper:first-child {margin-top: 0; }}",
+        ".slideshow-slide__content--text-left-bottom,.slideshow-slide__content--text-center-bottom,.slideshow-slide__content--text-right-bottom {bottom: 30px;}"
+      ],
+      "settings": {
+        "show_border": false,
+        "should_autoplay": true,
+        "slide_frequency": 3,
+        "aspect_ratio": "2-1"
+      }
+    },
+    "dynamic_rich_text_hGGHKk": {
+      "type": "dynamic-rich-text",
+      "custom_css": [],
+      "settings": {
+        "title": "Tradition & Teamgeist verbindet",
+        "introduction_tagline": "<p><strong>Seit über 240 Jahren stellen wir in Burrweiler Wein her –</strong> heute mit frischem Geist und tiefer Überzeugung. Özlem und Martin Meßmer führen den Betrieb gemeinsam mit Jonas Bosch, der als Betriebsleiter und Vinifikationsverantwortlicher die Weine prägt.</p><p>Unterstützt werden sie von einem engagierten Team – vom Keller bis zur Vinothek. Was sie verbindet? <strong>Leidenschaft für Wein, Bodenständigkeit und das Ziel, die Einzigartigkeit der Pfälzer Böden in jeder Flasche erlebbar zu machen</strong> – Für Weine, die Menschen berühren und die Geschichte ihres Ursprungs  erzählen.</p>",
+        "show_border": false
+      }
+    },
+    "dynamic_image_with_text_QjnLHh": {
+      "type": "dynamic-image-with-text",
+      "custom_css": [
+        ".image-with-text__heading {margin-bottom: 2rem;}"
+      ],
+      "settings": {
+        "section_heading": "",
+        "show_border": true,
+        "image": "shopify://shop_images/Team_Ernte_3_1.webp",
+        "desktop_height": "500px",
+        "mobile_height": "400px",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Gelebte Vielfalt im Weinberg",
+        "subheading": "<p>Unsere Weinberge erstrecken sich über herausragende Einzellagen wie <strong>Burrweiler Schäwer, Burrweiler Schlossgarten, Altenforst, Böchinger Rosenkranz, Gleisweiler Hölle, Weyher Michelsberg und die Hainfelder Kapelle</strong></p><p>Jede Lage bringt ihre eigene Handschrift mit – <strong>vom Devonschiefer im Schäwer bis hin zu Granit, Muschelkalk oder Buntsandstein in den Ortsweinen.</strong></p><p>Diese geologische Bandbreite erlaubt es uns, jede Rebsorte dort zu pflanzen, wo sie sich am besten entfalten kann – für authentische, bodengeprägte Weine mit Tiefe und Charakter.</p>",
+        "text_alignment": "left",
+        "button_label": "Die Terroirprobe für Zuhause",
+        "button_link": "shopify://products/riesling-terroirpaket-3x0-75l-1"
+      }
+    },
+    "dynamic_image_with_text_RheMdU": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "show_border": false,
+        "image": "shopify://shop_images/VDP.Pyramide_21_4b1f6dbd-d367-4886-a969-a46a915a99e0.png",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Ein Versprechen an die Qualität",
+        "subheading": "<p>Seit 1997 ist das Weingut Meßmer stolzes Mitglied im renommierten Verband Deutscher Prädikatsweingüter (VDP®). Diese Zugehörigkeit steht für unsere Verpflichtung zu höchster Qualität, nachhaltigem Weinbau und klarer Herkunft.</p><p>Mit unseren charaktervollen Lagenweinen aus der Klassifikationsstufe <strong>VDP.ERSTE LAGE®</strong> und <strong>VDP.GROSSE LAGE®</strong> gehören wir zu den führenden Weingütern der deutschen Weinwelt.</p>",
+        "text_alignment": "left",
+        "button_label": "Entdecke unser Sortiment",
+        "button_link": "shopify://collections/alle-weine"
+      }
+    },
+    "dynamic_rich_text_LyBVfj": {
+      "type": "dynamic-rich-text",
+      "disabled": true,
+      "custom_css": [
+        ".rich-text__heading {margin-bottom: 2rem;}"
+      ],
+      "settings": {
+        "title": "UNSERE LAGEN - Gelebte Vielfalt im Weinberg",
+        "introduction_tagline": "<h3>Unsere Weinberge erstrecken sich über herausragende Einzellagen wie Burrweiler Schäwer, Burrweiler Schlossgarten, Altenforst, Böchinger Rosenkranz, Gleisweiler Hölle, Weyher Michelsberg und die Hainfelder Kapelle.</h3><p>Jede Lage bringt ihre eigene Handschrift mit – vom kargen Devonschiefer im Schäwer bis hin zu Granit, Muschelkalk oder Buntsandstein in den Ortsweinen.</p><p>Diese geologische Bandbreite erlaubt es uns, jede Rebsorte dort zu pflanzen, wo sie sich am besten entfalten kann – für authentische, bodengeprägte Weine mit Tiefe und Charakter.</p>",
+        "show_border": true
+      }
+    },
+    "dynamic_slideshow_LH9TpU": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "feature_HryaRH": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_Hero_Banner.webp",
+            "title": "",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "color": "#404040",
+            "background_color": "#000000",
+            "background_color_opacity": 0,
+            "alignment": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "feature_HryaRH"
+      ],
+      "settings": {
+        "show_border": false,
+        "should_autoplay": true,
+        "slide_frequency": 3,
+        "aspect_ratio": "23-9"
+      }
+    },
+    "dynamic_faq_4Xff73": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "question_RD3Lar": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "➤ Boden. Leben. Wein",
+            "content": "<h3>Alles beginnt im Boden.  Unsere Weinberge sind keine Monokulturen, sondern lebendige Ökosysteme. Zwischen den Reben wachsen Wildkräuter, Gräser und Pflanzen, die Insekten, Würmern und Mikroorganismen Lebensraum bieten.</h3><p>Diese Biodiversität fördert gesunde, durchlüftete Böden mit hoher mikrobieller Aktivität – die Grundlage für stabile, widerstandsfähige Reben. Aus diesem Gleichgewicht entstehen Weine, die Klarheit und Herkunft zeigen – denn je lebendiger der Boden, desto eigenständiger der Wein.</p>"
+          }
+        },
+        "question_z98xFF": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "➤ Kühle Nächte. Spannungsvolle Weine",
+            "content": "<h3>Unsere Weinberge liegen auf bis zu 310 m Höhe, direkt am Rand des Pfälzerwaldes. Diese Lage bringt kühle Nächte, frische Luftströme und verlängerte Reifezeiten mit sich – ein klarer Vorteil im Zuge des Klimawandels.</h3><p>So behalten die Trauben ihre Säure, Frische und Aromatik. Statt überreifer, opulenter Weine entstehen bei uns fein balancierte Weine mit Struktur, Frucht und lebendiger Spannung – das, was wir selbst gerne trinken.</p>"
+          }
+        },
+        "question_z8NVrV": {
+          "type": "question",
+          "settings": {
+            "title": "➤ Biologischer Anbau: Aus Überzeugung, nicht aus Kalkül",
+            "content": "<h3>Wir verzichten konsequent auf chemisch-synthetische Pflanzenschutzmittel. Stattdessen arbeiten wir mit Kontaktmitteln, die nicht in die Pflanze eindringen – und setzen auf Vorbeugung statt Reaktion. </h3><p>Das bedeutet: Wir sind täglich im Weinberg unterwegs, beobachten das Wachstum und greifen früh ein, wenn es nötig ist. Diese Nähe zur Rebe und das Vertrauen in natürliche Prozesse prägen unsere Arbeit. Bio ist bei uns keine Strategie – es ist gelebte Verantwortung gegenüber Boden, Pflanze und Mensch.</p>"
+          }
+        },
+        "question_YqtQhk": {
+          "type": "question",
+          "settings": {
+            "title": "➤ Wir sind vegan - selbstverständlich.",
+            "content": "<h3>Unsere Weine entstehen ohne tierische Hilfsmittel – denn bei gesunden Trauben und sauberem Ausbau braucht es keine Zusatzstoffe.</h3><p>Statt Gelatine oder Fischblase setzen wir auf Ruhe, Zeit und natürliche Klärung. Für uns ist das ein selbstverständlicher Teil unserer Philosophie: naturnah, transparent und respektvoll – gegenüber Wein, Natur und allen, die ihn trinken.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_RD3Lar",
+        "question_z98xFF",
+        "question_z8NVrV",
+        "question_YqtQhk"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".faq__summary-heading {font-family: Font-1744884724371; font-size: 28px;}"
+      ],
+      "settings": {
+        "title": "",
+        "show_border": true
+      }
+    },
+    "dynamic_image_with_text_MthEmW": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "show_border": true,
+        "image": "shopify://shop_images/WG_MessmerSchiefer_Schaewer_Bodenstruktur.png",
+        "desktop_height": "500px",
+        "mobile_height": "400px",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Boden. Leben. Wein!",
+        "subheading": "<p>Alles beginnt im Boden. <strong>Unsere Weinberge sind keine Monokulturen, sondern lebendige Ökosysteme. </strong>Zwischen den Reben wachsen Wildkräuter, Gräser und Pflanzen, die Insekten, Würmern und Mikroorganismen Lebensraum bieten.</p><p><strong>Diese Biodiversität fördert gesunde, durchlüftete Böden mit hoher mikrobieller Aktivität </strong>– die Grundlage für stabile, widerstandsfähige Reben. Aus diesem Gleichgewicht entstehen Weine, die Klarheit und Herkunft zeigen – denn je lebendiger der Boden, desto eigenständiger der Wein.</p><p><strong>Unsere besten Lagen und ihre Böden:</strong></p><ul><li><strong>Burrweiler Schäwer </strong>– Grauschiefer</li><li><strong>Weyher Michelsberg</strong> – Schiefer mit Granit</li><li><strong>Burrweiler Schlossgarten</strong> – Buntsandstein und Kalk</li><li><strong>Gleisweiler Hölle</strong> – Roter Buntsandstein und Kalk</li><li><strong>Böchinger Rosenkranz </strong>– Muschelkalk<br/></li></ul>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "dynamic_image_with_text_bcFBtg": {
+      "type": "dynamic-image-with-text",
+      "custom_css": [
+        ".image-with-text__heading {margin-bottom: 2rem;}"
+      ],
+      "settings": {
+        "section_heading": "",
+        "show_border": false,
+        "image": "shopify://shop_images/WG_Messmer_Modenbachtal.webp",
+        "desktop_height": "500px",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Kühle Nächte, spannungsvolle Weine",
+        "subheading": "<p><strong>Unsere Weinberge liegen auf bis zu 310 m Höhe, direkt am Rand des Pfälzerwaldes. </strong>Diese Lage bringt kühle Nächte, frische Luftströme und verlängerte Reifezeiten mit sich – ein klarer Vorteil im Zuge des Klimawandels.</p><p>So behalten die Trauben ihre Säure, Frische und Aromatik. <strong>Statt überreifer, opulenter Weine entstehen bei uns fein balancierte Weine mit Struktur, Frucht und lebendiger Spannung </strong>– das, was wir selbst gerne trinken.</p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "dynamic_image_with_text_hrBhbM": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "show_border": false,
+        "image": "shopify://shop_images/20-09-30_Weingut-Messmer_highres_3.png",
+        "desktop_height": "500px",
+        "mobile_height": "300px",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Biologischer Anbau: Aus Überzeugung, nicht aus Kalkül",
+        "subheading": "<p>Wir verzichten konsequent auf chemisch-synthetische Pflanzenschutzmittel. <strong>Stattdessen arbeiten wir mit Kontaktmitteln, die nicht in die Pflanze eindringen – und setzen auf Vorbeugung statt Reaktion. </strong></p><p>Das bedeutet: Wir sind täglich im Weinberg unterwegs, beobachten das Wachstum und greifen früh ein, wenn es nötig ist. Diese Nähe zur Rebe und das Vertrauen in natürliche Prozesse prägen unsere Arbeit. <strong>Bio ist bei uns keine Strategie – es ist gelebte Verantwortung gegenüber Boden, Pflanze und Mensch.</strong></p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "dynamic_image_with_text_njDK6a": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "show_border": false,
+        "image": "shopify://shop_images/Wein_Team_5.jpg",
+        "desktop_height": "500px",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Wir sind vegan - selbstverständlich.",
+        "subheading": "<p><strong>Unsere Weine entstehen ohne tierische Hilfsmittel </strong>– denn bei gesunden Trauben und sauberem Ausbau braucht es keine Zusatzstoffe.</p><p><strong>Statt Gelatine oder Fischblase setzen wir auf Ruhe,</strong> Zeit und natürliche Klärung. Für uns ist das ein selbstverständlicher Teil unserer Philosophie: naturnah, transparent und respektvoll – gegenüber Wein, Natur und allen, die ihn trinken.</p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "dynamic_slideshow_bWaV7b": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "feature_ee7mzB": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/20-09-30_Weingut-Messmer_highres_3.webp",
+            "title": "",
+            "subheading": "",
+            "button_label": "Button",
+            "link": "",
+            "color": "#ffffff",
+            "background_color": "#000000",
+            "background_color_opacity": 0,
+            "alignment": "center-center"
+          }
+        },
+        "feature_4i8agC": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/DKlick019.jpg",
+            "title": "",
+            "subheading": "",
+            "button_label": "Button",
+            "link": "",
+            "color": "#ffffff",
+            "background_color": "#000000",
+            "background_color_opacity": 0,
+            "alignment": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "feature_ee7mzB",
+        "feature_4i8agC"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".slideshow-slide__heading {margin-bottom: 30px;}"
+      ],
+      "settings": {
+        "show_border": true,
+        "should_autoplay": true,
+        "slide_frequency": 9,
+        "aspect_ratio": "2-1"
+      }
+    },
+    "dynamic_slideshow_Hy89gm": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "feature_M9eReA": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/20-09-30_Weingut-Messmer_highres_3.webp",
+            "title": "BIOLOGISCHER ANBAU",
+            "subheading": "Wir verzichten auf das Spritzen mit chemisch synthetischen Pflanzenschutzmitteln.  Im biologischen Anbau von Wein stehen uns sogenannte Kontaktmitteln zur Verfügung, die wenig bis gar nicht von den Pflanzen aufgenommen werden. Im Gegensatz zu konventionellen Spritzmitteln müssen die Maßnahmen deshalb schon vor einem möglichen Befall, also in der Prävention angewandt werden.​Deshalb sind wir sehr nah an unseren Reben und haben Wachstum sowie Entwicklung permanent im Auge.  Das zu beobachten, die Erfahrung aus mehreren Jahren mit in die tägliche Arbeit zu bringen, verschafft uns eine hohe Zufriedenheit und ein gutes Gefühl.",
+            "button_label": "Button",
+            "link": "",
+            "color": "#ffffff",
+            "background_color": "#000000",
+            "background_color_opacity": 46,
+            "alignment": "center-center"
+          }
+        },
+        "feature_RrgNTN": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/DKlick019.jpg",
+            "title": "VEGANER ANBAU",
+            "subheading": "Wir produzieren vegan! Sind denn Weine nicht grundsätzlich vegan? Diese Frage bekommen wir relativ häufig gestellt. Nicht unbedingt! Wir verzichten auf den Einsatz von sogenannten Schönungsmitteln. Diese sind oft auf tierischem Eiweiß oder Fischblase aufgebaut. Unserer Erfahrung nach schaffen es die Weine bei selektierter Qualität und Gesundheit, sich selbst entsprechend zu entwickeln und Klarheit und Glanz zu erreichen.",
+            "button_label": "Button",
+            "link": "",
+            "color": "#ffffff",
+            "background_color": "#000000",
+            "background_color_opacity": 44,
+            "alignment": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "feature_M9eReA",
+        "feature_RrgNTN"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_border": true,
+        "should_autoplay": true,
+        "slide_frequency": 9,
+        "aspect_ratio": "2-1"
+      }
+    },
+    "dynamic_rich_text_gQCEKy": {
+      "type": "dynamic-rich-text",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "title": "BIOLOGISCH",
+        "introduction_tagline": "<p>Wir verzichten auf das Spritzen mit chemisch synthetischen Pflanzenschutzmitteln.  Im biologischen Anbau von Wein stehen uns sogenannte Kontaktmitteln zur Verfügung, die wenig bis gar nicht von den Pflanzen aufgenommen werden.  Im Gegensatz zu konventionellen Spritzmitteln müssen die Maßnahmen deshalb schon vor einem möglichen Befall, also in der Prävention angewandt werden.</p><p>​Deshalb sind wir sehr nah an unseren Reben und haben Wachstum sowie Entwicklung permanent im Auge.  Das zu beobachten, die Erfahrung aus mehreren Jahren mit in die tägliche Arbeit zu bringen, verschafft uns eine hohe Zufriedenheit und ein gutes Gefühl.</p>",
+        "show_border": false
+      }
+    },
+    "dynamic_promotions_nQiNyy": {
+      "type": "dynamic-promotions",
+      "blocks": {
+        "feature_Epd7CF": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/20-09-30_Weingut-Messmer_highres_3.webp",
+            "title": "",
+            "caption": "",
+            "url": "",
+            "cta_title": "",
+            "text_color": "light"
+          }
+        },
+        "feature_VVJfEn": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/DKlick019.jpg",
+            "title": "",
+            "caption": "",
+            "url": "",
+            "cta_title": "",
+            "text_color": "light"
+          }
+        }
+      },
+      "block_order": [
+        "feature_Epd7CF",
+        "feature_VVJfEn"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "show_border": false
+      }
+    },
+    "dynamic_rich_text_B9iPVy": {
+      "type": "dynamic-rich-text",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "title": "VEGAN",
+        "introduction_tagline": "<p>Wir produzieren vegan! Sind denn Weine nicht grundsätzlich vegan? Diese Frage bekommen wir relativ häufig gestellt. Nicht unbedingt! Wir verzichten auf den Einsatz von sogenannten Schönungsmitteln. Diese sind oft auf tierischem Eiweiß oder Fischblase aufgebaut. Unserer Erfahrung nach schaffen es die Weine bei selektierter Qualität und Gesundheit, sich selbst entsprechend zu entwickeln und Klarheit und Glanz zu erreichen.</p>",
+        "show_border": false
+      }
+    },
+    "dynamic_slideshow_Jf3Nfx": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "feature_gFFFtc": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_Weinlese.webp",
+            "title": "",
+            "subheading": "",
+            "button_label": "Button",
+            "link": "",
+            "color": "#ffffff",
+            "background_color": "#000000",
+            "background_color_opacity": 0,
+            "alignment": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "feature_gFFFtc"
+      ],
+      "settings": {
+        "show_border": false,
+        "should_autoplay": true,
+        "slide_frequency": 3,
+        "aspect_ratio": "23-9"
+      }
+    },
+    "dynamic_rich_text_eE74DL": {
+      "type": "dynamic-rich-text",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "title": "HANDLESE & SELEKTION",
+        "introduction_tagline": "<p>Um gesunde und selektierte Qualität am Rebstock zu sichern, ist die Weinernte von Hand unabdingbar. Nur so finden die besten Trauben ihren Weg in den Keller. Alles was wir als nicht optimal empfinden, bleibt im Weinberg. Für die kontrollierte, sanfte und spontane Gährung ist gesundes Lesegut unabdingbar.</p><p>Ein weiterer Schritt um optimales Lesegut für die spontane Vergärung zu erhalten, ist die Handselektion im Keller.</p>",
+        "show_border": false
+      }
+    },
+    "dynamic_promotions_NDUMiV": {
+      "type": "dynamic-promotions",
+      "blocks": {
+        "feature_nLHEQ8": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_1929_1_1.webp",
+            "title": "",
+            "caption": "",
+            "url": "",
+            "cta_title": "",
+            "text_color": "light"
+          }
+        },
+        "feature_iryfyd": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_1929_2.webp",
+            "title": "",
+            "caption": "",
+            "url": "",
+            "cta_title": "",
+            "text_color": "light"
+          }
+        }
+      },
+      "block_order": [
+        "feature_nLHEQ8",
+        "feature_iryfyd"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "show_border": false
+      }
+    },
+    "dynamic_slideshow_XLYN7R": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "feature_akGmmN": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/Wg-Messmer_Wein_Ausschank.webp",
+            "title": "WEINKAUF IM WEINGUT",
+            "subheading": "In unserer Weinprobierstube im Weingut kannst du in aller Ruhe probieren und die passenden Weine für dich entdecken. Gerne beraten wir dich dabei persönlich und mit viel Leidenschaft für unsere Weine. Öffnungszeiten: Mo–Fr: 8:30 – 17:00 Uhr, Sa: 10:00 – 13:00 Uhr.",
+            "button_label": "Dein Weg zu uns",
+            "link": "shopify://pages/kontakt",
+            "color": "#ffffff",
+            "background_color": "#000000",
+            "background_color_opacity": 4,
+            "alignment": "center-center"
+          }
+        },
+        "feature_Epr4BP": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_Banner_5.webp",
+            "title": "WEINGENUSS NACH IHREM GESCHMACK",
+            "subheading": "Ob für einen gemütlichen Abend, ein festliches Dinner oder als Geschenk – unser Weinfinder hilft Ihnen, den idealen Wein zu finden. Nutzen Sie unsere Expertise oder lassen Sie sich persönlich von uns beraten. Martin Meßmer und sein Team stehen Ihnen gerne zur Seite! 01708324381 |  m.messmer@weingut-messmer.de",
+            "button_label": "Speise & Wein",
+            "link": "shopify://pages/speise-wein",
+            "color": "#ffffff",
+            "background_color": "#000000",
+            "background_color_opacity": 0,
+            "alignment": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "feature_akGmmN",
+        "feature_Epr4BP"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".slideshow-slide__button {background-color: #f5f3f2; color: #404040; border: 0px;}",
+        ".slideshow-slide__button:hover {background-color: #404040; color: #f5f3f2;}"
+      ],
+      "settings": {
+        "show_border": true,
+        "should_autoplay": true,
+        "slide_frequency": 3,
+        "aspect_ratio": "23-9"
+      }
+    },
+    "dynamic_promotions_ypTwjX": {
+      "type": "dynamic-promotions",
+      "blocks": {
+        "feature_WdBtEq": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_Footer_1.jpg",
+            "title": "WEINPRÄSENTE & PAKETE",
+            "caption": "<p>ALLE PAKETE UND PRÄSENTE SIND VOR ORT IM WEINGUT, IN DER VINOTHEK ODER ONLINE VERFÜGBAR!</p>",
+            "url": "shopify://collections/weinpakete",
+            "cta_title": "JETZT ENTDECKEN",
+            "text_color": "light"
+          }
+        },
+        "feature_jV7Jzh": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_Footer_2_cac1ca51-da44-4a69-a58d-1e2e15aea51f.jpg",
+            "title": "WEINPROBE",
+            "caption": "<p>DU MÖCHTEST UNSERE WEINE PROBIEREN UND MEHR ÜBER UNSER WEINGUT, DIE WEINBEREITUNG UND UNSERE PHILOSOPHIE ERFAHREN?</p><p>DANN BUCH DIR HIER DEINE INDIVIDUELLE WEINPROBE!</p>",
+            "url": "shopify://pages/weinprobeanfrage",
+            "cta_title": "ANFRAGE SENDEN",
+            "text_color": "light"
+          }
+        }
+      },
+      "block_order": [
+        "feature_WdBtEq",
+        "feature_jV7Jzh"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "show_border": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_slideshow_nAAtfb",
+    "dynamic_rich_text_hGGHKk",
+    "dynamic_image_with_text_QjnLHh",
+    "dynamic_image_with_text_RheMdU",
+    "dynamic_rich_text_LyBVfj",
+    "dynamic_slideshow_LH9TpU",
+    "dynamic_faq_4Xff73",
+    "dynamic_image_with_text_MthEmW",
+    "dynamic_image_with_text_bcFBtg",
+    "dynamic_image_with_text_hrBhbM",
+    "dynamic_image_with_text_njDK6a",
+    "dynamic_slideshow_bWaV7b",
+    "dynamic_slideshow_Hy89gm",
+    "dynamic_rich_text_gQCEKy",
+    "dynamic_promotions_nQiNyy",
+    "dynamic_rich_text_B9iPVy",
+    "dynamic_slideshow_Jf3Nfx",
+    "dynamic_rich_text_eE74DL",
+    "dynamic_promotions_NDUMiV",
+    "dynamic_slideshow_XLYN7R",
+    "dynamic_promotions_ypTwjX"
+  ]
+}
