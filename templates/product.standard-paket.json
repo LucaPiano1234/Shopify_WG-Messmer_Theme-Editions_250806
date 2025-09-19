@@ -1016,7 +1016,7 @@
         "feature_iDXwjB"
       ],
       "custom_css": [
-        ".promotion-block__heading {--font-size-heading-2: 25rem; margin-top: 0; margin-bottom: 3rem;}"
+        ".promotion-block__heading {--font-size-heading-2: 2.5rem; margin-top: 0; margin-bottom: 3rem;}"
       ],
       "settings": {
         "title": "",
