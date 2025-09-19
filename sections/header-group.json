@@ -38,7 +38,7 @@
         "megamenu_KYLTAi"
       ],
       "custom_css": [
-        ".navigation-meganav__grid {width: 100%; max-width: 1320px; padding: 36px; margin: 0.5625rem 0; font-size: 18px;}",
+        ".navigation-meganav__grid {width: 100%; max-width: 1320px; padding: 36px; margin: 0.5625rem 0; font-size: 18px; display: flex;}",
         ".site-header__heading {padding-bottom: 1rem;}",
         ".navigation-desktop {font-size: 18px;}",
         ".navigation-desktop__tier-1-link {font-size: 1rem;}",
