@@ -11,6 +11,19 @@
   "type": "footer",
   "name": "Footer",
   "sections": {
+    "175939131781d8e5ca": {
+      "type": "apps",
+      "blocks": {
+        "ck_google_reviews_google_reviews_z4Qm7a": {
+          "type": "shopify://apps/ck-google-reviews/blocks/google_reviews/65a77010-5e58-49de-928f-6b86aa6ecffe",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "ck_google_reviews_google_reviews_z4Qm7a"
+      ],
+      "settings": {}
+    },
     "dynamic_custom_liquid_zAhijg": {
       "type": "dynamic-custom-liquid",
       "custom_css": [
@@ -101,6 +114,7 @@
     }
   },
   "order": [
+    "175939131781d8e5ca",
     "dynamic_custom_liquid_zAhijg",
     "174375974310452540",
     "footer"
