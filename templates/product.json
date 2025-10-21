@@ -235,7 +235,7 @@
         "feature_heading_height": 150,
         "feature_heading_mt": 8,
         "feature_text_custom": false,
-        "feature_text_font": "din_next_n4",
+        "feature_text_font": "barlow_n5",
         "feature_text_size": 16,
         "feature_text_size_mobile": 12,
         "feature_text_height": 130,
@@ -518,6 +518,7 @@
         "testimonial_kALAUj",
         "testimonial_xtrLxe"
       ],
+      "disabled": true,
       "custom_css": [
         ".testimonials__desktop--slider .testimonial {background-color: #b0def5; font-style: italic; border-radius: 12px; box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.15); margin: 15px;}"
       ],

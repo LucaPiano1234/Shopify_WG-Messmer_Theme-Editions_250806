@@ -523,6 +523,7 @@
         "testimonial_kALAUj",
         "testimonial_xtrLxe"
       ],
+      "disabled": true,
       "custom_css": [
         ".testimonials__desktop--slider .testimonial {background-color: #b0def5; font-style: italic; border-radius: 12px; box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.15); margin: 15px;}"
       ],
