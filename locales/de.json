@@ -259,7 +259,7 @@
       "sold_out": "Ausverkauft",
       "unavailable": "Nicht verfügbar",
       "cart_link": "Warenkorb",
-      "checkout_link": "Kasset",
+      "checkout_link": "Warenkorb",
       "success_html": "{{ product }} wurde erfolgreich in Ihren {{ cart_link }}. Fühlen Sie sich frei zu {{ continue_link }} zur {{ checkout_link }}.",
       "error_message_stock": "Es können nicht mehr als {{ stock }} zum Warenkorb hinzugefügt werden",
       "error_message_general": "Wir konnten dieses Produkt nicht in Ihren Warenkorb legen. Bitte versuchen Sie es später noch einmal. Kontaktieren Sie uns, wenn Sie weiterhin Probleme haben.",
