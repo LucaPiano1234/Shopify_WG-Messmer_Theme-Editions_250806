@@ -260,7 +260,7 @@
       "unavailable": "Nicht verfügbar",
       "cart_link": "Warenkorb",
       "checkout_link": "Warenkorb",
-      "success_html": "{{ product }} wurde erfolgreich in Ihren {{ cart_link }} gelegt.",
+      "success_html": "{{ product }} wurde erfolgreich in Ihren <a href=\"/cart\">Warenkorb</a> gelegt.",
       "error_message_stock": "Es können nicht mehr als {{ stock }} zum Warenkorb hinzugefügt werden",
       "error_message_general": "Wir konnten dieses Produkt nicht in Ihren Warenkorb legen. Bitte versuchen Sie es später noch einmal. Kontaktieren Sie uns, wenn Sie weiterhin Probleme haben.",
       "error_message_unauthorized": "Versuchen Sie, sich zu erfrischen und sich anzumelden."
