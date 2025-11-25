@@ -108,7 +108,7 @@
         "form": {
           "type": "form",
           "settings": {
-            "show_gift_card_recipient_form": false
+            "show_gift_card_recipient_form": true
           }
         },
         "custom_liquid_KK3CAY": {
@@ -170,7 +170,7 @@
         "@media screen and (max-width: 1023px) {.aroma-und-geschmack-bilder {display: grid; grid-template-columns: repeat(2, 2fr); justify-items: center; margin: 10px; } .aroma-und-geschmack-bilder img {width: 100%; max-width: 120px; margin: 10px; }}"
       ],
       "settings": {
-        "gallery_image_zoom": false,
+        "gallery_image_zoom": true,
         "gallery_video_autoplay": true,
         "gallery_video_looping": true
       }
