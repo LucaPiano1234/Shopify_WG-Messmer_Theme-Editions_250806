@@ -19,7 +19,7 @@
     "dynamic_blog_ycBGEP": {
       "type": "dynamic-blog",
       "custom_css": [
-        ".blog-article__image img {width: 100%"
+        ".blog-article__image img {width: 100%}"
       ],
       "settings": {
         "title": "",
