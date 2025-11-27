@@ -1,1 +1,39 @@
-{"sections":{"main":{"type":"static-blog","settings":{}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "dynamic_rich_text_fDmygy": {
+      "type": "dynamic-rich-text",
+      "disabled": true,
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "title": "Aktuelles",
+        "introduction_tagline": "",
+        "show_border": false
+      }
+    },
+    "main": {
+      "type": "static-blog",
+      "settings": {
+        "blog_column_layout": "two-column",
+        "posts-per-page": 4,
+        "show_rss": false,
+        "show_tags": false,
+        "show_author": false,
+        "show_date": true,
+        "show_post_tags": true
+      }
+    }
+  },
+  "order": [
+    "dynamic_rich_text_fDmygy",
+    "main"
+  ]
+}
