@@ -23,7 +23,7 @@
       "type": "static-blog",
       "settings": {
         "blog_column_layout": "two-column",
-        "posts-per-page": 4,
+        "posts-per-page": 6,
         "show_rss": false,
         "show_tags": false,
         "show_author": false,
