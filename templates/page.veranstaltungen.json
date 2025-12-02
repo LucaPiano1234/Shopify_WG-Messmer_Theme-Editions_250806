@@ -50,7 +50,7 @@
       "custom_css": [],
       "settings": {
         "title": "",
-        "introduction_tagline": "<p>Bei uns erwarten dich außergewöhnliche Veranstaltungen rund um Wein und Kulinarik – von individuellen Erlebnisweinproben bis hin zu stilvollen Feiern in einzigartiger Atmosphäre.</p><p>Ob im kleinen Kreis oder mit großer Gruppe: Genieße unvergessliche Momente in einer besonderen Location mit Blick über das Rebenmeer. Perfekt für deine Feier, dein Teamevent oder einfach, um guten Wein in guter Gesellschaft zu erleben.</p><p><strong>Öffnungszeiten:</strong></p><p>Donnerstag bis Samstag: 15 – 21 Uhr</p><p><strong>Neu:</strong> Ab sofort begrüßen wir euch auch <strong>sonntags von 12 – 18 Uhr</strong> in unserer Vinothek.</p><p>Wir freuen uns auf euren Besuch!</p>",
+        "introduction_tagline": "<p>Bei uns erwarten dich außergewöhnliche Veranstaltungen rund um Wein und Kulinarik – von individuellen Erlebnisweinproben bis hin zu stilvollen Feiern in einzigartiger Atmosphäre.</p><p>Ob im kleinen Kreis oder mit großer Gruppe: Genieße unvergessliche Momente in einer besonderen Location mit Blick über das Rebenmeer. Perfekt für deine Feier, dein Teamevent oder einfach, um guten Wein in guter Gesellschaft zu erleben.</p><p><strong>Öffnungszeiten:</strong></p><p>Donnerstag bis Samstag: 15 – 21 Uhr<br/>Sonntag 12 – 18 Uhr</p><p>Wir freuen uns auf euren Besuch!</p>",
         "show_border": false
       }
     },
@@ -126,6 +126,23 @@
       "custom_css": [
         ".image-with-text__heading {margin-top: 0; margin-bottom: 2rem;}"
       ],
+      "settings": {
+        "section_heading": "",
+        "show_border": true,
+        "image": "shopify://shop_images/SensorischeLichtweinprobevino2.jpg",
+        "desktop_height": "500px",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "WEINEVENTS",
+        "subheading": "<p><strong>Du möchtest die Wirkung von Licht, Bild und Musik auf deine Sensorik erleben oder einmal in die Tiefen unserer historischen Keller blicken? </strong></p><p>Dann besuche uns zu unseren Weinvents im Weingut oder in der Vinothek!</p>",
+        "text_alignment": "left",
+        "button_label": "WEINEVENTS",
+        "button_link": "shopify://collections/gutscheine"
+      }
+    },
+    "dynamic_image_with_text_fLPnqy": {
+      "type": "dynamic-image-with-text",
       "settings": {
         "section_heading": "",
         "show_border": true,
@@ -276,6 +293,7 @@
     "dynamic_image_with_text_QjnLHh",
     "dynamic_rich_text_7e9gBp",
     "dynamic_image_with_text_bcFBtg",
+    "dynamic_image_with_text_fLPnqy",
     "dynamic_slideshow_bWaV7b",
     "dynamic_image_with_text_aPbqet",
     "dynamic_slideshow_XLYN7R",
