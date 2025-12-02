@@ -83,14 +83,6 @@
         "aspect_ratio": "23-9"
       }
     },
-    "dynamic_rich_text_LyBVfj": {
-      "type": "dynamic-rich-text",
-      "settings": {
-        "title": "",
-        "introduction_tagline": "<p>Zu unsere Lagen <strong>Burrweiler Schäwer, Burrweiler Schlossgarten, Burrweiler Altenforst, Böchinger Rosenkranz, Weyher Michelsberg, Gleisweiler Hölle, Hainfelder Kapelle, </strong>gehören unterschiedlichste geologische Untergründe. Wir haben somit die Möglichkeit, die richtigen Reben auf die richtigen Böden zu pflanzen. 2021 haben wir zum Beispiel im Burrweiler Schäwer neue, Schiefer angepasste Rieslinge gepflanzt. Im Schlossgarten wurden Chardonnayreben mit burgundischem Ursprung gepflanzt.</p><p>Rieslinge gehören für uns auf die mineralreichen Böden Schiefer und Granit. Spätburgunder gefallen uns am besten auf Buntsandstein und Kalk,  die weißen Burgunder vom Muschelkalk, Kalk und Lehmböden, sind bei uns sehr charakteristisch.</p>",
-        "show_border": false
-      }
-    },
     "dynamic_image_with_text_QjnLHh": {
       "type": "dynamic-image-with-text",
       "disabled": true,
@@ -289,7 +281,6 @@
     "dynamic_slideshow_nAAtfb",
     "dynamic_rich_text_hGGHKk",
     "dynamic_slideshow_LH9TpU",
-    "dynamic_rich_text_LyBVfj",
     "dynamic_image_with_text_QjnLHh",
     "dynamic_rich_text_7e9gBp",
     "dynamic_image_with_text_bcFBtg",
