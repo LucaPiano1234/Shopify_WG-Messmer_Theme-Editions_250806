@@ -83,6 +83,14 @@
         "aspect_ratio": "23-9"
       }
     },
+    "dynamic_rich_text_LyBVfj": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "title": "WEIHNACHTSÖFFNUNGSZEITEN",
+        "introduction_tagline": "<p><strong>Weingut<br/></strong>23. Dez. 2025 bis 4. Jan. 2026 - GESCHLOSSEN</p><p><strong>Vinothek</strong><br/>24. und 25. Dez. 2025 - GESCHLOSSEN<br/>26. bis 30. Dez. 2025 - GEÖFFNET</p><p>31. Dez. 2025 bis 14. Jan. 2026 - WINTERPAUSE IN DER VINOTHEK<br/></p>",
+        "show_border": false
+      }
+    },
     "dynamic_image_with_text_QjnLHh": {
       "type": "dynamic-image-with-text",
       "disabled": true,
@@ -281,6 +289,7 @@
     "dynamic_slideshow_nAAtfb",
     "dynamic_rich_text_hGGHKk",
     "dynamic_slideshow_LH9TpU",
+    "dynamic_rich_text_LyBVfj",
     "dynamic_image_with_text_QjnLHh",
     "dynamic_rich_text_7e9gBp",
     "dynamic_image_with_text_bcFBtg",
