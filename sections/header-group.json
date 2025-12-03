@@ -18,7 +18,7 @@
         "show_announcement": true,
         "announcement_home_only": false,
         "announcement_text": "VDP. Weingut in Burrweiler - Pfalz \n| Weihnachten: 23. Dez. - 4. Jan. geschlossen | Vinothek: 24./25. Dez. geschlossen - 26.-30. Dez. geöffnet | Winterpause Vinothek: 31. Dez-14. Jan.",
-        "announcement_text_mobile": "VDP. Weingut in Burrweiler - Pfalz | Weihnachten: 23. Dez. - 4. Jan. geschlossen | Vinothek: 24./25. Dez. geschlossen - 26.-30. Dez. geöffnet | Winterpause Vinothek: 31. Dez-14. Jan.",
+        "announcement_text_mobile": "VDP. Weingut in Burrweiler | Weihnachten: 23. Dez. - 4. Jan. geschlossen | Vinothek: 24./25. Dez. geschlossen - 26.-30. Dez. geöffnet | Winterpause Vinothek: 31. Dez-14. Jan.",
         "announcement_link": "",
         "announcement_color": "#131313",
         "announcement_background": "#b0def5"
