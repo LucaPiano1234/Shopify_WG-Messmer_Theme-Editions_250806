@@ -353,6 +353,7 @@
       "block_order": [
         "feature_nQgf3Q"
       ],
+      "disabled": true,
       "name": "t:sections.slideshow.presets.name",
       "settings": {
         "show_border": false,
