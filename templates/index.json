@@ -332,6 +332,35 @@
         "button_link": ""
       }
     },
+    "dynamic_slideshow_H9w8Kb": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "feature_nQgf3Q": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/WG_Messmer_Lagenkarte_.pdf_65863472-936c-42c4-af54-b521dce7bb12.png",
+            "title": "",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "color": "#FFFFFF",
+            "background_color": "#000000",
+            "background_color_opacity": 0,
+            "alignment": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "feature_nQgf3Q"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "show_border": false,
+        "should_autoplay": true,
+        "slide_frequency": 3,
+        "aspect_ratio": "original"
+      }
+    },
     "dynamic_image_with_text_m79jfQ": {
       "type": "dynamic-image-with-text",
       "custom_css": [
@@ -654,6 +683,7 @@
     "dynamic_image_with_text_XTCfe4",
     "dynamic_featured_product_XcaRPA",
     "dynamic_image_with_text_KLUP36",
+    "dynamic_slideshow_H9w8Kb",
     "dynamic_image_with_text_m79jfQ",
     "dynamic_image_with_text_7fbjHY",
     "dynamic_image_with_text_LHJQBE",
